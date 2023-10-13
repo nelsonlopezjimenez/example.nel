@@ -1,0 +1,157 @@
+const makeNoise = function() {
+console.log("Pling!");
+};
+makeNoise();
+// → Pling!
+const power = function(base, exponent) {
+let result = 1;
+for (let count = 0; count < exponent; count++) {
+result *= base;
+}
+return result;
+};
+console.log(power(2, 10));
+// → 1024
+
+This provides some isolation between functions—each function call acts in its
+own little world (its local environment) and can often be understood without
+knowing a lot about what’s going on in the global environment.
+Bindings declared with let and const are in fact local to the block that they
+are declared in, so if you create one of those inside of a loop, the code before and
+after the loop cannot “see” it. In pre-2015 JavaScript, only functions created
+new scopes, so old-style bindings, created with the var keyword, are visible
+throughout the whole function that they appear in—or throughout the global
+scope, if they are not in a function.
+let x = 10;
+if (true) {
+let y = 20;
+var z = 30;
+console.log(x + y + z);
+// → 60
+}
+// y is not visible here
+console.log(x + z);
+// → 40
+
+Functions as values
+A function binding usually simply acts as a name for a specific piece of the
+program. Such a binding is defined once and never changed. This makes it
+easy to confuse the function and its name.
+But the two are different. A function value can do all the things that other
+values can do—you can use it in arbitrary expressions, not just call it. It is
+possible to store a function value in a new binding, pass it as an argument to
+a function, and so on. Similarly, a binding that holds a function is still just a
+regular binding and can, if not constant, be assigned a new value, like so:
+42
+let launchMissiles = function() {
+missileSystem.launch("now");
+};
+if (safeMode) {
+launchMissiles = function() {/* do nothing */};
+}
+
+
+console.log("The future says:", future());
+function future() {
+return "You'll never have flying cars";
+}
+
+Arrow functions
+There’s a third notation for functions, which looks very different from the
+others. Instead of the function keyword, it uses an arrow (=>) made up of an
+equal sign and a greater-than character (not to be confused with the greaterthan-
+or-equal operator, which is written >=).
+const power = (base, exponent) => {
+let result = 1;
+for (let count = 0; count < exponent; count++) {
+result *= base;
+}
+return result;
+};
+The arrow comes after the list of parameters and is followed by the function’s
+body. It expresses something like “this input (the parameters) produces this
+result (the body)”.
+When there is only
+
+const square1 = (x) => { return x * x; };
+const square2 = x => x * x;
+When an arrow function has no parameters at all, its parameter list is just
+an empty set of parentheses.
+const horn = () => {
+console.log("Toot");
+};
+
+function chicken() {
+return egg();
+}
+function egg() {
+return chicken();
+}
+console.log(chicken() + " came first.");
+// → ??
+function minus(a, b) {
+if (b === undefined) return -a;
+else return a - b;
+}
+console.log(minus(10));
+// → -10
+console.log(minus(10, 5));
+// → 5
+
+function power(base, exponent = 2) {
+let result = 1;
+for (let count = 0; count < exponent; count++) {
+result *= base;
+}
+return result;
+}
+console.log(power(4));
+// → 16
+console.log(power(2, 6));
+// → 64
+
+function wrapValue(n) {
+let local = n;
+return () => local;
+}
+47
+let wrap1 = wrapValue(1);
+let wrap2 = wrapValue(2);
+console.log(wrap1());
+// → 1
+console.log(wrap2());
+// → 2
+
+function values in some creative ways.
+With a slight change, we can turn the previous example into a way to create
+functions that multiply by an arbitrary amount.
+function multiplier(factor) {
+return number => number * factor;
+}
+let twice = multiplier(2);
+console.log(twice(5));
+// → 10
+
+Summary
+This chapter taught you how to write your own functions. The function keyword,
+when used as an expression, can create a function value. When used as
+a statement, it can be used to declare a binding and give it a function as its
+value. Arrow functions are yet another way to create functions.
+// Define f to hold a function value
+const f = function(a) {
+console.log(a + 2);
+};
+// Declare g to be a function
+function g(a, b) {
+return a * b * 3.5;
+}
+// A less verbose function value
+let h = a => a % 3;
+A key aspect in understanding functions is understanding scopes. Each block
+creates a new scope. Parameters and bindings declared in a given scope are
+local and not visible from the outside. Bindings declared with var behave
+differently—they end up in the nearest function scope or the global scope.
+Separating the tasks your program performs into different functions is helpful.
+You won’t have to repeat yourself as much, and functions can help organize
+a program by grouping code into pieces that do specific things.
+

@@ -1,0 +1,220 @@
+<div style="background-color: #005588; padding: 25px 25px 25px 25px;">
+<table>
+<tbody>
+<tr>
+<td><img src="https://edcc.instructure.com/courses/1886989/files/126847208/preview" alt="smaller_logo.png" data-api-endpoint="https://edcc.instructure.com/api/v1/courses/1886989/files/126847208" data-api-returntype="File" /></td>
+<td style="color: white; padding: 25px 25px 25px 25px;"><span style="font-size: large;"><span class="ellipsible" style="font-size: large;">Paragraphs, Line Breaks, and Hidden Comments</span></span></td>
+</tr>
+</tbody>
+</table>
+<div>
+<div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;">
+<h3><span class="ellipsible">Paragraphs, Line Breaks, and Hidden Comments</span></h3>
+<p>Writing your page starts with writing within the &lt;body&gt; element of your document.&nbsp;</p>
+<div style="border: thin black solid; padding: 25px 25px 25px 25px;">
+<p><em>Lesson Objective:&nbsp; At the end of this lesson you will be able to:</em></p>
+<ul>
+<li><em>Use HTML elements and tags to format paragraphs and text.</em></li>
+<li><em>Add comments to HTML code and document page/site creation</em></li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<p>Most Web browsers are very forgiving of errors and issues that you might have within your HTML code; especially if you are creating static Web pages.&nbsp; However, as you move further into Web development, where you are creating or manipulating your pages with scripting code, such as JavaScript, jQuery, or PHP, you will run into problems if you aren't using elements and tags correctly.&nbsp;</p>
+<h3><em>Block-Level Elements</em></h3>
+<p>Block-level elements are automatically proceeded and followed by an extra line break.&nbsp; The most common block-level element is the paragraph element &lt;<span style="font-family: monspace;">p&gt;</span>.&nbsp; However, there are a number of other block-level elements in HTML.&nbsp; Some of the most common block-level elements are:</p>
+<table style="padding: 5px 5px 5px 5px;" border="0" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+<th id="d1192e41">Element</th>
+<th id="d1192e44">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>address</p>
+</td>
+<td>
+<p>Address</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>blockquote</p>
+</td>
+<td>
+<p>Block quotation</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>div</p>
+</td>
+<td>
+<p>Generic block-level container</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>dl</p>
+</td>
+<td>
+<p>Definition list</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>fieldset</p>
+</td>
+<td>
+<p>Form field grouping container</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>form</p>
+</td>
+<td>
+<p>Form</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>h1</p>
+</td>
+<td>
+<p>Level 1 heading</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>h2</p>
+</td>
+<td>
+<p>Level 2 heading</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>h3</p>
+</td>
+<td>
+<p>Level 3 heading</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>h4</p>
+</td>
+<td>
+<p>Level 4 heading</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>h5</p>
+</td>
+<td>
+<p>Level 5 heading</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>h6</p>
+</td>
+<td>
+<p>Level 6 heading</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>noscript</p>
+</td>
+<td>
+<p>Alternate content for non script-enabled browsers</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ol</p>
+</td>
+<td>
+<p>Ordered list</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>p</p>
+</td>
+<td>
+<p>Paragraph</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>pre</p>
+</td>
+<td>
+<p>Preformatted text</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>table</p>
+</td>
+<td>
+<p>Table</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ul</p>
+</td>
+<td>
+<p>Unordered list</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;The paragraph element properly used should have both an opening tag and a closing tag.&nbsp; Example (using lorem ipsum for place holder):</p>
+<div style="background-color: white; padding: 25px 25px 25px 25px; border: thin black solid; font-family: monospace;">&lt;!DOCTYPE html&gt;<br />&lt;html lang="en"&gt;<br />&lt;head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;A Good Page Title Here&lt;/title&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="author" content="Marti Baker"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="date" content="11/12/2013"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; <span class="fnt0">&lt;meta name="robots" content="</span>NOINDEX, NOFOLLOW<span class="fnt0">" /&gt;</span><br />&lt;/script&gt;<br />&lt;/head&gt;<br />&lt;body&gt;<br />&lt;!-- Your visible page content --&gt;<br />
+<p>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat ultrices neque nec vehicula. Donec adipiscing viverra lorem, quis molestie est condimentum vitae. Quisque ligula dui, hendrerit at aliquam in, blandit in risus. Maecenas vulputate tortor laoreet, malesuada neque ac, sollicitudin metus. Nam aliquet augue sit amet mi elementum tempor. Nullam lectus diam, elementum vitae imperdiet et, consectetur non enim. Nullam nec malesuada arcu. Integer sollicitudin lorem sit amet nulla blandit bibendum. Aliquam iaculis leo sed eros hendrerit, vel condimentum magna vulputate.&lt;/p&gt;</p>
+<p>&lt;p&gt;Etiam id ipsum cursus, elementum urna at, luctus arcu. Vestibulum dapibus, nibh sed accumsan iaculis, enim quam accumsan nisi, a dictum risus enim pretium ligula. Mauris vestibulum eu orci ac viverra. Nulla porttitor vehicula ullamcorper. Sed vitae mi a orci sodales venenatis sed ut felis. Vestibulum quis sodales metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi venenatis quam eu libero ultricies vulputate. Proin at consequat erat. Integer at ornare ante. Donec hendrerit, risus ac ullamcorper convallis, quam ipsum pulvinar lectus, ut vehicula dolor arcu non justo.&lt;/p&gt;</p>
+<br />
+<p>&lt;/body&gt;<br />&lt;/html&gt;</p>
+</div>
+<p>&nbsp;</p>
+<ul>
+<li>9:01 video by thenewboston.org</li>
+</ul>
+<a class="" href="http://www.youtube.com/watch?v=3R3QXXnF7FM"><span id="eow-title" class="watch-title long-title yt-uix-expander-head">XHTML and CSS Tutorial </span>Paragraphs and Line Breaks</a></div>
+<div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;">
+<ul>
+<li>7:39 video by ProgrammersCreed</li>
+</ul>
+<a class="" href="http://www.youtube.com/watch?v=e4q7NqWZ1uM">HTML5 and CSS3 Beginner Tutorial 3 - headers, paragraphs and line breaks</a></div>
+<div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;"><br />
+<h3><em>Text-level elements</em></h3>
+<p>Text-level elements should be contained within block-level elements.&nbsp; These elements affect the are generally used for emphasis or informational.&nbsp; The two most common text-level elements are bold <span style="font-family: monspace;">&lt;strong&gt;</span> and italic <span style="font-family: monspace;">&lt;em&gt;</span>.&nbsp; Both of these are container elements, they surround the text that they are making bold or italic.&nbsp; Example the word <strong>important</strong> will be bold; the word important will be displayed in italic:</p>
+<div style="background-color: white; padding: 25px 25px 25px 25px; border: thin black solid; font-family: monospace;">&lt;!DOCTYPE html&gt;<br />&lt;html lang="en"&gt;<br />&lt;head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;A Good Page Title Here&lt;/title&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="author" content="Marti Baker"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="date" content="11/12/2013"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; <span class="fnt0">&lt;meta name="robots" content="</span>NOINDEX, NOFOLLOW<span class="fnt0">" /&gt;</span><br />&lt;/script&gt;<br />&lt;/head&gt;<br />&lt;body&gt;<br />&lt;!-- Your visible page content --&gt;<br />&lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt; information.&lt;/p&gt;<br /><br />&lt;p&gt;This text is &lt;em&gt;italicized&lt;/em&gt; for emphasis.&lt;/p&gt;<br />&lt;/body&gt;<br />&lt;/html&gt;</div>
+<p>&nbsp;</p>
+<ul>
+<li>&nbsp;8:49 video by thenewboston.org</li>
+</ul>
+<a class="" href="http://www.youtube.com/watch?v=r7HHAdP44qM"><span id="eow-title" class="watch-title long-title yt-uix-expander-head">XHTML and CSS Tutorial </span>Bold, Italics, and Comments</a><br />
+<ul>
+<li>&nbsp;8:27 video by ProgrammersCreed</li>
+</ul>
+<a class="" href="http://www.youtube.com/watch?v=BuEGYxtMHdo&amp;feature=c4-overview-vl&amp;list=PLEAFE1C118B3ED6AE">HTML5 and CSS3 Beginner Tutorial 4 - bold, italics, horizontal rule, and comments</a>
+<p>&nbsp;</p>
+<h3><em>Hidden Comments<br /></em></h3>
+<p>Comments allow you to put notes to yourself or anyone else that may come behind you that needs to update a Web site.&nbsp; Commenting you code not only is a good practice, consider it a Martism.&nbsp; You will be required to comment things such as the start and stop of your navigation areas of your sites, your content areas, etc.&nbsp; More to come later.&nbsp; The basic syntax of a comment element is:</p>
+<div style="background-color: white; padding: 25px 25px 25px 25px; border: thin black solid; font-family: monospace;">&lt;!DOCTYPE html&gt;<br />&lt;html lang="en"&gt;<br />&lt;head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;A Good Page Title Here&lt;/title&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="author" content="Marti Baker"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="date" content="11/12/2013"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp; <span class="fnt0">&lt;meta name="robots" content="</span>NOINDEX, NOFOLLOW<span class="fnt0">" /&gt;</span><br />&lt;/script&gt;<br />&lt;/head&gt;<br />&lt;body&gt;<br />&lt;!-- These are hidden comments.&nbsp; Here is where you will add information that you want to have for later reference, but don't want it to be displayed to your viewing audience. --&gt;<br />&lt;/body&gt;<br />&lt;/html&gt;</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Click Next to continue</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>

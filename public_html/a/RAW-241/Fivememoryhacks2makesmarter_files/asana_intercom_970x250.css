@@ -1,0 +1,108 @@
+#mc {
+	top: 0;
+	left: 0;
+	width: 970px;
+	height: 250px;
+	position: absolute;
+	overflow: hidden;
+	background-color: white;
+}
+
+#mc #bgExit {
+	width: 970px;
+	height: 250px;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	overflow: hidden;
+	background: transparent;
+	cursor: pointer;
+	text-indent: -9999px;
+	z-index: 15000;
+}
+
+#mc #border {
+	border: 1px solid #666;
+	width: 968px;
+	height: 248px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#mc #loading { 
+	background-color: white;
+	width: 968px;
+	height: 248px;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	margin: 0;
+	padding: 0;
+	z-index: 10000;
+}
+
+.fix_shake {
+	-webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+	transform:rotateZ(0.001deg);
+}
+
+#mc .drop_shadow{
+	-webkit-filter: drop-shadow(0px 0px 5px rgba(0,0,0,1));
+  	filter: drop-shadow(0px 0px 5px rgba(0,0,0,1));
+}
+
+#mc .blend_me{background-blend-mode: multiply;}
+
+#mc #bkg_solid {
+	top: 0;
+	left: 0;
+	width: 970px;
+	height: 250px;
+	background-color: white;
+	position: absolute;
+}
+
+/* SVG */
+#mc svg{position: absolute;overflow: hidden;}
+#mc .generic_container{width: 970px;height: 250px;top: 0;left: 0;position: absolute;}
+
+.st0{fill:#2F3C54;}
+.st1{fill:#00BF9C;}
+.st2{fill:#FFFFFF;}
+.st3{fill:#F2A100;}
+.st4{fill:#0DA2FF;}
+.st5{fill:#FFFFFF;stroke:#2F3C54;stroke-width:1.25;stroke-miterlimit:10;}
+.st6{fill:#2F3C54;stroke:#2F3C54;stroke-width:1.25;stroke-miterlimit:10;}
+.st7{fill:#2E3C54;}
+.st8{clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);}
+
+/* BACKGROUND ELEMENTS */
+#mc #main_bkg {
+	width: 1940px;height: 500px;top: -125px;left: -270px;position: absolute;
+	background: transparent url("../img/intercom_mainImg.jpg") 0 0 no-repeat;
+
+
+}
+
+#mc #img_overlay {
+	width: 1940px;height: 500px;top: -125px;left: -270px;position: absolute;
+	background: transparent url("../img/intercom_woman.png") 0 0 no-repeat;
+	
+}
+
+#mc .img_shadow {
+	width: 1940px;height: 500px;top: -125px;left: -270px;position: absolute;
+	background: transparent url("../img/intercom_womanShadow.png") 0 0 no-repeat;
+	
+}
+
+#mc #clip1{width: 970px;height: 250px;top: 0;left: 0;position: absolute;clip: rect(74px, 261px, 111px, 0px);}
+#mc #clip2{width: 970px;height: 250px;top: 0;left: 0;position: absolute;clip: rect(145px, 970px, 182px, 0px);}
+
+/*#mc #r1_bub{overflow: hidden;}*/

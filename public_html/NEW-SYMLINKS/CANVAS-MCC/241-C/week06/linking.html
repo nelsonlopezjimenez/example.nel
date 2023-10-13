@@ -1,0 +1,876 @@
+<div style="background-color: #005588; padding: 25px 25px 25px 25px;">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://canvas.ed/courses/253499000000022/files/253499000000441/preview" alt="smaller_logo.png"
+                        data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000441" data-api-returntype="File"
+                    />
+                </td>
+                <td style="color: white; padding: 25px 25px 25px 25px;">
+                    <span style="font-size: large;">
+                        <span class="ellipsible">Linking</span>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;">
+            <h3>
+                <span style="font-size: large;">
+                    <span class="ellipsible">Linking</span>
+                </span>
+            </h3>
+            <div style="border: thin black solid; padding: 25px 25px 25px 25px;">
+                <p>
+                    <em>Lesson Objective:&nbsp; Create HTML hyperlinks for text, images, local files and remote sites (internal
+                        and external links).
+                        <br />
+                    </em>
+                </p>
+            </div>
+            <p>&nbsp;</p>
+            <p>Topics:</p>
+            <ol>
+                <li>Creating a Hypertext Document, Anchors and Links</li>
+                <li>Linking to Documents on the Internet</li>
+            </ol>
+            <hr />
+            <h2>
+                <a name="doc"></a>Creating a Hypertext Document, Anchors and Links</h2>
+            <ol>
+                <li>So what makes the World Wide Web so different from other information media? It's the links!
+                    <ul>
+                        <li>Many experts think that one of the main reasons the World Wide Web has been so successful is because
+                            it more closely reflects how our brains work.</li>
+                        <li>If you are like most individuals you are not just sitting there reading these notes with nothing
+                            else on your brain, instead you have other fleeting thoughts coming in and out. Myself, for example,
+                            have had stray thoughts about making sure I pick up my daughter for an appointment this afternoon,
+                            checking to see if the appointment I made was today or tomorrow... all of those thoughts.</li>
+                        <li>So links on Web pages reflect the ability to "see more about it" or allow us to move about the Web
+                            in a non-linear mode. A bit like our brains work.</li>
+                    </ul>
+                </li>
+                <li>The W3C cotains a vast amount of information about hyperlinks and creating them. The standards can be found
+                    at:
+                    <a class="external" href="http://www.w3.org/TR/REC-html40/struct/links.html#edef-A" target="_blank"
+                        rel="noopener">
+                        <span>
+                            <span>
+                                <strong>Anchor</strong>
+                            </span>
+                        </span>
+                    </a> tag</li>
+                <li>All though links use http (Hyper Text Transfer Protocol) to call a Web page, you should be aware that links
+                    can use to many different Internet protocols and are not restricted to just http. A list of other protocols
+                    that you can use is at the end of this document.</li>
+                <li>Some basic rules about Links and the Anchor element:
+                    <ul>
+                        <li>The Anchor element should be contained within the BODY element of your document</li>
+                        <li>The Anchor element is used for creating hypertext links to other documents on the Web or other parts
+                            of the current document.</li>
+                        <li>The Anchor is a container tag and must include an on and off statement.
+                            <br />Syntax:</li>
+                    </ul>
+                </li>
+            </ol>
+            <p>&lt;a href=" " name=" " [target="" rel=" " rev=" "]&gt;
+                <em>description of the link</em>&lt;/a&gt;
+                <br />
+                <br />
+            </p>
+            <p id="watch-headline-title">
+                <span id="eow-title" class="watch-title long-title yt-uix-expander-head">
+                    <a class="external youtubed" href="http://www.youtube.com/watch?v=01rd3zmSm_Y" target="_blank" rel="noopener">
+                        <span>
+                            <span></span>
+                        </span>
+                    </a>
+                </span>
+                <span id="eow-title" class="watch-title long-title yt-uix-expander-head">
+                    <a class="youtubed" href="http://www.youtube.com/watch?v=tUemovUZHOo"></a>
+                    <br />
+                </span>
+            </p>
+            <p>
+                <a class="" href="http://www.youtube.com/watch?v=L4EwNpRdaYw&amp;feature=c4-overview-vl&amp;list=PLEAFE1C118B3ED6AE">
+                    <span class="watch-title long-title yt-uix-expander-head">HTML5 and CSS3 Beginner Tutorial 8 - Link, linking to the same page 7:22 Video</span>
+                </a>
+            </p>
+        </div>
+        <div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;">
+            <ul>
+                <li>The
+                    <a class="external" href="http://www.w3.org/TR/REC-html40/struct/links.html#adef-href" target="_blank"
+                        rel="noopener">
+                        <span>
+                            <span>
+                                <strong>href</strong>
+                            </span>
+                        </span>
+                    </a> attribute
+                    <ol type="a">
+                        <li>specifies the location of a Web document or resource, such as an ftp file. It defines a link between
+                            the current document or to particular paragraphs in another document and the destination document
+                            or resources.</li>
+                        <li>is included within the on tag of the ANCHOR element</li>
+                        <li>Acceptable values you can assign to the HREF attribute include any valid URL on the Internet.
+                            <br
+                            />Example:</li>
+                    </ol>
+                </li>
+            </ul>
+            <p>&lt;A HREF="http://www.cis.edcc.edu/"&gt;CIS Homepage&lt;/A&gt;</p>
+            <ul>
+                <li>The
+                    <a class="external" href="http://www.w3.org/TR/REC-html40/struct/links.html#adef-name-A" target="_blank"
+                        rel="noopener">
+                        <span>
+                            <span>
+                                <strong>name</strong>
+                            </span>
+                        </span>
+                    </a> attribute
+                    <ol type="a">
+                        <li>identifies the location within the current Web document.</li>
+                        <li>is included within the on tag of the ANCHOR element</li>
+                        <li>Example, you want to allow the individual looking at your page the ability to return to the top of
+                            the page with a hyperlink.</li>
+                        <li>For instance, at the top of this dialog there are links to the subject matters within this page.&nbsp;
+                            Hyperlinks using the href attribute create the link.&nbsp; Hyperlinks using the name attribute
+                            create the destination.</li>
+                        <li>To create such a link you need to create two ANCHOR elements.</li>
+                        <li>The name attribute defines your destination, the ending point.</li>
+                        <li>An ANCHOR tag with an HREF attribute defines the hypertext link for your viewer to click on.
+                            <br />Example:</li>
+                    </ol>
+                </li>
+            </ul>
+            <p>
+                <em>Creating the destination location:</em>
+                <br />
+                <br />&lt;a name="top"&gt;&lt;/A&gt;
+                <br />
+                <br />
+                <em>Creating the hyperlink to the go there:</em>
+                <br />
+                <br />&lt;a href="#top"&gt;Return to the top&lt;/a&gt;
+                <br />
+                <br />
+            </p>
+            <ol start="5" type="a">
+                <li>When using the href attribute to access sections of your page, you need to include the "#" before the section
+                    name.</li>
+                <li>Section names are case sensitive, "Top" is not the same as "top"</li>
+                <li>One of the most common usage's of the section link is return the reader to the
+                    <a class="external" href="https://blackboard.edcc.edu/webapps/blackboard/content/listContentEditable.jsp?content_id=_2154477_1&amp;course_id=_92073_1#top"
+                        target="_blank" rel="noopener">
+                        <span>
+                            <span>top</span>
+                        </span>
+                    </a> of a page.</li>
+                <li>You can use the href and the name attributes within the same ANCHOR tag.</li>
+            </ol>
+            <ul>
+                <li>The
+                    <span style="color: #3300ff; text-decoration: underline;">
+                        <span style="font-weight: bold;">target</span>
+                    </span> attribute
+                    <ol type="a">
+                        <li>is used with framed Web sites</li>
+                        <li>is included within the on tag of the ANCHOR element</li>
+                        <li>it specifies the name of a frame where a document is to be opened</li>
+                        <li>we will cover this when we do frames, Chapter 5</li>
+                    </ol>
+                </li>
+                <li>The
+                    <a class="external" href="http://www.w3.org/TR/REC-html40/struct/links.html#adef-rel" target="_blank"
+                        rel="noopener">
+                        <span>
+                            <span>
+                                <strong>rel</strong>
+                            </span>
+                        </span>
+                    </a> attribute:
+                    <ol type="a">
+                        <li>This attribute describes the relationship from the current document to the document specified by
+                            the href attribute.</li>
+                        <li>is included within the on tag of the ANCHOR element</li>
+                        <li>This attribute is done for those individuals that look at source code. There are a lot of us out
+                            there!</li>
+                        <li>Example: You want the individual viewing your source code to know that the hyperlink takes you to
+                            the top level of your Web site.
+                            <br />Syntax:</li>
+                    </ol>
+                </li>
+            </ul>
+            <p>&lt;a href="http://www.cis.edcc.edu/" rel="Parent Site"&gt;CIS Homepage&lt;/a&gt;</p>
+            <ul>
+                <li>The
+                    <a class="external" href="http://www.w3.org/TR/REC-html40/struct/links.html#adef-rev" target="_blank"
+                        rel="noopener">
+                        <span>
+                            <span>
+                                <strong>rev</strong>
+                            </span>
+                        </span>
+                    </a> attribute
+                    <ol type="a">
+                        <li>is the opposite of the rel attribute.</li>
+                        <li>is included within the on tag of the ANCHOR element</li>
+                        <li>It describes what the current page is to the destination page assigned in the href attribute.
+                            <br
+                            />Syntax:</li>
+                    </ol>
+                </li>
+            </ul>
+            <p>&lt;a href="http://www.cis.edcc.edu/" rel="Parent Site" rev="Course Site"&gt;CIS Homepage&lt;/a&gt;
+                <br />
+                <br />
+                <strong>Applying ANCHOR tags</strong>
+            </p>
+            <p>Links can direct an individual to documents within your own site, or documents at other sites. So far, each hyperlink
+                example you have seen is has included the complete address or URL of the document you are pointing at.</p>
+            <p>It doesn't have to be! You can create links to pages within your own site by using
+                <strong>relative</strong> links</p>
+            <ol>
+                <li>
+                    <a class="external" href="http://www.w3.org/TR/REC-html40/intro/intro.html#h-2.1.3" target="_blank" rel="noopener">
+                        <span>
+                            <span>Linking Near</span>
+                        </span>
+                    </a> - Creating links to documents within your own site!
+                    <ul>
+                        <li>To understand linking within your own site, let's review the addressing scheme of an individual URL.</li>
+                        <li>The complete address for a listing of the magazines, newspapers, and journal articles available at
+                            EdCC is: http://www.edcc.edu/library/Databases/default.htm#articles
+                            <ol type="a">
+                                <li>
+                                    <strong>
+                                        <em>http:</em>
+                                    </strong> is the protocol we are using to access the page</li>
+                                <li>
+                                    <strong>
+                                        <em>www.edcc.edu</em>
+                                    </strong> is the Web server we are access, which holds the page. This portion of the address includes
+                                    the host.second_level_domain.first_level_domain.domain</li>
+                                <li>
+                                    <strong>
+                                        <em>library/</em>
+                                    </strong> is the first level/folder/directory of the path on the server where these pages are kept.</li>
+                                <li>
+                                    <strong>
+                                        <em>Databases/</em>
+                                    </strong>, the second level/folder/directory of the path on the server where these pages are kept.</li>
+                                <li>
+                                    <strong>
+                                        <em>default.htm</em>
+                                    </strong> is the name of the Web document you are looking for</li>
+                                <li>
+                                    <strong>
+                                        <em>#articles</em>
+                                    </strong> is the location within the document you want to see.</li>
+                            </ol>
+                        </li>
+                        <li>This type of path structure is called the structure of the site!
+                            <ol type="a">
+                                <li>To create a link to another page within the site, you need to know this structure.</li>
+                            </ol>
+                        </li>
+                        <li>To work with this more, let's create a fictitious site.</li>
+                    </ul>
+                </li>
+            </ol>
+            <hr />
+            <p>
+                <strong>Base URL: http://www.mycompany.com/</strong>
+            </p>
+            <table style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <hr />
+                            <br />
+                            <a name="file"></a>File Structure:</td>
+                        <td align="right" valign="top">
+                            <p>
+                                <br />KEY:
+                                <br />
+                                <em>Directory Names</em>
+                                <br />
+                                <strong>File Names</strong>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td colspan="2" valign="top">
+                            <img src="https://canvas.ed/courses/253499000000022/files/253499000000428/preview" alt="folder.gif"
+                                data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000428" data-api-returntype="File"
+                            />
+                            <span>________</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <em>myCompany</em>
+                                <br />
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>default.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <span>&nbsp;&nbsp;&nbsp;|_____</span>
+                        </td>
+                        <td valign="top" width="16">
+                            <img src="https://canvas.ed/courses/253499000000022/files/253499000000428/preview" alt="folder.gif"
+                                data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000428" data-api-returntype="File"
+                            />
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <em>information</em>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">&nbsp;</td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>default.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">&nbsp;</td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>aboutus.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">&nbsp;</td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>history.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <span>&nbsp;&nbsp;&nbsp;|_____</span>
+                        </td>
+                        <td valign="top" width="16">
+                            <img src="https://canvas.ed/courses/253499000000022/files/253499000000428/preview" alt="folder.gif"
+                                data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000428" data-api-returntype="File"
+                            />
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <em>orders</em>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">|&nbsp;</td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>default.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">|&nbsp;</td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>order.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">|&nbsp;</td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>confirm.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">
+                            <span>|_____</span>
+                        </td>
+                        <td valign="top" width="16">
+                            <img src="https://canvas.ed/courses/253499000000022/files/253499000000428/preview" alt="folder.gif"
+                                data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000428" data-api-returntype="File"
+                            />
+                        </td>
+                        <td valign="top">
+                            <span>
+                                <em>shipping</em>
+                            </span>
+                        </td>
+                        <td valign="top">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">&nbsp;</td>
+                        <td valign="top" width="16">
+                            <span>|</span>
+                        </td>
+                        <td>
+                            <span>
+                                <strong>default.htm</strong>
+                            </span>
+                        </td>
+                        <td valign="top">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top" width="16">&nbsp;</td>
+                        <td valign="top" width="16">
+                            <span>|</span>
+                        </td>
+                        <td>
+                            <span>
+                                <strong>shippinginformation.htm</strong>
+                            </span>
+                        </td>
+                        <td valign="top">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <span>&nbsp;&nbsp;&nbsp;|_____</span>
+                        </td>
+                        <td valign="top" width="16">
+                            <img src="https://canvas.ed/courses/253499000000022/files/253499000000428/preview" alt="folder.gif"
+                                data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000428" data-api-returntype="File"
+                            />
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <em>products</em>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>default.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top">
+                            <img src="https://canvas.ed/courses/253499000000022/files/253499000000428/preview" alt="folder.gif"
+                                data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000428" data-api-returntype="File"
+                            />
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <em>skates</em>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>default.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>standardskates.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>inlineskates.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top">
+                            <img src="https://canvas.ed/courses/253499000000022/files/253499000000428/preview" alt="folder.gif"
+                                data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000428" data-api-returntype="File"
+                            />
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <em>helmets</em>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>default.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>helmets.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>childrens.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>adults.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td valign="top">
+                            <img src="https://canvas.ed/courses/253499000000022/files/253499000000428/preview" alt="folder.gif"
+                                data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000428" data-api-returntype="File"
+                            />
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <em>pads</em>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>default.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>kneepads.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;|</span>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <span>
+                                <strong>elbowpads.htm</strong>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr />
+            <ul>
+                <li>you want to create a link from the first page - http://www.myCompany.com/default.htm to a second page - http://www.myCompany.com/orders/default.htm.
+                    <ol type="a">
+                        <li>you could type out the full address to create your link: &lt;a href='http://www.myCompany.com/orders/default.htm'&gt;Order
+                            Our Products&lt;/a&gt;</li>
+                    </ol>
+                </li>
+                <li>or you can create a relative link to the new file
+                    <ol type="a">
+                        <li>You need to find the common directory! and use the a shortcut
+                            <em>
+                                <strong>../</strong>
+                            </em>
+                        </li>
+                        <li>Example: move from http://www.mycompany.com/default.htm to http://www.myCompany.com/orders/default.htm</li>
+                        <li>the common directory in this case is the root directory of myCompany</li>
+                        <li>In this example you want to move down to the directory in which the file is held</li>
+                        <li>list the directory structure down to your file orders/default.htm</li>
+                    </ol>
+                </li>
+                <li>your completed relative hyperlink looks like:
+                    <br />
+                    <br />&lt;a href="orders/default.htm"&gt;Order Our Products&lt;/a&gt;
+                    <br />
+                    <br />
+                    <em>Note:</em> that, you lose the http://</li>
+                <li>You've created your relative path!</li>
+                <li>Let's try another, move from orders/shipping/shippinginformation.htm to products/helmets/adults.htm
+                    <ol type="a">
+                        <li>the common directory in this example is again the root directory</li>
+                        <li>you want to move up to that directory so build the first level of your relative link with
+                            <em>
+                                <strong>../../</strong>
+                            </em> one for each level in the structure you want to go up</li>
+                        <li>
+                            <strong>BUT</strong>, the intermediate folders/directories are not the same</li>
+                        <li>now list the directory structure back down to your file Products/helmets/</li>
+                        <li>and finally the file, adults.htm</li>
+                    </ol>
+                </li>
+                <li>your completed relative hyperlink looks like:
+                    <br />
+                    <br />&lt;a href="../../Products/helmets/adults.htm"&gt;Adult Helmets&lt;/a&gt;
+                    <br />
+                    <br />
+                </li>
+                <li>One last example: move from http://www.mycompany.com/products/default.htm to http://www.mycompany.com/information/history.htm
+                    <ol type="a">
+                        <li>the common directory in this example is root directory</li>
+                        <li>
+                            <em>
+                                <strong>../</strong>
+                            </em>, one for each level in the structure you want to go up</li>
+                        <li>
+                            <strong>BUT</strong>, the intermediate folders/directories are not the same</li>
+                        <li>now list the directory structure back down to your file information/history.htm</li>
+                    </ol>
+                </li>
+                <li>your completed relative hyperlink looks like:
+                    <br />
+                    <br />&lt;a href="../information/history.htm"&gt;Company History&lt;/a&gt;
+                    <br />
+                    <br />
+                </li>
+                <li>Many web page editors will create relative hyperlinks for you.</li>
+                <li>Linking Far - Creating hyperlinks to other sites
+                    <ul>
+                        <li>When creating a hyperlink to another site, remember to use the full URL and Internet protocol.</li>
+                        <li>Example: &lt;A HREF="
+                            <strong>http://</strong>www.w3c.org/"&gt;The W3C&lt;/A&gt;</li>
+                        <li>you must have the http:// to make a link to another location successfully</li>
+                        <li></li>
+                    </ul>
+                </li>
+            </ul>
+            <p>If you would like to practice with this concept, I have included an old exercise based upon the model above.&nbsp;
+                You can download this Microsoft Word
+                <span class="instructure_file_link_holder link_holder">
+                    <span class="instructure_scribd_file_holder link_holder">
+                        <a class=" instructure_scribd_file instructure_file_link" title="RelativeLinks1.doc" href="http://webdev.nel/a/RelativeLinks1.pdf"
+                            data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000022/files/253499000000489" data-api-returntype="File">RelativeLinks1.doc</a>
+                        <span class="scribd_file_preview_link" style="padding-left: 5px;">
+                            <img src="https://edcc.instructure.com/images/preview.png" alt="Preview the document" />
+                        </span>
+                    </span>
+                </span>.</p>
+            <h2>
+                <a name="internet"></a>Linking to Documents on the Internet</h2>
+            <ol>
+                <li>any Internet protocol can be used in replacement of http:// within your links</li>
+                <li>other Internet protocols:</li>
+            </ol>
+            <table style="width: 100%;" border="0" cellspacing="4" cellpadding="4">
+                <tbody>
+                    <tr>
+                        <td rowspan="10" width="40">&nbsp;</td>
+                        <td valign="top">
+                            <strong>PROTOCOL</strong>
+                        </td>
+                        <td valign="top">
+                            <strong>Internet service the protocol access:</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" colspan="2" valign="top">
+                            <hr />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">https://</td>
+                        <td valign="top">Secure HTML documents</td>
+                    </tr>
+                    <tr>
+                        <td valign="top">file://</td>
+                        <td valign="top">HTML documents and file extensions designated by plug-in or helper applications located on your hard
+                            or floppy drives.</td>
+                    </tr>
+                    <tr>
+                        <td valign="top">ftp://</td>
+                        <td valign="top">File Transfer Protocol sites and files</td>
+                    </tr>
+                    <tr>
+                        <td valign="top">gopher://</td>
+                        <td valign="top">Gopher menus and documents</td>
+                    </tr>
+                    <tr>
+                        <td valign="top">news:</td>
+                        <td valign="top">UseNet newsgroups</td>
+                    </tr>
+                    <tr>
+                        <td valign="top">mailto:</td>
+                        <td valign="top">email messages, if your browser has had the mail server identified</td>
+                    </tr>
+                    <tr>
+                        <td valign="top">telnet:</td>
+                        <td valign="top">remote log-in access to another computer.</td>
+                    </tr>
+                    <tr>
+                        <td align="left" colspan="2" valign="top">
+                            <hr />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;&nbsp;
+                <br />
+                <br />Click Next to continue&nbsp;</p>
+        </div>
+    </div>
+</div>

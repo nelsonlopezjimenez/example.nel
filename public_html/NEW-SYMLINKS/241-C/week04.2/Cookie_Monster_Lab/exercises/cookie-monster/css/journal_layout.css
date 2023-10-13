@@ -1,0 +1,62 @@
+body {
+    margin: 0 10%;
+    background-image: url("../images/background.jpg");
+}
+* {
+    border: 2px solid green;
+}
+.outerbox {
+    /* if 0 no need px, conversely it needs px */
+    border: 5px solid green; 
+    background-color: white;
+    margin-top: 7px;
+}
+
+.innerbox-first {
+    border: 5px solid red;
+}
+.innerbox {
+    border: 5px solid blue;
+    background-color: #e8fbfb;
+    padding: 5px;
+    margin-top: 10px;
+    overflow:auto;
+}
+
+#topspecial {
+    border: 5px solid orange;
+}
+
+#date {
+    border: 5px solid purple;
+}
+img {
+    float:right;
+}
+
+
+
+
+
+/* 
+Exercise 1
+.outerbox {
+    /* if 0 no need px, conversely it needs px 
+    border: 5px solid green; 
+    
+}
+
+.innerbox-first {
+    border: 5px solid red;
+}
+.innerbox {
+    border: 5px solid blue;
+}
+
+#topspecial {
+    border: 5px solid orange;
+}
+
+#date {
+    border: 5px solid purple;
+} */

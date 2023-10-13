@@ -1,0 +1,344 @@
+
+Connection to node.js closed.
+
+lopezn@edcctc0061 MINGW32 /q/.ssh
+$ ssh userverdaccio@node.js
+userverdaccio@node.js's password:
+Welcome to Nodejs, TurnKey GNU/Linux 15.0 / TurnKey 9.12 Stretch
+
+  System information (as of Tue Feb 18 16:53:17 2020)
+
+    System load:  0.01               Memory usage:  38%
+    Processes:    90                 Swap usage:    0%
+    Usage of /:   38.6% of 16.61GB   IP address for eth0:  192.168.1.42
+
+  TKLBAM (Backup and Migration):  NOT INITIALIZED
+
+    To initialize TKLBAM, run the "tklbam-init" command to link this
+    system to your TurnKey Hub account. For details see the man page or
+    go to:
+
+        https://www.turnkeylinux.org/tklbam
+
+Linux nodejs 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u4 (2018-08-21) x86_64
+Last login: Tue Feb 18 16:47:04 2020 from 192.168.1.40
+userverdaccio@nodejs ~$ verdaccio --help
+Usage: verdaccio [options]
+
+Options:
+  -i, --info                  prints debugging information about the local environment
+  -l, --listen <[host:]port>  host:port number to listen on (default: localhost:4873)
+  -c, --config <config.yaml>  use this configuration file (default: ./config.yaml)
+  -V, --version               output the version number
+  -h, --help                  output usage information
+userverdaccio@nodejs ~$ verdaccio -l node.js:4873
+ warn --- config file  - /home/userverdaccio/verdaccio/config.yaml
+ warn --- Verdaccio started
+ warn --- Plugin successfully loaded: verdaccio-htpasswd
+ warn --- Plugin successfully loaded: verdaccio-audit
+ warn --- http address - http://node.js:4873/ - verdaccio/4.4.2
+ http --> ERR, req: 'GET https://registry.npmjs.org/npm', error: getaddrinfo EAI_AGAIN registry.npmjs.org
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http --> ERR, req: 'GET https://registry.npmjs.org/npm', error: getaddrinfo EAI_AGAIN registry.npmjs.org
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ warn --> host registry.npmjs.org is now offline
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http --> ERR, req: 'GET https://registry.npmjs.org/npm', error: getaddrinfo EAI_AGAIN registry.npmjs.org
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 200, user: null(192.168.1.28), req: 'GET /express', bytes: 0/40854
+ http <-- 200, user: null(192.168.1.28), req: 'GET /express', bytes: 0/40854
+ http <-- 200, user: null(192.168.1.28), req: 'GET /content-disposition', bytes: 0/5224
+ http <-- 200, user: null(192.168.1.28), req: 'GET /content-disposition', bytes: 0/5224
+ http <-- 200, user: null(192.168.1.28), req: 'GET /body-parser', bytes: 0/15859
+ http <-- 200, user: null(192.168.1.28), req: 'GET /body-parser', bytes: 0/15859
+ http <-- 200, user: null(192.168.1.28), req: 'GET /cookie-signature', bytes: 0/2500
+ http <-- 200, user: null(192.168.1.28), req: 'GET /cookie-signature', bytes: 0/2500
+ http <-- 200, user: null(192.168.1.28), req: 'GET /cookie', bytes: 0/7298
+ http <-- 200, user: null(192.168.1.28), req: 'GET /cookie', bytes: 0/7298
+ http <-- 200, user: null(192.168.1.28), req: 'GET /encodeurl', bytes: 0/2797
+ http <-- 200, user: null(192.168.1.28), req: 'GET /encodeurl', bytes: 0/2797
+ http <-- 200, user: null(192.168.1.28), req: 'GET /accepts', bytes: 0/8878
+ http <-- 200, user: null(192.168.1.28), req: 'GET /accepts', bytes: 0/8878
+ http <-- 200, user: null(192.168.1.28), req: 'GET /array-flatten', bytes: 0/5191
+ http <-- 200, user: null(192.168.1.28), req: 'GET /array-flatten', bytes: 0/5191
+ http <-- 200, user: null(192.168.1.28), req: 'GET /depd', bytes: 0/7045
+ http <-- 200, user: null(192.168.1.28), req: 'GET /depd', bytes: 0/7045
+ http <-- 200, user: null(192.168.1.28), req: 'GET /debug', bytes: 0/23730
+ http <-- 200, user: null(192.168.1.28), req: 'GET /debug', bytes: 0/23730
+ http <-- 200, user: null(192.168.1.28), req: 'GET /content-type', bytes: 0/2842
+ http <-- 200, user: null(192.168.1.28), req: 'GET /content-type', bytes: 0/2842
+ http <-- 200, user: null(192.168.1.28), req: 'GET /cookie-signature/-/cookie-signature-1.0.6.tgz', bytes: 0/2111
+ http <-- 200, user: null(192.168.1.28), req: 'GET /cookie-signature/-/cookie-signature-1.0.6.tgz', bytes: 0/2111
+ http <-- 200, user: null(192.168.1.28), req: 'GET /encodeurl/-/encodeurl-1.0.2.tgz', bytes: 0/3260
+ http <-- 200, user: null(192.168.1.28), req: 'GET /encodeurl/-/encodeurl-1.0.2.tgz', bytes: 0/3260
+ http <-- 200, user: null(192.168.1.28), req: 'GET /array-flatten/-/array-flatten-1.1.1.tgz', bytes: 0/1992
+ http <-- 200, user: null(192.168.1.28), req: 'GET /array-flatten/-/array-flatten-1.1.1.tgz', bytes: 0/1992
+ http <-- 200, user: null(192.168.1.28), req: 'GET /content-type/-/content-type-1.0.4.tgz', bytes: 0/4655
+ http <-- 200, user: null(192.168.1.28), req: 'GET /content-type/-/content-type-1.0.4.tgz', bytes: 0/4655
+ http <-- 200, user: null(192.168.1.28), req: 'GET /depd/-/depd-1.1.2.tgz', bytes: 0/9026
+ http <-- 200, user: null(192.168.1.28), req: 'GET /depd/-/depd-1.1.2.tgz', bytes: 0/9026
+ http <-- 200, user: null(192.168.1.28), req: 'GET /debug/-/debug-2.6.9.tgz', bytes: 0/16514
+ http <-- 200, user: null(192.168.1.28), req: 'GET /debug/-/debug-2.6.9.tgz', bytes: 0/16514
+ http <-- 200, user: null(192.168.1.28), req: 'GET /escape-html', bytes: 0/1474
+ http <-- 200, user: null(192.168.1.28), req: 'GET /escape-html', bytes: 0/1474
+ http <-- 200, user: null(192.168.1.28), req: 'GET /etag', bytes: 0/4391
+ http <-- 200, user: null(192.168.1.28), req: 'GET /etag', bytes: 0/4391
+ http <-- 200, user: null(192.168.1.28), req: 'GET /fresh', bytes: 0/4077
+ http <-- 200, user: null(192.168.1.28), req: 'GET /fresh', bytes: 0/4077
+ http <-- 200, user: null(192.168.1.28), req: 'GET /finalhandler', bytes: 0/7466
+ http <-- 200, user: null(192.168.1.28), req: 'GET /finalhandler', bytes: 0/7466
+ http <-- 200, user: null(192.168.1.28), req: 'GET /escape-html/-/escape-html-1.0.3.tgz', bytes: 0/1917
+ http <-- 200, user: null(192.168.1.28), req: 'GET /escape-html/-/escape-html-1.0.3.tgz', bytes: 0/1917
+ http <-- 200, user: null(192.168.1.28), req: 'GET /on-finished', bytes: 0/3190
+ http <-- 200, user: null(192.168.1.28), req: 'GET /on-finished', bytes: 0/3190
+ http <-- 200, user: null(192.168.1.28), req: 'GET /etag/-/etag-1.8.1.tgz', bytes: 0/4386
+ http <-- 200, user: null(192.168.1.28), req: 'GET /etag/-/etag-1.8.1.tgz', bytes: 0/4386
+ http <-- 200, user: null(192.168.1.28), req: 'GET /parseurl', bytes: 0/4505
+ http <-- 200, user: null(192.168.1.28), req: 'GET /parseurl', bytes: 0/4505
+ http <-- 200, user: null(192.168.1.28), req: 'GET /methods', bytes: 0/2321
+ http <-- 200, user: null(192.168.1.28), req: 'GET /methods', bytes: 0/2321
+ http <-- 200, user: null(192.168.1.28), req: 'GET /merge-descriptors', bytes: 0/2038
+ http <-- 200, user: null(192.168.1.28), req: 'GET /merge-descriptors', bytes: 0/2038
+ http <-- 200, user: null(192.168.1.28), req: 'GET /fresh/-/fresh-0.5.2.tgz', bytes: 0/4229
+ http <-- 200, user: null(192.168.1.28), req: 'GET /fresh/-/fresh-0.5.2.tgz', bytes: 0/4229
+ http <-- 200, user: null(192.168.1.28), req: 'GET /proxy-addr', bytes: 0/8086
+ http <-- 200, user: null(192.168.1.28), req: 'GET /proxy-addr', bytes: 0/8086
+ http <-- 200, user: null(192.168.1.28), req: 'GET /path-to-regexp', bytes: 0/25370
+ http <-- 200, user: null(192.168.1.28), req: 'GET /path-to-regexp', bytes: 0/25370
+ http <-- 200, user: null(192.168.1.28), req: 'GET /on-finished/-/on-finished-2.3.0.tgz', bytes: 0/4552
+ http <-- 200, user: null(192.168.1.28), req: 'GET /on-finished/-/on-finished-2.3.0.tgz', bytes: 0/4552
+ http <-- 200, user: null(192.168.1.28), req: 'GET /methods/-/methods-1.1.2.tgz', bytes: 0/2475
+ http <-- 200, user: null(192.168.1.28), req: 'GET /methods/-/methods-1.1.2.tgz', bytes: 0/2475
+ http <-- 200, user: null(192.168.1.28), req: 'GET /range-parser', bytes: 0/4414
+ http <-- 200, user: null(192.168.1.28), req: 'GET /range-parser', bytes: 0/4414
+ http <-- 200, user: null(192.168.1.28), req: 'GET /merge-descriptors/-/merge-descriptors-1.0.1.tgz', bytes: 0/2312
+ http <-- 200, user: null(192.168.1.28), req: 'GET /merge-descriptors/-/merge-descriptors-1.0.1.tgz', bytes: 0/2312
+ http <-- 200, user: null(192.168.1.28), req: 'GET /safe-buffer', bytes: 0/10900
+ http <-- 200, user: null(192.168.1.28), req: 'GET /safe-buffer', bytes: 0/10900
+ http <-- 200, user: null(192.168.1.28), req: 'GET /send', bytes: 0/13966
+ http <-- 200, user: null(192.168.1.28), req: 'GET /send', bytes: 0/13966
+ http <-- 200, user: null(192.168.1.28), req: 'GET /path-to-regexp/-/path-to-regexp-0.1.7.tgz', bytes: 0/3269
+ http <-- 200, user: null(192.168.1.28), req: 'GET /path-to-regexp/-/path-to-regexp-0.1.7.tgz', bytes: 0/3269
+ http <-- 200, user: null(192.168.1.28), req: 'GET /setprototypeof', bytes: 0/3950
+ http <-- 200, user: null(192.168.1.28), req: 'GET /setprototypeof', bytes: 0/3950
+ http <-- 200, user: null(192.168.1.28), req: 'GET /statuses', bytes: 0/4325
+ http <-- 200, user: null(192.168.1.28), req: 'GET /statuses', bytes: 0/4325
+ http <-- 200, user: null(192.168.1.28), req: 'GET /serve-static', bytes: 0/12985
+ http <-- 200, user: null(192.168.1.28), req: 'GET /serve-static', bytes: 0/12985
+ http <-- 200, user: null(192.168.1.28), req: 'GET /type-is', bytes: 0/9186
+ http <-- 200, user: null(192.168.1.28), req: 'GET /type-is', bytes: 0/9186
+ http <-- 200, user: null(192.168.1.28), req: 'GET /qs', bytes: 0/21929
+ http <-- 200, user: null(192.168.1.28), req: 'GET /qs', bytes: 0/21929
+ http <-- 200, user: null(192.168.1.28), req: 'GET /vary', bytes: 0/3056
+ http <-- 200, user: null(192.168.1.28), req: 'GET /vary', bytes: 0/3056
+ http <-- 200, user: null(192.168.1.28), req: 'GET /utils-merge', bytes: 0/1474
+ http <-- 200, user: null(192.168.1.28), req: 'GET /utils-merge', bytes: 0/1474
+ http <-- 200, user: null(192.168.1.28), req: 'GET /utils-merge/-/utils-merge-1.0.1.tgz', bytes: 0/1953
+ http <-- 200, user: null(192.168.1.28), req: 'GET /utils-merge/-/utils-merge-1.0.1.tgz', bytes: 0/1953
+ http <-- 200, user: null(192.168.1.28), req: 'GET /vary/-/vary-1.1.2.tgz', bytes: 0/3772
+ http <-- 200, user: null(192.168.1.28), req: 'GET /vary/-/vary-1.1.2.tgz', bytes: 0/3772
+ http <-- 200, user: null(192.168.1.28), req: 'GET /negotiator', bytes: 0/5789
+ http <-- 200, user: null(192.168.1.28), req: 'GET /negotiator', bytes: 0/5789
+ http <-- 200, user: null(192.168.1.28), req: 'GET /mime-types', bytes: 0/14569
+ http <-- 200, user: null(192.168.1.28), req: 'GET /mime-types', bytes: 0/14569
+ http <-- 200, user: null(192.168.1.28), req: 'GET /mime-db', bytes: 0/17948
+ http <-- 200, user: null(192.168.1.28), req: 'GET /mime-db', bytes: 0/17948
+ http <-- 200, user: null(192.168.1.28), req: 'GET /raw-body', bytes: 0/11183
+ http <-- 200, user: null(192.168.1.28), req: 'GET /raw-body', bytes: 0/11183
+ http <-- 200, user: null(192.168.1.28), req: 'GET /iconv-lite', bytes: 0/13709
+ http <-- 200, user: null(192.168.1.28), req: 'GET /iconv-lite', bytes: 0/13709
+ http <-- 200, user: null(192.168.1.28), req: 'GET /http-errors', bytes: 0/10092
+ http <-- 200, user: null(192.168.1.28), req: 'GET /http-errors', bytes: 0/10092
+ http <-- 200, user: null(192.168.1.28), req: 'GET /bytes', bytes: 0/5469
+ http <-- 200, user: null(192.168.1.28), req: 'GET /bytes', bytes: 0/5469
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ms', bytes: 0/5790
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ms', bytes: 0/5790
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ms/-/ms-2.0.0.tgz', bytes: 0/2874
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ms/-/ms-2.0.0.tgz', bytes: 0/2874
+ http <-- 200, user: null(192.168.1.28), req: 'GET /inherits', bytes: 0/3284
+ http <-- 200, user: null(192.168.1.28), req: 'GET /inherits', bytes: 0/3284
+ http <-- 200, user: null(192.168.1.28), req: 'GET /toidentifier', bytes: 0/3564
+ http <-- 200, user: null(192.168.1.28), req: 'GET /toidentifier', bytes: 0/3564
+ http <-- 200, user: null(192.168.1.28), req: 'GET /inherits/-/inherits-2.0.3.tgz', bytes: 0/2028
+ http <-- 200, user: null(192.168.1.28), req: 'GET /inherits/-/inherits-2.0.3.tgz', bytes: 0/2028
+ http <-- 200, user: null(192.168.1.28), req: 'GET /toidentifier/-/toidentifier-1.0.0.tgz', bytes: 0/2210
+ http <-- 200, user: null(192.168.1.28), req: 'GET /toidentifier/-/toidentifier-1.0.0.tgz', bytes: 0/2210
+ http <-- 200, user: null(192.168.1.28), req: 'GET /safer-buffer', bytes: 0/5557
+ http <-- 200, user: null(192.168.1.28), req: 'GET /safer-buffer', bytes: 0/5557
+ http <-- 200, user: null(192.168.1.28), req: 'GET /safer-buffer/-/safer-buffer-2.1.2.tgz', bytes: 0/12035
+ http <-- 200, user: null(192.168.1.28), req: 'GET /safer-buffer/-/safer-buffer-2.1.2.tgz', bytes: 0/12035
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ee-first', bytes: 0/2438
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ee-first', bytes: 0/2438
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ee-first/-/ee-first-1.1.1.tgz', bytes: 0/2733
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ee-first/-/ee-first-1.1.1.tgz', bytes: 0/2733
+ http <-- 200, user: null(192.168.1.28), req: 'GET /unpipe', bytes: 0/1260
+ http <-- 200, user: null(192.168.1.28), req: 'GET /unpipe', bytes: 0/1260
+ http <-- 200, user: null(192.168.1.28), req: 'GET /unpipe/-/unpipe-1.0.0.tgz', bytes: 0/2096
+ http <-- 200, user: null(192.168.1.28), req: 'GET /unpipe/-/unpipe-1.0.0.tgz', bytes: 0/2096
+ http <-- 200, user: null(192.168.1.28), req: 'GET /media-typer', bytes: 0/5952
+ http <-- 200, user: null(192.168.1.28), req: 'GET /media-typer', bytes: 0/5952
+ http <-- 200, user: null(192.168.1.28), req: 'GET /media-typer/-/media-typer-0.3.0.tgz', bytes: 0/4189
+ http <-- 200, user: null(192.168.1.28), req: 'GET /media-typer/-/media-typer-0.3.0.tgz', bytes: 0/4189
+ http <-- 200, user: null(192.168.1.28), req: 'GET /forwarded', bytes: 0/1964
+ http <-- 200, user: null(192.168.1.28), req: 'GET /forwarded', bytes: 0/1964
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ipaddr.js', bytes: 0/9385
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ipaddr.js', bytes: 0/9385
+ http <-- 200, user: null(192.168.1.28), req: 'GET /forwarded/-/forwarded-0.1.2.tgz', bytes: 0/2588
+ http <-- 200, user: null(192.168.1.28), req: 'GET /forwarded/-/forwarded-0.1.2.tgz', bytes: 0/2588
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ms/-/ms-2.1.1.tgz', bytes: 0/3028
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ms/-/ms-2.1.1.tgz', bytes: 0/3028
+ http <-- 200, user: null(192.168.1.28), req: 'GET /mime', bytes: 0/13457
+ http <-- 200, user: null(192.168.1.28), req: 'GET /mime', bytes: 0/13457
+ http <-- 200, user: null(192.168.1.28), req: 'GET /destroy', bytes: 0/1762
+ http <-- 200, user: null(192.168.1.28), req: 'GET /destroy', bytes: 0/1762
+ http <-- 200, user: null(192.168.1.28), req: 'GET /destroy/-/destroy-1.0.4.tgz', bytes: 0/2331
+ http <-- 200, user: null(192.168.1.28), req: 'GET /destroy/-/destroy-1.0.4.tgz', bytes: 0/2331
+ http <-- 200, user: null(192.168.1.28), req: 'GET /mime/-/mime-1.6.0.tgz', bytes: 0/15686
+ http <-- 200, user: null(192.168.1.28), req: 'GET /mime/-/mime-1.6.0.tgz', bytes: 0/15686
+ http <-- 500, user: null(192.168.1.28), req: 'GET /bytes/-/bytes-3.1.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /bytes/-/bytes-3.1.0.tgz', error: uplink is offline
+ http <-- 200, user: null(192.168.1.28), req: 'GET /safe-buffer/-/safe-buffer-5.1.2.tgz', bytes: 0/9822
+ http <-- 200, user: null(192.168.1.28), req: 'GET /safe-buffer/-/safe-buffer-5.1.2.tgz', bytes: 0/9822
+ http <-- 200, user: null(192.168.1.28), req: 'GET /parseurl/-/parseurl-1.3.3.tgz', bytes: 0/3952
+ http <-- 200, user: null(192.168.1.28), req: 'GET /parseurl/-/parseurl-1.3.3.tgz', bytes: 0/3952
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ipaddr.js/-/ipaddr.js-1.9.0.tgz', bytes: 0/11488
+ http <-- 200, user: null(192.168.1.28), req: 'GET /ipaddr.js/-/ipaddr.js-1.9.0.tgz', bytes: 0/11488
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-db/-/mime-db-1.43.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-db/-/mime-db-1.43.0.tgz', error: uplink is offline
+ http <-- 200, user: null(192.168.1.28), req: 'GET /negotiator/-/negotiator-0.6.2.tgz', bytes: 0/6650
+ http <-- 200, user: null(192.168.1.28), req: 'GET /negotiator/-/negotiator-0.6.2.tgz', bytes: 0/6650
+ http <-- 500, user: null(192.168.1.28), req: 'GET /setprototypeof/-/setprototypeof-1.1.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /setprototypeof/-/setprototypeof-1.1.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-types/-/mime-types-2.1.26.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-types/-/mime-types-2.1.26.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /qs/-/qs-6.7.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /qs/-/qs-6.7.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /send/-/send-0.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /send/-/send-0.17.1.tgz', error: uplink is offline
+ http <-- 200, user: null(192.168.1.28), req: 'GET /range-parser/-/range-parser-1.2.1.tgz', bytes: 0/3603
+ http <-- 200, user: null(192.168.1.28), req: 'GET /range-parser/-/range-parser-1.2.1.tgz', bytes: 0/3603
+ http <-- 200, user: null(192.168.1.28), req: 'GET /iconv-lite/-/iconv-lite-0.4.24.tgz', bytes: 0/185241
+ http <-- 200, user: null(192.168.1.28), req: 'GET /iconv-lite/-/iconv-lite-0.4.24.tgz', bytes: 0/185241
+ http <-- 200, user: null(192.168.1.28), req: 'GET /statuses/-/statuses-1.5.0.tgz', bytes: 0/5482
+ http <-- 200, user: null(192.168.1.28), req: 'GET /statuses/-/statuses-1.5.0.tgz', bytes: 0/5482
+ http <-- 500, user: null(192.168.1.28), req: 'GET /http-errors/-/http-errors-1.7.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /http-errors/-/http-errors-1.7.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /raw-body/-/raw-body-2.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /raw-body/-/raw-body-2.4.0.tgz', error: uplink is offline
+ http <-- 200, user: null(192.168.1.28), req: 'GET /type-is/-/type-is-1.6.18.tgz', bytes: 0/5872
+ http <-- 200, user: null(192.168.1.28), req: 'GET /type-is/-/type-is-1.6.18.tgz', bytes: 0/5872
+ http <-- 500, user: null(192.168.1.28), req: 'GET /body-parser/-/body-parser-1.19.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /body-parser/-/body-parser-1.19.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /finalhandler/-/finalhandler-1.1.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /finalhandler/-/finalhandler-1.1.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /content-disposition/-/content-disposition-0.5.3.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /content-disposition/-/content-disposition-0.5.3.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /cookie/-/cookie-0.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /cookie/-/cookie-0.4.0.tgz', error: uplink is offline
+ http <-- 200, user: null(192.168.1.28), req: 'GET /accepts/-/accepts-1.3.7.tgz', bytes: 0/5400
+ http <-- 200, user: null(192.168.1.28), req: 'GET /accepts/-/accepts-1.3.7.tgz', bytes: 0/5400
+ http <-- 500, user: null(192.168.1.28), req: 'GET /serve-static/-/serve-static-1.14.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /serve-static/-/serve-static-1.14.1.tgz', error: uplink is offline
+ http <-- 200, user: null(192.168.1.28), req: 'GET /proxy-addr/-/proxy-addr-2.0.5.tgz', bytes: 0/5424
+ http <-- 200, user: null(192.168.1.28), req: 'GET /proxy-addr/-/proxy-addr-2.0.5.tgz', bytes: 0/5424
+ http <-- 500, user: null(192.168.1.28), req: 'GET /express/-/express-4.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /express/-/express-4.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /bytes/-/bytes-3.1.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /bytes/-/bytes-3.1.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-db/-/mime-db-1.43.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-db/-/mime-db-1.43.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /setprototypeof/-/setprototypeof-1.1.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /setprototypeof/-/setprototypeof-1.1.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-types/-/mime-types-2.1.26.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-types/-/mime-types-2.1.26.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /qs/-/qs-6.7.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /qs/-/qs-6.7.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /send/-/send-0.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /send/-/send-0.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /http-errors/-/http-errors-1.7.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /http-errors/-/http-errors-1.7.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /raw-body/-/raw-body-2.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /raw-body/-/raw-body-2.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /body-parser/-/body-parser-1.19.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /body-parser/-/body-parser-1.19.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /finalhandler/-/finalhandler-1.1.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /finalhandler/-/finalhandler-1.1.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /content-disposition/-/content-disposition-0.5.3.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /content-disposition/-/content-disposition-0.5.3.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /cookie/-/cookie-0.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /cookie/-/cookie-0.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /serve-static/-/serve-static-1.14.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /serve-static/-/serve-static-1.14.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /express/-/express-4.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /express/-/express-4.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /bytes/-/bytes-3.1.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /bytes/-/bytes-3.1.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-db/-/mime-db-1.43.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-db/-/mime-db-1.43.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /setprototypeof/-/setprototypeof-1.1.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /setprototypeof/-/setprototypeof-1.1.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-types/-/mime-types-2.1.26.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /mime-types/-/mime-types-2.1.26.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /qs/-/qs-6.7.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /qs/-/qs-6.7.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /send/-/send-0.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /send/-/send-0.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /http-errors/-/http-errors-1.7.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /http-errors/-/http-errors-1.7.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /raw-body/-/raw-body-2.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /raw-body/-/raw-body-2.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /body-parser/-/body-parser-1.19.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /body-parser/-/body-parser-1.19.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /finalhandler/-/finalhandler-1.1.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /finalhandler/-/finalhandler-1.1.2.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /content-disposition/-/content-disposition-0.5.3.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /content-disposition/-/content-disposition-0.5.3.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /cookie/-/cookie-0.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /cookie/-/cookie-0.4.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /serve-static/-/serve-static-1.14.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /serve-static/-/serve-static-1.14.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /express/-/express-4.17.1.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /express/-/express-4.17.1.tgz', error: uplink is offline
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 404, user: null(192.168.1.28), req: 'GET /npm', error: no such package available
+ http <-- 200, user: null(192.168.1.28), req: 'GET /react', bytes: 0/99627
+ http <-- 200, user: null(192.168.1.28), req: 'GET /react', bytes: 0/99627
+ http <-- 200, user: null(192.168.1.28), req: 'GET /loose-envify', bytes: 0/2950
+ http <-- 200, user: null(192.168.1.28), req: 'GET /loose-envify', bytes: 0/2950
+ http <-- 200, user: null(192.168.1.28), req: 'GET /object-assign', bytes: 0/3281
+ http <-- 200, user: null(192.168.1.28), req: 'GET /object-assign', bytes: 0/3281
+ http <-- 200, user: null(192.168.1.28), req: 'GET /prop-types', bytes: 0/13146
+ http <-- 200, user: null(192.168.1.28), req: 'GET /prop-types', bytes: 0/13146
+ http <-- 200, user: null(192.168.1.28), req: 'GET /loose-envify/-/loose-envify-1.4.0.tgz', bytes: 0/2842
+ http <-- 200, user: null(192.168.1.28), req: 'GET /loose-envify/-/loose-envify-1.4.0.tgz', bytes: 0/2842
+ http <-- 200, user: null(192.168.1.28), req: 'GET /object-assign/-/object-assign-4.1.1.tgz', bytes: 0/2675
+ http <-- 200, user: null(192.168.1.28), req: 'GET /object-assign/-/object-assign-4.1.1.tgz', bytes: 0/2675
+ http <-- 200, user: null(192.168.1.28), req: 'GET /js-tokens', bytes: 0/7103
+ http <-- 200, user: null(192.168.1.28), req: 'GET /js-tokens', bytes: 0/7103
+ http <-- 200, user: null(192.168.1.28), req: 'GET /js-tokens/-/js-tokens-4.0.0.tgz', bytes: 0/6542
+ http <-- 200, user: null(192.168.1.28), req: 'GET /js-tokens/-/js-tokens-4.0.0.tgz', bytes: 0/6542
+ http <-- 200, user: null(192.168.1.28), req: 'GET /react-is', bytes: 0/82151
+ http <-- 200, user: null(192.168.1.28), req: 'GET /react-is', bytes: 0/82151
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react-is/-/react-is-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react-is/-/react-is-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react/-/react-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react/-/react-16.12.0.tgz', error: uplink is offline
+ http <-- 200, user: null(192.168.1.28), req: 'GET /prop-types/-/prop-types-15.7.2.tgz', bytes: 0/24441
+ http <-- 200, user: null(192.168.1.28), req: 'GET /prop-types/-/prop-types-15.7.2.tgz', bytes: 0/24441
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react-is/-/react-is-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react-is/-/react-is-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react/-/react-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react/-/react-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react-is/-/react-is-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react-is/-/react-is-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react/-/react-16.12.0.tgz', error: uplink is offline
+ http <-- 500, user: null(192.168.1.28), req: 'GET /react/-/react-16.12.0.tgz', error: uplink is offline
+^C

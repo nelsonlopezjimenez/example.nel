@@ -1,0 +1,14 @@
+javascript:(function printQuiz(){ 
+var zed = document.querySelector("#submit_quiz_form").outerHTML; 
+var zed = document.querySelector(".quiz-header").outerHTML + zed; 
+var zed = zed.replace(/Links to an external site\./gim , ""); 
+var zed = zed.replace(/aria-level=\"2\">/gim , "aria-level=\"2\"><br />"); 
+var zed = zed.replace(/class=\"screenreader-only\"|class=\"form-actions\"|class=\"accessibility-warning screenreader-only\"|class=\"alert\"/gim , "hidden=\"hidden\""); 
+var zed = zed.replace(/class=\"answer_input\">/gim, "class=\"answer_input\" style=\" width: 25px;\">"); 
+var dt = new Date(); var dd = dt.getDate(); var mm = dt.getMonth()+1; var yy = dt.getFullYear(); 
+var myWindow = window.open(); myWindow.document.write("<p>Printer-friendly Quiz generated: " + mm + "/" + dd + "/" + yy + "</p>" + zed); })();
+[edit 02/13/2019: added code (courtesy of Matt Hanes :) to properly align question answers.]
+
+[edit 01/26/2018: added code to (1) include Quiz instructions; (2) include date printable Quiz was generated; (3) insert space between questions.]
+
+ 

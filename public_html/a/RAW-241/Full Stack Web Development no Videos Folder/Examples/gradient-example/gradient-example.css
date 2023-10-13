@@ -1,0 +1,23 @@
+/* See further examples with gradients here: 
+http://www.w3schools.com/css/css3_gradients.html
+
+Example created by Sarabeth */
+
+/* Opacity gradient on image */
+.heart{
+  height: 300px;
+  width: 500px;
+  float: left;
+  background-image: url("heart-clip-art-heart_Clipart_Free.png");
+  background-repeat: no-repeat;
+  -webkit-mask-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+/* Opacity gradient on background color */
+.box{
+  height: 300px;
+  width: 300px;
+  float: left;
+  border-radius: 30%;
+  background: linear-gradient(to right, rgba(0, 128, 128, 1), rgba(0, 0, 0, 0));
+}

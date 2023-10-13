@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a week001</title>
+    <link rel="stylesheet" href="../css/2022.css">
+    <style>
+        #main_content {
+            display: flex;
+        }
+
+        .videofiller {
+            width: 300px;
+            height: 350px;
+            background-color: none;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="padding: 25px; background-color: #005588;">
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="../icons/smaller_logo.png" alt="smaller_logo.png" /></td>
+                    <td style="padding: 25px; color: white;"><span style="font-size: large;"><span
+                                class="ellipsible">Successful Demonstration of Competency</span></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <div style="padding: 0px 25px 25px; background-color: #bbd6ef;">
+                <h3><span class="ellipsible">Successful Demonstration of Competency</span></h3>
+                <div style="padding: 25px; border: thin solid black;">
+                    <ul>
+                        <li>Use object-oriented client-side scripting with well-formed web pages.</li>
+                        <li>Recognize client-side variables and data types and the operations that can be performed on
+                            them.
+                        </li>
+                        <li>Write client-side functions, event handlers and control structures.
+                        </li>
+                        <li>Verify form data through scripting validation.
+                        </li>
+                        <li>Save state information through the use of hidden form fields, query-strings and cookies.
+                        </li>
+                        <li>List the concepts of server-side programming and Node.js.
+                        </li>
+
+
+                        <p><strong>OUTCOMES</strong><br /></p>
+                        <ol>
+                            <li> Identify and explain the basic logic structures used in computer programming.
+                            </li>
+                            <li>Create and follow a programming bubble chart.
+                            </li>
+                            <li>Create and follow flow charts of various logic structures.
+                            </li>
+                            <li>Create form that satisfies limited user requirements.
+                            </li>
+                            <li>Discern when to use a branching structure in logic development.
+                            </li>
+                            <li>Discern when to use a looping structure in logic development.
+                            </li>
+                            <li>Be able to identify and use the more common JavaScript controls and their properties.
+                            </li>
+                            <li>Use JavaScript to produce a complete program starting with a program requirements
+                                statement.
+                            </li>
+
+                        </ol>
+                        </li>
+                    </ul>
+                </div>
+                <p><br />Successful demonstration of your competencies for this course may be done by:</p>
+                <div id="main_content">
+
+                    <!-- <h1>Week 1 CIS 242</h1> -->
+                    <ul>
+                        <li>
+                            <h2>Welcome!!</h2>
+                        </li>
+                        <li>
+                            <h2>Please read the <span>syllabus</span> <a href="syllabus.html">here</a>
+                        </li>
+                        <li>
+                            <div class="buttons">
+                                <button type="button" class="sizeButtonL" id="buttonSmall">
+                                    Update Video Source</button>
+                                <hr>
+                                <button type="button" class="sizeButtonM" id="buttonMedium">
+                                    Med (pending)</button>
+                                <button type="button" class="sizeButtonR" id="buttonBig">
+                                    Big (pending)</button>
+                                <hr>
+
+
+                            </div>
+
+                        </li>
+                        <li class="lispecial">
+                            <h2>REVIEW</h2>
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source src="../a/canvas_file_cache/1d-colt-steele-html-css-js-overview.mov.mp4"
+                                        type="video/mp4" />
+                                </video>
+                                <h2>Colt Steele HTML, CSS, JS Overview</h2>
+                            </article>
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source src="../a/canvas_file_cache/1e-colt-steele-html-basics-5852.mov.mp4"
+                                        type="video/mp4" />
+                                </video>
+                                <h2>HTML Basics</h2>
+                            </article>
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source src="../a/canvas_file_cache/1f-colt-steele-first-html-page-21915854.mov.mp4"
+                                        type="video/mp4" />
+                                </video>
+                                <h2>First HTML Page</h2>
+                            </article>
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source
+                                        src="../a/canvas_file_cache/1c-colt-steele-front-back-end-overview-3932.mov.mp4"
+                                        type="video/mp4" />
+                                </video>
+                                <h2>Front Back End Overview</h2>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li> ****************** </li>
+                        <li>
+                            <div>
+                                <h2>Media Queries</h2>
+                            </div>
+                            <a href="http://localhost:22022/www.w3schools.com/css/css3_mediaqueries.html">Media
+                                Queries</a>
+                        </li>
+                        <li>
+                            <div>
+                                <h2>Flexbox</h2>
+                            </div>
+                            <a href="http://localhost:22022/www.w3schools.com/css/css3_flexbox.html">Flexbox</a>
+                        </li>
+
+                        <li class='lispecial'>
+                            <h2>WATCH:</h2>
+
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source
+                                        src="../a/canvas_file_cache/Why Responsive Videos/Responsive/3- Media Queries/2 - Basic Media Query Intro.mp4" />
+                                </video>
+                                <h2 class="videoTitle">Basic Media Query Intro</h2>
+                            </article>
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source
+                                        src="../a/canvas_file_cache/Why Responsive Videos/Responsive/3- Media Queries/3 - Adding a Basic Media Query.mp4" />
+                                </video>
+                                <h2 class="videoTitle">3 - Adding a Basic Media Query.mp4</h2>
+                            </article>
+
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source
+                                        src="../a/canvas_file_cache/Why Responsive Videos/Responsive/3- Media Queries/4 - Adding a basic media query 2.mp4" />
+                                </video>
+                                <h2 class="videoTitle">4 - Adding a basic media query 2.mp4</h2>
+                            </article>
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source
+                                        src="../a/canvas_file_cache/Why Responsive Videos/Responsive/3- Media Queries/5 - Next Step Media Queries.mp4" />
+                                </video>
+                                <h2 class="videoTitle">5 - Next Step Media Queries.mp4</h2>
+                            </article>
+                        </li>
+                        <li class='lispecial'>
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source
+                                        src="../a/canvas_file_cache/Why Responsive Videos/Responsive/3- Media Queries/13 - Picking Breakpoints 2.mp4" />
+                                </video>
+                                <h2 class="videoTitle">13 - Picking Breakpoints 2.mp4</h2>
+                            </article>
+                            <article class="video">
+                                <video width="300" height="150" controls="controls">
+                                    <source
+                                        src="../a/canvas_file_cache/Why Responsive Videos/Responsive/3- Media Queries/16 - Complex Media Queries.mp4" />
+                                </video>
+                                <h2 class="videoTitle">16 - Complex Media Queries.mp4</h2>
+                            </article>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <footer>
+                    <div>
+                        <a href="week011.html"><span>&#171;</span></a>
+                        <a href="week002.html"> <span>&#187;</span></a>
+                        <a href="/"><span>&#8962;</span></a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

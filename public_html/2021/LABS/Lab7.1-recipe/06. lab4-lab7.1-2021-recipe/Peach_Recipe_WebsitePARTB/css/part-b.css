@@ -1,0 +1,132 @@
+body {
+	width: 98%;
+	background: #e6e6e6;
+	font-family: verdana;
+}
+* {
+	box-sizing: border-box;
+}
+#recipe, #about {
+	float: left;
+}
+#about {
+	width: 60%;
+}
+#main_content {
+	background: white;
+	width:80%;
+	margin: auto;
+}
+video {
+	width: 40%;
+/*	border:3px blue solid;*/
+}
+header {
+	background-color: rgba(226,225,225,0.42);
+}
+hr {
+	border-color: orange;
+}
+#ingredients {
+	content="";
+	display:table;
+	clear:both;
+}
+ul li {
+	float: left;
+	width: 50%;	
+	padding:4px;
+}
+ul li:before {
+	content: "";
+	background-image: url('../images/plus-icon.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 2vh;
+	width: 2vh;
+	display: inline-block;
+}
+ul li:hover {
+	background-color: orange;
+}
+ul {
+	list-style: none;
+	margin: 0;	
+	padding: 0;
+}
+ol li {
+	font-size: 16px;
+	font-size:1.1vw;
+}
+#save {
+     width: 30%;
+     color: white;
+     background-color: orange;
+     border-radius: 2%;
+     border-width: 0;
+     font-size: 16px;
+     font-size: 1.1vw;
+     padding:3px;
+ }
+ #save:hover {
+ 	background-color: pink;
+ }
+#one,#two,#three{
+	float: left;
+	width:30%;
+	border: 5px orange dotted;
+	margin: 4px;
+	padding:2px;
+} 
+#reviews:before {
+	content:"";
+	display: table;
+	clear:both;
+	padding:15px;
+}
+#number-reviews {
+	color: grey;
+}
+#share {
+	padding-top: 50px;
+}
+#share  img {
+	width:140;
+	width: 3vh;
+	height:140;
+	height: 2vh;
+	/*background: blue;*/
+}
+
+p {
+	font-size: 16px;
+	font-size: 1vw;
+}
+
+h1{
+	font-size:32px;
+   font-size: 2.2vw;
+}
+
+h2{
+	font-size:24px;
+    font-size: 1.66vw;
+}
+
+h3{
+	font-size:18px;
+    font-size: 1.3vw;
+}
+ul li {
+	font-size: 16px;
+	font-size: 1.1vw;
+}
+#reviews{
+	font-size: 16px;
+	font-size: 1.1vw;
+	
+}
+#star-reviews img{
+	max-width:100%;
+	height: auto;
+}

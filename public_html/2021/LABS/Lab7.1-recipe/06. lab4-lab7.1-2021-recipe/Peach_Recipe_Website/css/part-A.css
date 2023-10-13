@@ -1,0 +1,72 @@
+body {
+	background: #e6e6e6
+	width:98%;
+	position: center;
+	font-family: verdana;
+}
+/** {
+	box-sizing: border-box;
+}*/
+#main_content {
+	width: 70%;
+	background: white;
+	margin:auto;
+	/*float:left;*/
+}
+#recipe, #about {
+	float: left;
+}
+#about {
+	width: 60%;
+}
+video {
+	float:left;
+	width: 40%;
+}
+header {
+	background: rgba(226,225,225,0.42);
+}
+hr {
+	border-color: orange;
+}
+ul li {
+	width: 50%;
+	float: left;
+	list-style: none;
+}
+li {
+	/*width: 50%;*/
+	/*float; left;*/
+}
+ul li:before {
+	content: url('../images/plus-icon.png');
+	float:left;
+}
+ul li:hover {
+	background-color: red;
+}
+#save {
+	border-radius: 2%;
+	border-width: 0;
+}
+#save:hover {
+	background: blue;
+}
+/*list items are left, the wrapping container needs clear*/
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_template1_float*/
+#ingredients:after {
+	content="";
+	display:table;
+	clear:both;
+	border: 2px blue dashed;	
+}
+/*one,two,and three are left. The wrapping container needs*/
+#reviews { 
+	content: "";
+	display: table;
+	clear:both;
+}
+#one,#two,#three {
+	float:left;
+	width: 33.33%;
+}

@@ -1,0 +1,9 @@
+th{
+  font-size: 24px;
+}
+
+th, td{
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}

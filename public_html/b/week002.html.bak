@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b week002</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://localhost:22022/maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="http://localhost:22022/ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://localhost:22022/cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="http://localhost:22022/maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            width: 95%;
+            margin: 30px;
+            background-color: #005588;
+            margin: auto;
+
+        }
+
+        #allcontent {
+            background-color: #005588;
+        }
+
+        #version {
+            font-size: 3em;
+        }
+
+        #logo {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            font-size: 3em;
+        }
+
+        main  {
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-between; */
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-size: 2em;
+            background-color: #bbd6ef;
+        }
+
+        main article {
+            width: 400px;
+            height: 350px;
+            /* border: 3px solid green; */
+            text-align: center;
+            background-color: #058;
+            margin: 2%;
+            color: white;
+        }
+
+        a {
+            color: white;
+        }
+
+        #clos ol {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #logo {
+            padding: 25px;
+            color: white;
+            ;
+        }
+
+
+        #secondtd span {
+            font-size: 2em;
+        }
+
+        #clos {
+            padding: 25px;
+            border: thin solid black;
+            background-color: #bbd6ef;
+            list-style: none;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 4em;
+        }
+    </style>
+    <title>b week002</title>
+</head>
+
+<body>
+    <ul id="logo">
+        <li>
+            <img src="../icons/smaller_logo.png" alt="smaller_logo.png" />
+        </li>
+        <li>
+            Web Development II
+        </li>
+    </ul>
+    <div id="clos">
+        <h3><span>Web Development II</span></h3>
+        <h3> Course-level Learning Objectives: CIS 242.</h3>
+        <article>
+            <ul>
+                <li>Use object-oriented client-side scripting with well-formed web pages.</li>
+                <li>Recognize client-side variables and data types and the operations that can be performed on
+                    them.
+                </li>
+                <li>Write client-side functions, event handlers and control structures.
+                </li>
+                <li>Verify form data through scripting validation.
+                </li>
+                <li>Save state information through the use of hidden form fields, query-strings and cookies.
+                </li>
+                <li>List the concepts of server-side programming and Node.js.
+                </li>
+            </ul>
+
+            <p><strong>OUTCOMES</strong><br /></p>
+            <ol>
+
+                <li> Identify and explain the basic logic structures used in computer programming.
+                </li>
+                <li>Create and follow a programming bubble chart.
+                </li>
+                <li>Create and follow flow charts of various logic structures.
+                </li>
+                <li>Create form that satisfies limited user requirements.
+                </li>
+                <li>Discern when to use a branching structure in logic development.
+                </li>
+                <li>Discern when to use a looping structure in logic development.
+                </li>
+                <li>Be able to identify and use the more common JavaScript controls and their properties.
+                </li>
+                <li>Use JavaScript to produce a complete program starting with a program requirements
+                    statement.
+                </li>
+            </ol>
+        </article>
+    </div>
+    <hr>
+    <div class="buttons">
+        <button type="button" class="sizeButtonL" id="buttonSmall">
+            Update Video Source</button>
+        <button type="button" class="sizeButtonM" id="buttonMedium">
+            .</button>
+        <button type="button" class="sizeButtonR" id="buttonBig">
+            .</button>
+        <hr>
+    </div>
+
+    <main id="container">
+        <div class="gallery">
+            <video width=300px height=150px controls>
+                <source
+                    src="../a/canvas_file_cache/JavaScript Videos/What is JavaScript- Videos/1 - Intro to JavaScript.mp4"
+                    type="video/mp4">
+            </video>
+            <h2>1 - Intro to JavaScript.mp4</h2>
+        </div>
+        <div class="gallery">
+            <video width=300px height=150px controls>
+                <source
+                    src="../a/canvas_file_cache/JavaScript Videos/What is JavaScript- Videos/2 - History of JavaScript.mp4"
+                    type="video/mp4">
+            </video>
+            <h2>2 - History of JavaScript.mp4</h2>
+        </div>
+        <div class="gallery">
+            <video width=300px height=150px controls>
+                <source
+                    src="../a/canvas_file_cache/JavaScript Videos/What is JavaScript- Videos/3 - The JavaScript Console.mp4"
+                    type="video/mp4">
+            </video>
+            <h2>3 - The JavaScript Console.mp4</h2>
+        </div>
+        <div class="gallery">
+            <video width=300px height=150px controls>
+                <source src="../a/canvas_file_cache/JavaScript Videos/What is JavaScript- Videos/4 - console.log.mp4"
+                    type="video/mp4">
+            </video>
+            <h2>4 - console.log.mp4</h2>
+        </div>
+
+        <div class="gallery">
+            <video width=300px height=150px controls>
+                <source
+                    src="../a/canvas_file_cache/JavaScript Videos/What is JavaScript- Videos/7 - Lesson 1 Summary.mp4"
+                    type="video/mp4">
+            </video>
+            <h2>7 - Lesson 1 Summary.mp4</h2>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="week001.html"><span>&#x1f880;</span></a>
+            <a href="week003.html"> <span>&#x1f882;</span></a>
+            <a href="/"><span>&#x1f30e;</span></a>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

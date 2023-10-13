@@ -1,0 +1,22 @@
+
+/* selector {
+    property: value;
+    secondproperty: secondvalue;
+} */
+h1 {
+    background: red;
+    border: 20px green groove;
+}
+
+#secondh1 {
+    background: green;
+}
+
+#special {
+    background: green;
+}
+li {
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+}

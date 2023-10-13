@@ -1,0 +1,139 @@
+docker-images
+##########################
+REPOSITORY               TAG                 IMAGE ID            CREATED             SIZE
+operepo/ope-gcf          release             945a46ac7281        9 days ago          126.3 MB
+operepo/ope-jsbin        release             b01c9b8c39df        9 days ago          744.8 MB
+nginx                    latest              f7bb5701a33c        2 weeks ago         126.3 MB
+operepo/ope-gateway      release             04231acc4a1d        4 weeks ago         262 MB
+operepo/ope-canvas       release             15c1cb8139bd        8 weeks ago         3.786 GB
+operepo/ope-postgresql   release             d743d7010a0b        8 weeks ago         37.9 MB
+operepo/ope-smc          release             51b6cc44dbd2        8 weeks ago         786.4 MB
+operepo/ope-dns          release             54ab64ad1378        8 weeks ago         5.888 MB
+operepo/ope-redis        release             9769c1e620ae        7 months ago        40.94 MB
+operepo/ope-fog          release             7a0305d5cad1        2 years ago         1.833 GB
+operepo/ope-router       release             655edfcf1571        2 years ago         122.6 MB
+operepo/ope-clamav       release             e51c52853722        2 years ago         174 MB
+node                     0.10                0f9a0e09fbda        3 years ago         631.4 MB
+docker-network-inspect-bridge
+##########################
+[
+    {
+        "Name": "bridge",
+        "Id": "67d72b29fbabf79e87e15e939aa69f0115982936891300fccbf6e1c1d845f049",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.17.0.0/16",
+                    "Gateway": "172.17.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Containers": {
+            "318b6d32495a0d19f78ed6d0cc29fe44d9424739330a1b620f57d4ada774834d": {
+                "Name": "ope-dns",
+                "EndpointID": "a1e029b7af1268440b6c3d6cbd7fbd6c704e89f9479aff9f43e5af3e645e3da8",
+                "MacAddress": "02:42:ac:11:00:02",
+                "IPv4Address": "172.17.0.2/16",
+                "IPv6Address": ""
+            },
+            "570ed005e0531f380b3d919d81080857b4f6c5d9bbfe9f3c7181aec9c511084f": {
+                "Name": "ope-fog",
+                "EndpointID": "e6c288e84db60cc445c992f5df34e63a56a0bb9ae3bb23cc0abf7e1a2d21a123",
+                "MacAddress": "02:42:ac:11:00:08",
+                "IPv4Address": "172.17.0.8/16",
+                "IPv6Address": ""
+            },
+            "574520a7995f3f1336d4e5e66ebb97414a326ff1ad27633175eea727dc4bc50b": {
+                "Name": "ope-jsbin",
+                "EndpointID": "6221fd3da884aeba1501fa5ee5e7303f06deba6265c58e02335f9a91235080c4",
+                "MacAddress": "02:42:ac:11:00:06",
+                "IPv4Address": "172.17.0.6/16",
+                "IPv6Address": ""
+            },
+            "5a2384440e4d003b7f1d8b5a50b73e15d353afed19eb54743121b47faaecff31": {
+                "Name": "ope-clamav",
+                "EndpointID": "e7a592254ae20d828ec4c0d9d427debabb9b79d2976a8fb6fd7c48b2e3068a16",
+                "MacAddress": "02:42:ac:11:00:05",
+                "IPv4Address": "172.17.0.5/16",
+                "IPv6Address": ""
+            },
+            "7793081d3bb459435d1efd919c4c0f63dcf36e51e8366b26ce61ad9bbd791518": {
+                "Name": "ope-gcf",
+                "EndpointID": "48ac09bc927a417576aa2bb5b325d766175ace549d75c6eb3a5336549df56405",
+                "MacAddress": "02:42:ac:11:00:09",
+                "IPv4Address": "172.17.0.9/16",
+                "IPv6Address": ""
+            },
+            "79df85ea1c64a9068910105750d9fd718377a2c79ee43c6c6482a38c051f0656": {
+                "Name": "ope-postgresql",
+                "EndpointID": "632cf09568b4b844ead24579e46f16223681a32c08bd0d3a11475eb72e7cbb29",
+                "MacAddress": "02:42:ac:11:00:03",
+                "IPv4Address": "172.17.0.3/16",
+                "IPv6Address": ""
+            },
+            "8212eff90c6c174df479c340a1046062d4aa2fe8f64e6b6156f0f3b395f80c6c": {
+                "Name": "ope-smc",
+                "EndpointID": "0444dc002974db8bd6a77389ef120d12572ac00ecbdf5fbbc5eb227330ed68e9",
+                "MacAddress": "02:42:ac:11:00:0b",
+                "IPv4Address": "172.17.0.11/16",
+                "IPv6Address": ""
+            },
+            "a7f32006b311243eccf42c4a47afbf3181ad262f3269a420f35e06d825634756": {
+                "Name": "ope-redis",
+                "EndpointID": "987f82f191d48ff647a4c4a5e70e1a2d4c9fa21986b2d21d56ae9f27b996d312",
+                "MacAddress": "02:42:ac:11:00:07",
+                "IPv4Address": "172.17.0.7/16",
+                "IPv6Address": ""
+            },
+            "a88e994460da2b79695a8e39a59633507d477d9b22dcc626dd0d3f89c0331122": {
+                "Name": "ope-canvas",
+                "EndpointID": "e8d4fca13dca4506123781ea6d9cf2b9f873104187b1f614dcd92aa96cdcbb8d",
+                "MacAddress": "02:42:ac:11:00:0a",
+                "IPv4Address": "172.17.0.10/16",
+                "IPv6Address": ""
+            },
+            "a9ca6cea7ea9ee714014e60f256d4b3fe5518da8dcec3c578b8a1e25093a9f74": {
+                "Name": "ope-gateway",
+                "EndpointID": "e36d7f463e7ead375ff1c210e83549a2c75d475b123554f284039b1788e9d676",
+                "MacAddress": "02:42:ac:11:00:04",
+                "IPv4Address": "172.17.0.4/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.default_bridge": "true",
+            "com.docker.network.bridge.enable_icc": "true",
+            "com.docker.network.bridge.enable_ip_masquerade": "true",
+            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+            "com.docker.network.bridge.name": "docker0",
+            "com.docker.network.driver.mtu": "1500"
+        },
+        "Labels": {}
+    }
+]
+docker-network-ls
+##########################
+NETWORK ID          NAME                DRIVER              SCOPE
+67d72b29fbab        bridge              bridge              local               
+02baec471bdf        host                host                local               
+a175c369841e        none                null                local               
+docker-ps
+##########################
+CONTAINER ID        IMAGE                            COMMAND                  CREATED             STATUS                              PORTS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    NAMES
+a88e994460da        operepo/ope-canvas:release       "/usr/src/start.sh"      9 days ago          Up 7 hours                          80/tcp, 0.0.0.0:32773->3000/tcp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ope-canvas
+8212eff90c6c        operepo/ope-smc:release          "/start.sh"              9 days ago          Up 7 hours                          0.0.0.0:9418->9418/tcp, 0.0.0.0:32774->8000/tcp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ope-smc
+574520a7995f        operepo/ope-jsbin:release        "/bin/sh -c /start.sh"   9 days ago          Restarting (8) 3 minutes ago        0.0.0.0:32772->80/tcp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ope-jsbin
+5a2384440e4d        operepo/ope-clamav:release       "nginx -g 'daemon off"   9 days ago          Up 7 hours                          0.0.0.0:32770->80/tcp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ope-clamav
+a7f32006b311        operepo/ope-redis:release        "docker-entrypoint.sh"   9 days ago          Up 7 hours                          6379/tcp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ope-redis
+570ed005e053        operepo/ope-fog:release          "/start.sh"              9 days ago          Restarting (8) About a minute ago   0.0.0.0:20-21->20-21/tcp, 0.0.0.0:69->69/udp, 0.0.0.0:111->111/tcp, 0.0.0.0:111->111/udp, 0.0.0.0:2049->2049/tcp, 0.0.0.0:2049->2049/udp, 0.0.0.0:4045->4045/udp, 0.0.0.0:7000-7030->7000-7030/udp, 0.0.0.0:4045->4045/tcp, 0.0.0.0:9000-9005->9000-9005/udp, 0.0.0.0:34463->34463/udp, 0.0.0.0:43870->43870/udp, 0.0.0.0:34463->34463/tcp, 0.0.0.0:52700-52730->52700-52730/tcp, 0.0.0.0:50102-50112->50102-50112/udp, 0.0.0.0:52764-52769->52764-52769/tcp, 0.0.0.0:52764-52769->52764-52769/udp, 34464/tcp, 0.0.0.0:32769->80/tcp, 0.0.0.0:32768->443/tcp, 0.0.0.0:32768->43145/udp   ope-fog
+7793081d3bb4        operepo/ope-gcf:release          "nginx -g 'daemon off"   9 days ago          Up 7 hours                          0.0.0.0:32771->80/tcp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ope-gcf
+79df85ea1c64        operepo/ope-postgresql:release   "/docker-entrypoint.s"   9 days ago          Up 7 hours                          0.0.0.0:5432->5432/tcp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ope-postgresql
+3cc440c63564        operepo/ope-router:release       "/bin/sh -c 'exec /st"   9 days ago          Up 7 hours                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ope-router
+318b6d32495a        operepo/ope-dns:release          "dnsmasq -k --bind-dy"   9 days ago          Up 7 hours                          0.0.0.0:53->53/tcp, 0.0.0.0:53->53/udp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ope-dns
+a9ca6cea7ea9        operepo/ope-gateway:release      "/app/docker-entrypoi"   9 days ago          Up 7 hours                          0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ope-gateway

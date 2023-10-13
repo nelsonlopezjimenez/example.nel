@@ -1,0 +1,55 @@
+body {
+    width: 99%;
+    justify-content: center;
+    font: verdana;
+    background-color: #e6e6e6;
+}
+
+#recipe, #about {
+    float: left;
+}
+#about {
+    width: 60%;
+}
+#main_content {
+    background-color: white;
+}
+video {
+    width: 40%;
+    float: left;
+}
+header {
+    background-color: rgba(226,225,225,0.42);
+}
+ul {
+    list-style: none;
+}
+ul li {
+   width: 50%;
+   float: left;
+}
+ul li:before {
+    content: url('../images/plus-icon.png');
+}
+ul li:hover{
+    background-color: rgba(255,165,0,0.39);
+}
+#save {
+    background: orange;
+    border-radius: 2%;
+    border-width: 0;
+}
+#save:hover{
+    background: rgba(255, 165, 0, 0.39) ;
+}
+#share img{
+    width:40px;
+    height:40px;
+}
+#reviews{
+    float:left;
+}
+#reviews img{
+    border-radius: 50%;
+    border: dotted 5px orange;
+}

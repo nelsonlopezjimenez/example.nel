@@ -1,0 +1,342 @@
+<div style="padding: 25px; background-color: #005588;">
+<table>
+<tbody>
+<tr>
+<td><img src="https://canvas.ed/courses/49921000000019/files/49921000002629/preview" alt="smaller_logo.png" data-api-returntype="File" data-api-endpoint="https://canvas.ed/api/v1/courses/49921000000019/files/49921000002629" /></td>
+<td style="padding: 25px; color: white;"><span style="font-size: large;"><span class="ellipsible">Tables - Pros and Cons<br /></span></span></td>
+</tr>
+</tbody>
+</table>
+<div>
+<div style="padding: 0px 25px 25px; background-color: #bbd6ef;">
+<h2>Definition and Usage</h2>
+<p>From W3C site.</p>
+<p>The &lt;table&gt; tag defines an HTML table.</p>
+<p>An HTML table consists of the &lt;table&gt; element and one or more&nbsp;<a href="https://www.w3schools.com/tags/tag_tr.asp">&lt;tr&gt;</a>,&nbsp;<a href="https://www.w3schools.com/tags/tag_th.asp">&lt;th&gt;</a>, and&nbsp;<a href="https://www.w3schools.com/tags/tag_td.asp">&lt;td&gt;</a>&nbsp;elements.</p>
+<p>The &lt;tr&gt; element defines a table row, the &lt;th&gt; element defines a table header, and the &lt;td&gt; element defines a table cell.</p>
+<p>A more complex HTML table may also include &lt;caption&gt;, &lt;col&gt;, &lt;colgroup&gt;, &lt;thead&gt;, &lt;tfoot&gt;, and &lt;tbody&gt; elements.</p>
+<div class="w3-panel w3-note">
+<p><strong>Note:</strong>&nbsp;Tables should not be used for page layout! Historically, some Web authors have misused tables in HTML as a way to control their page layout. However, there are a variety of alternatives to using HTML tables for layout, primarily using CSS.</p>
+</div>
+<hr />
+<p>Introduction to Tables<br />3:47 video ProgrammersCreed</p>
+<p><span class="title video-title">HTML5 and CSS3 Beginner Tutorial 29 - Table headers and captions</span></p>
+5:37 video ProgrammersCreed<br />
+<p>&nbsp;</p>
+<p>HTML5 and CSS3 Beginner Tutorial 30 - Tables, rowspan and colspan</p>
+<p>6:07 video ProgrammersCreed</p>
+<p>HTML5 and CSS3 Beginner Tutorial 31 - Styling tables</p>
+<p>6:16 video ProgrammersCreed</p>
+<h3>&nbsp;</h3>
+<div style="padding: 25px; border: thin solid black;">
+<p><em>Lesson Objective:&nbsp; Design and format HTML tables to present information in an organized way.<br /></em></p>
+</div>
+<p><br />I'd like to point you to the following articles for you to read (pdf format)</p>
+<ul>
+<li>13 Reasons Why CSS Is Better than Tables</li>
+</ul>
+<p>Read the article "10 CSS Table Examples" By David Appleyard and take a look at his many examples of how CSS and tables can come together.</p>
+<div class="vtbegenerated">&nbsp;</div>
+<div class="vtbegenerated">
+<h2>Tables</h2>
+<ol>
+<li>Tables have gone through a lot of changes in the HTML / XHTML / HTLM5 Standards</li>
+<li>Remember, new browsers are to support deprecated elements and tags, older browsers are to ignore tags they don't understand!</li>
+<li>This discussion is based on XHTML / HTML Standards</li>
+<li>In XHTML and HTML 3.2 Standards, all table elements are container tags</li>
+<li>If you are in doubt about how your table should look, draw it out first!</li>
+<li>Terms to understand before we go further:
+<ul>
+<li>table -- the entire table</li>
+<li>row -- the horizontal breaks of a table</li>
+<li>column -- the vertical breaks of a table</li>
+<li>cell -- the smallest section of a table<br />Example:</li>
+</ul>
+</li>
+</ol>
+<table border="3" cellpadding="10">
+<tbody>
+<tr>
+<td>Row 1, Column 1<br />a single cell</td>
+<td>Column 2 of Row 1<br />a single cell</td>
+<td>Column 3 of Row 1<br />a single cell</td>
+</tr>
+<tr>
+<td>Row 2, Column 1<br />a single cell</td>
+<td>Column 2 of Row 2<br />a single cell</td>
+<td>Column 3 of Row 2<br />a single cell</td>
+</tr>
+<tr>
+<td>Row 3, Column 1<br />a single cell</td>
+<td>Column 2 of Row 3<br />a single cell</td>
+<td>Column 3 of Row 3<br />a single cell</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="vtbegenerated">&nbsp;</div>
+<div class="vtbegenerated">
+<div id="main" class="w3-col l10 m12">
+<h3>HTML Table Tags</h3>
+<table class="w3-table-all notranslate">
+<tbody>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_table.asp">&lt;table&gt;</a></td>
+<td>Defines a table</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_th.asp">&lt;th&gt;</a></td>
+<td>Defines a header cell in a table</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_tr.asp">&lt;tr&gt;</a></td>
+<td>Defines a row in a table</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_td.asp">&lt;td&gt;</a></td>
+<td>Defines a cell in a table</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_caption.asp">&lt;caption&gt;</a></td>
+<td>Defines a table caption</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_colgroup.asp">&lt;colgroup&gt;</a></td>
+<td>Specifies a group of one or more columns in a table for formatting</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_col.asp">&lt;col&gt;</a></td>
+<td>Specifies column properties for each column within a &lt;colgroup&gt; element</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_thead.asp">&lt;thead&gt;</a></td>
+<td>Groups the header content in a table</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_tbody.asp">&lt;tbody&gt;</a></td>
+<td>Groups the body content in a table</td>
+</tr>
+<tr>
+<td><a href="https://www.w3schools.com/tags/tag_tfoot.asp">&lt;tfoot&gt;</a></td>
+<td>Groups the footer content in a table</td>
+</tr>
+</tbody>
+</table>
+<br />
+<div class="w3-clear nextprev"><a class="w3-left w3-btn" href="https://www.w3schools.com/html/html_images.asp">❮ Previous</a><a class="w3-right w3-btn" href="https://www.w3schools.com/html/html_lists.asp">Next ❯</a></div>
+</div>
+<div id="right" class="w3-col l2 m12">
+<div class="sidesection">
+<div id="skyscraper">
+<div id="snhb-wide_skyscraper-0" data-google-query-id="CM304Z_Bkt4CFQ41fwodPlMMIg">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vtbegenerated">
+<h2>Chapter Summary</h2>
+<ul>
+<li>Use the HTML&lt;table&gt;element to define a table</li>
+<li>Use the HTML&lt;tr&gt;element to define a table row</li>
+<li>Use the HTML&lt;td&gt;element to define a table data</li>
+<li>Use the HTML&lt;th&gt;element to define a table heading</li>
+<li>Use the HTML&lt;caption&gt;element to define a table caption</li>
+<li>Use the CSS&lt;border&gt;property to define a border</li>
+<li>Use the CSS&lt;border-collapse&gt;property to collapse cell borders</li>
+<li>Use the CSS&lt;padding&gt;property to add padding to cells</li>
+<li>Use the CSS&lt;text-align&gt;property to align cell text</li>
+<li>Use the CSS&lt;border-spacing&gt;property to set the spacing between cells</li>
+<li>Use the&lt;colspan&gt;ttribute to make a cell span many columns</li>
+<li>Use the&lt;rowspan&gt;attribute to make a cell span many rows</li>
+<li>Use the&lt;id&gt;attribute to uniquely define one table</li>
+</ul>
+<hr />
+<div class="w3-container w3-dark-grey w3-padding">&nbsp;</div>
+<ol start="10">
+<li>
+<h3>Differences Between HTML 4.01 and HTML5</h3>
+<p>The "align", "bgcolor", "border", "cellpadding", "cellspacing", "frame", "rules", "summary", and "width" attributes are not supported in HTML5. However, you may find old pages, so here are some definitions:</p>
+</li>
+</ol>
+<ul>
+<li>The <strong>cellspacing</strong> attribute -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ol type="a">
+<li>this attribute controls the spacing between cells of the table</li>
+<li>acceptable values to this attribute are positive integers representing pixels</li>
+</ol>
+</li>
+<li>The <strong>cellpadding</strong> attribute -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ol type="a">
+<li>this attribute controls the spacing between with the cells of the table, the margin between the walls of the cell and the text of the cell</li>
+<li>acceptable values to this attribute are positive integers representing pixels</li>
+</ol>
+</li>
+<li>The <strong>border</strong> attribute -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ol type="a">
+<li>this attribute controls the width of the border of all walls of the table</li>
+<li>acceptable values to this attribute are positive integers representing pixels</li>
+</ol>
+</li>
+<li>A graphical representation of CELLPADDING, CELLSPACING and BORDER</li>
+</ul>
+&nbsp;<img style="margin-right: auto; margin-left: auto; display: block;" src="https://edcc.instructure.com/courses/1692834/files/105470507/preview" alt="cell_spacepad.gif" data-api-returntype="File" data-api-endpoint="https://edcc.instructure.com/api/v1/courses/1692834/files/105470507" />
+<ul>
+<li><br />The <strong>width</strong> attribute HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ol type="a">
+<li>This attribute specifies the desired width of the entire table.</li>
+<li>It is intended for visual browsers.</li>
+<li>The acceptable values to assign to this attribute can either be pixels or a percentage value.
+<ul>
+<li>When the value is a percentage value, the value is relative available space of the browser window.</li>
+<li>When WIDTH is not specified by the author, the browser determines how wide the table will be<br />Syntax:</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>The additional elements used in creating a table:
+<ul>
+<li>The <strong>caption</strong> element -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ol type="a">
+<li>This element should be contained within your TABLE element immediately following the on tag for the TABLE</li>
+<li>the <strong>caption</strong> element's text should describe the nature of the table</li>
+<li>this is a container element requiring an on and an off statement<br />Syntax:</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+&lt;table&gt;<br /><span style="color: #ff0000;">&nbsp;&nbsp;&nbsp;&lt;caption&gt;<em>the description of your table</em>&lt;/caption&gt;<br /></span>&lt;/table&gt;<br /><br />
+<ul>
+<li>The <strong>table row</strong> element -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ol type="a">
+<li>The <strong>table row</strong> elements acts as a container for a row of table cells.</li>
+<li>Each row of your table will need a table row element</li>
+<li>This is a container tag with a required on statement
+<ul>
+<li>3.2 Standards require an off statement</li>
+<li>4.0 Standards make the off statement optional</li>
+<li>XHTML requires on and off statement</li>
+</ul>
+</li>
+<li>Use the off statement!! Some browsers will be confused if you don't include the off statement.<br />Syntax:</li>
+</ol>
+</li>
+</ul>
+&lt;table&gt;<br />&nbsp;&nbsp;&nbsp;&lt;caption&gt;<em>the description of your table</em>&lt;/caption&gt;<br /><br /><span style="color: #ff0000;">&nbsp;&nbsp;&nbsp;&lt;tr align=" "&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Row 1 and more table container elements</em><br />&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br /><br />&nbsp;&nbsp;&nbsp;&lt;tr align=" "&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Row 2 and more table container elements</em><br />&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br /><br />&nbsp;&nbsp;&nbsp;&lt;tr align=" "&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Row 3 and more table container elements</em><br />&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br /><br /></span>&lt;/table&gt;
+<ol start="5" type="a">
+<li>The <strong>align</strong> attribute -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ul>
+<li>This attribute specifies the alignment of data and the justification of text within the complete row.</li>
+<li>Acceptable values to this attribute are: ("left" | "center" | "right" | "justify" | "char")</li>
+</ul>
+</li>
+</ol>
+<div>
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+<tr>
+<td width="15%">
+<div>Value</div>
+</td>
+<td>
+<div>Explanation</div>
+</td>
+</tr>
+<tr>
+<td>left</td>
+<td>Left-flush data/Left-justify text. This is the default value for table data.</td>
+</tr>
+<tr>
+<td>center</td>
+<td>Center data/Center-justify text. This is the default value for table headers.</td>
+</tr>
+<tr>
+<td>right</td>
+<td>Right-flush data/Right-justify text.</td>
+</tr>
+<tr>
+<td>justify</td>
+<td>Double-justify text.</td>
+</tr>
+<tr>
+<td>char</td>
+<td>Align text around a specific character.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>The <strong>table data</strong> and the <strong>table header</strong> elements -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ol type="a">
+<li>These two elements are used to define the individual cell of the table</li>
+<li>Each cell of your table will need to be either a <strong>table data</strong> or a <strong>table header</strong> element</li>
+<li>These are container tags with a required on statement
+<ul>
+<li>3.2 Standards require an off statement</li>
+<li>4.0 Standards make the off statement optional</li>
+<li>XHTML Standards require an off statement</li>
+</ul>
+</li>
+<li>Use the off statement!! Some browsers will be confused if you don't include the off statement.<br />Syntax:</li>
+</ol>
+</li>
+</ul>
+&lt;table&gt;<br />&nbsp;&nbsp;&lt;caption&gt;<em>the description of your table</em>&lt;/caption&gt;<br /><br />&nbsp;&nbsp;&lt;tr&gt;<br /><span style="color: #ff0000;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;th align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/th&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;th align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/th&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;th align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/th&gt;<br /></span>&nbsp;&nbsp;&lt;/tr&gt;<br />&nbsp;&nbsp;&lt;tr&gt;<br /><span style="color: #ff0000;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;th align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;th align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/td&gt;<br /></span>&nbsp;&nbsp;&lt;/tr&gt;<br />&nbsp;&nbsp;&lt;tr&gt;<br /><span style="color: #ff0000;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;td align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;th align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/td&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;th align=" " valign=" " colspan=" " rowspan=" "&gt;Information&lt;/td&gt;<br /></span>&nbsp;&nbsp;&lt;/tr&gt;<br />&lt;/TABLE&gt;
+<ul>
+<li>A visual representation of a basic table</li>
+</ul>
+<img style="margin-right: auto; margin-left: auto; display: block;" src="https://edcc.instructure.com/courses/1692834/files/105470504/preview" alt="tables.JPG" data-api-returntype="File" data-api-endpoint="https://edcc.instructure.com/api/v1/courses/1692834/files/105470504" /><br />
+<ol start="5" type="a">
+<li>As you can see tables can get quite long, and quite complicated!</li>
+<li>Indenting... indenting... indenting, here like in lists, indenting is your best friend when creating a table!</li>
+<li>The <strong>align</strong> attribute -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ul>
+<li>This attribute specifies the alignment of data and the justification of text the cell.</li>
+<li>Acceptable values to this attribute are:<br />LEFT|CENTER|RIGHT|JUSTIFY|CHAR</li>
+</ul>
+</li>
+<li>The <strong>valign</strong> attribute -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ul>
+<li>This attribute specifies the vertical position of data within a cell.</li>
+<li>The acceptable values of this attribute are<br />TOP|MIDDLE|BOTTOM|BASELINE</li>
+</ul>
+</li>
+<li>The <strong>colspan</strong> attribute -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ul>
+<li>This attribute specifies the number of columns spanned by the current cell.</li>
+<li>If you don't include this attribute the browser defaults the COLSPAN to one ("1").</li>
+<li>The value zero ("0") means that the cell spans all columns from the current column to the last column of the table.</li>
+</ul>
+</li>
+<li>The <strong>rowspan</strong> attribute -- HTML 3.2 Standards &nbsp;&nbsp;&nbsp; HTML 4.0 Standards &nbsp;&nbsp;&nbsp; XHTML Standards
+<ul>
+<li>This attribute specifies the number of rows spanned by the current cell.</li>
+<li>If you don't include this attribute the browser defaults the ROWSPAN to one ("1").</li>
+<li>The value zero ("0") means that the cell spans all columns from the current column to the last row of the table.</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>***Whew*** What a lot of information! But the practical application is not as bad... or so she says.</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<p id="watch-headline-title"><span id="eow-title" class="watch-title  yt-uix-expander-head">XHTML and CSS Tutorial - 11 - Tables <br />5:21 minute video</span></p>
+<p>&nbsp;</p>
+<p id="watch-headline-title"><span id="eow-title" class="watch-title long-title yt-uix-expander-head">XHTML and CSS Tutorial - 12 - Ta.ble Headers and Movie Stars! <br />4:40 minute video</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;<span id="eow-title" class="watch-title long-title yt-uix-expander-head">XHTML and CSS Tutorial - 13 - colspan &amp; Annoying People <br />5:07 minute video</span></p>
+<p>&nbsp;</p>
+<p id="watch-headline-title"><span id="eow-title" class="watch-title long-title yt-uix-expander-head">XHTML and CSS Tutorial - 14 - Table width, cellpadding, and cellspacing <br />5:56 minute video</span></p>
+<p>&nbsp;</p>
+<p>Click Next to continue</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<p>HTML5 and CSS3 Beginner Tutorial 31 - Styling tables</p>

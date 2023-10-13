@@ -1,0 +1,49 @@
+<div style="padding: 25px; background-color: #005588;">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="./icons/smaller_logo.png"
+                        alt="smaller_logo.png"
+                         /></td>
+                <td style="padding: 25px; color: white;"><span style="font-size: large;"><span
+                            class="ellipsible">VIDEOS</span></span></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <div style="padding: 0px 25px 25px; background-color: #bbd6ef;">
+            <h3><span class="ellipsible">Watch following videos</span></h3>
+            <div style="padding: 25px; border: thin solid black;">
+            <p><br />Successful demonstration of your competencies for this course may be done by
+                watching the following videos. You are required to watch at least once 
+                videos labeled "Mandatory". The remaining videos are optional but I highly 
+                recommend to watch:</p>
+            <ul>
+                
+                <li>===============================</li>
+                <li><video width="300" height="150" controls="controls">
+                    <source src="http://youtube.nel/q1/9gTw2EDkaDQ.mkv" />
+                <li>_______________________________</li>
+                
+                <li>===============================</li>
+                <li><video width="300" height="150" controls="controls">
+                    <source src="http://youtube.nel/q1/canvas4students.webm" type="video/webm"/>
+                    <source src="http://youtube.nel/q1/canvas4students.mp4" type="video/mp4" />
+                <li>_______________________________</li>
+                <li>===============================</li>
+                <li><video width="300" height="150" controls="controls">
+                    <source src="http://youtube.nel/9gTw2EDkaDQ.mkv" />
+                <li>_______________________________</li>
+                
+                <li></li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li></li>
+            </ul>
+            <p>Click Next to continue</p>
+        </div>
+    </div>
+</div>
+<ul>
+

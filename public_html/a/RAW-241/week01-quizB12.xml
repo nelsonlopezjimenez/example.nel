@@ -1,0 +1,2583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="i4250b7bc825e1844227d7b107ecb31a6" title="Review Quiz week 02  B12">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>unlimited</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <section ident="ibc598d8ddaf846ee70ea276267d9b97d" title="from CIS241Ch1">
+        <selection_ordering>
+          <selection>
+            <selection_number>10</selection_number>
+            <selection_extension>
+              <points_per_item>1.0</points_per_item>
+            </selection_extension>
+          </selection>
+        </selection_ordering>
+        <item ident="id5d5feb9dfaa468c7d9d46146479a6e6" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for a series of commands used to format, organize and describe information on a Web page?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="9711">
+                  <material>
+                    <mattext texttype="text/plain">Markup language</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="99620">
+                  <material>
+                    <mattext texttype="text/plain">Graphical user interface (GUI)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="51315">
+                  <material>
+                    <mattext texttype="text/plain">Cloud</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="57190">
+                  <material>
+                    <mattext texttype="text/plain">Software-as-a-service (SaaS)</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">9711</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i86e9834554db695f7a8bc4450f0b04ec" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is traditionally the standard markup language on the Web?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="55441">
+                  <material>
+                    <mattext texttype="text/plain">Hypertext Markup Language (HTML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="36333">
+                  <material>
+                    <mattext texttype="text/plain">JavaScript</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="16136">
+                  <material>
+                    <mattext texttype="text/plain">JScript</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="1331">
+                  <material>
+                    <mattext texttype="text/plain">VBScript</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">55441</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ia267a717f3f0b7981685140afc057f3b" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;
+&lt;span&gt; &lt;/span&gt;&lt;span class="_title"&gt;What is the term for rules in an external text file that determine how to display HTML elements in your Web pages?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="4421">
+                  <material>
+                    <mattext texttype="text/plain">ascading Style Sheets (CSS)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="52446">
+                  <material>
+                    <mattext texttype="text/plain">Markup language</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="43292">
+                  <material>
+                    <mattext texttype="text/plain">Multipurpose Internet Mail Extensions (MIME)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="43267">
+                  <material>
+                    <mattext texttype="text/plain">Software-as-a-service (SaaS)</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">4421</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="iac8e1ce414a644b9d429a8050d49143f" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Why has the advent of mobile devices caused Web designers to modify their existing sites or create alternative sites?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="91107">
+                  <material>
+                    <mattext texttype="text/plain">Mobile devices have smaller screens that are used to view Web pages previously viewed only on much larger PC monitors.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="55202">
+                  <material>
+                    <mattext texttype="text/plain">Mobile devices work only in the cloud environment.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="74213">
+                  <material>
+                    <mattext texttype="text/plain">Mobile devices are incompatible with Cascading Style Sheets (CSS).</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="84659">
+                  <material>
+                    <mattext texttype="text/plain">Mobile devices can render Web pages developed only using HTML and CSS.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">91107</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i97c3a1be8e55b341f9e8e95a8d6e46a4" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;
+&lt;span&gt; &lt;/span&gt;&lt;span class="_title"&gt;Which of the following can you use to create markup language code (e.g., HTML)?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="11669">
+                  <material>
+                    <mattext texttype="text/plain">A text editor</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="77473">
+                  <material>
+                    <mattext texttype="text/plain">A Common Gateway Interface (CGI) application</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="32353">
+                  <material>
+                    <mattext texttype="text/plain">A Structured Query Language (SQL) application</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="55164">
+                  <material>
+                    <mattext texttype="text/plain">A Multipurpose Internet Mail Extensions (MIME) application</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">11669</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="idd5c7b8209f9ed9ad8076e9e03c079b1" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following can you use to create HTML pages without writing any code manually?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="95888">
+                  <material>
+                    <mattext texttype="text/plain">A graphical user interface (GUI) editor</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="42391">
+                  <material>
+                    <mattext texttype="text/plain">A Common Gateway Interface (CGI) markup editor</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="1575">
+                  <material>
+                    <mattext texttype="text/plain">A text editor</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="30097">
+                  <material>
+                    <mattext texttype="text/plain">A Structured Query Language (SQL) editor</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">95888</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ic944592ecc5da544316cac42b454351c" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Graphical user interface (GUI) HTML editor applications:&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="22939">
+                  <material>
+                    <mattext texttype="text/plain">allow you to modify your HTML code manually.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="29975">
+                  <material>
+                    <mattext texttype="text/plain">provide options for more recent markup standards</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="45605">
+                  <material>
+                    <mattext texttype="text/plain">have kept pace with the evolution of HTML.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="12519">
+                  <material>
+                    <mattext texttype="text/plain">do not allow you to modify your HTML code manually</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">22939</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ie8ab49bab203eca5cec8c671eaad687f" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is a metalanguage?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="33460">
+                  <material>
+                    <mattext texttype="text/plain">A language that is used to create other languages</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="28233">
+                  <material>
+                    <mattext texttype="text/plain">A language in which you need not define your own document language rules</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="6066">
+                  <material>
+                    <mattext texttype="text/plain">A language that is used to describe the data from which Web pages are created</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="73780">
+                  <material>
+                    <mattext texttype="text/plain">A language that is used to format Web pages</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">33460</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i2ac3672e98744454789162738687e9e5" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following are metalanguages?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="933">
+                  <material>
+                    <mattext texttype="text/plain">Standard Generalized Markup Language (SGML) and Extensible Markup Language (XML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="38649">
+                  <material>
+                    <mattext texttype="text/plain">Hypertext Markup Language (HTML) and Extensible Hypertext Markup Language (XHTML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="4165">
+                  <material>
+                    <mattext texttype="text/plain">Extensible Hypertext Markup Language (XHTML) and Standard Generalized Markup Language (SGML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="85219">
+                  <material>
+                    <mattext texttype="text/plain">Extensible Markup Language (XML) and Hypertext Markup Language (HTML)</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">933</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i3c4684dc909a266317fecbccf13f0c84" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the purpose of a Document Type Definition (DTD)?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="58720">
+                  <material>
+                    <mattext texttype="text/plain">The DTD contains a set of rules to which you want your HTML document to conform.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="86095">
+                  <material>
+                    <mattext texttype="text/plain">The DTD contains language elements used for defining other languages.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="90290">
+                  <material>
+                    <mattext texttype="text/plain">The DTD contains commands used to format, organize and describe information on a Web page.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="66737">
+                  <material>
+                    <mattext texttype="text/plain">The DTD contains a set of rules that determine how to display HTML elements in your Web pages.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">58720</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i6b6efbeb838568f6ed74fb18a65bf27b" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which HTML 4.01 flavor must you use to place Web pages inside each other to create separate panes in the browser window?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="53957">
+                  <material>
+                    <mattext texttype="text/plain">HTML 4.01 Frameset</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="95928">
+                  <material>
+                    <mattext texttype="text/plain">HTML 4.01 Strict</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="61536">
+                  <material>
+                    <mattext texttype="text/plain">HTML 4.01 Transitiona</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="96896">
+                  <material>
+                    <mattext texttype="text/plain">HTML 4.01 Standard</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">53957</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i47c65aa6b278cfe0f2c5734b6b60a638" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following describe the data from which Web pages are created, but do not format Web pages?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="58034">
+                  <material>
+                    <mattext texttype="text/plain">Extensible Markup Language (XML) and Standard Generalized Markup Language (SGML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="17620">
+                  <material>
+                    <mattext texttype="text/plain">Extensible Hypertext Markup Language (XHTML) and Standard Generalized Markup Language (SGML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="93890">
+                  <material>
+                    <mattext texttype="text/plain">Extensible Markup Language (XML) and Hypertext Markup Language (HTML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="71446">
+                  <material>
+                    <mattext texttype="text/plain">Hypertext Markup Language (HTML) and Extensible Hypertext Markup Language (XHTML)</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">58034</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i6cdc726b3b4dde9777d14511a617fc0d" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The main goal of Extensible Hypertext Markup Language (XHTML) is to:&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="30192">
+                  <material>
+                    <mattext texttype="text/plain">create a medium that would provide for the transition from HTML to XML.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="9272">
+                  <material>
+                    <mattext texttype="text/plain">create a medium that would provide for the transition from SGML to XML.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="2379">
+                  <material>
+                    <mattext texttype="text/plain">create a medium that would provide for the transition from SGML to HTML.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="41652">
+                  <material>
+                    <mattext texttype="text/plain">create a medium that would provide for the transition from HTML to SGML.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">30192</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i756e8df4e075f6152992fb566e1458ca" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What does Extensible Hypertext Markup Language (XHTML) use to describe a document's visual layout?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="8911">
+                  <material>
+                    <mattext texttype="text/plain">Hypertext Markup Language (HTML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="57732">
+                  <material>
+                    <mattext texttype="text/plain">Cascading Style Sheets (CSS)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="46124">
+                  <material>
+                    <mattext texttype="text/plain">Extensible Markup Language (XML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="54047">
+                  <material>
+                    <mattext texttype="text/plain">Document Type Definition (DTD)</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">8911</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ie1e893ea79cd6cb468012e50032aa1ff" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What does Extensible Hypertext Markup Language (XHTML) use to organize the data on a Web page?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="96434">
+                  <material>
+                    <mattext texttype="text/plain">Extensible Markup Language (XML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="67906">
+                  <material>
+                    <mattext texttype="text/plain">Hypertext Markup Language (HTML)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="63494">
+                  <material>
+                    <mattext texttype="text/plain">Cascading Style Sheets (CSS)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="35816">
+                  <material>
+                    <mattext texttype="text/plain">Document Type Definition (DTD)</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">96434</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i2cc189ae9bd0699e57cc9ebedf57d07f" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is no longer necessary when you use HTML5 to develop Web pages?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="72365">
+                  <material>
+                    <mattext texttype="text/plain">Installing a third-party plug-in to include video</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="45285">
+                  <material>
+                    <mattext texttype="text/plain">Validating your markup code</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="49171">
+                  <material>
+                    <mattext texttype="text/plain">Applying a single W3C standard consistently throughout your document</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="1535">
+                  <material>
+                    <mattext texttype="text/plain">Avoiding proprietary language extensions and technology</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">72365</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="iaa9dff5ed888ec10f6494ef897df5d68" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;The HTML Web development "trifecta" consists of:&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="20858">
+                  <material>
+                    <mattext texttype="text/plain">HTML5, CSS and JavaScript.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="94401">
+                  <material>
+                    <mattext texttype="text/plain">HTML5, XHTML and XML.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="90328">
+                  <material>
+                    <mattext texttype="text/plain">XHTML, CSS and JavaScript.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="20290">
+                  <material>
+                    <mattext texttype="text/plain">XML, CSS and JavaScript.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">20858</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="id89c5de5b0c43fc92b46a738deecd16d" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following was enacted to protect the civil rights of people with disabilities, and includes mandates that electronic information be accessible to people with disabilities?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="49390">
+                  <material>
+                    <mattext texttype="text/plain">Americans with Disabilities Act (ADA)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="11376">
+                  <material>
+                    <mattext texttype="text/plain">Web Content Accessibility Guidelines (WCAG)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="88773">
+                  <material>
+                    <mattext texttype="text/plain">Section 508 of the Rehabilitation Act</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="45396">
+                  <material>
+                    <mattext texttype="text/plain">Web Accessibility Initiative (WAI</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">49390</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i3c312f0403184a91ebe9b5438adbbc3f" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is an Americans with Disabilities Act (ADA) compliance factor?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="52699">
+                  <material>
+                    <mattext texttype="text/plain">You must provide text-based alternatives to all non-text content (e.g., Java applets).</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="79925">
+                  <material>
+                    <mattext texttype="text/plain">You must make documents available without requiring an associated style sheet.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="8411">
+                  <material>
+                    <mattext texttype="text/plain">You must identify all row and column headers when using tables for data.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="44941">
+                  <material>
+                    <mattext texttype="text/plain">You must make information equally available in color and without color.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">52699</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="iefd7f370bce461e8c75bb38feece9a92" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is a Web Accessibility Initiative (WAI) concern?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="9976">
+                  <material>
+                    <mattext texttype="text/plain">Disabled people need to be able to use development tools.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="41967">
+                  <material>
+                    <mattext texttype="text/plain">All images should have text-based descriptions so that sight-impaired visitors can access sites through screen-reader technology.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="99159">
+                  <material>
+                    <mattext texttype="text/plain">All non-text content should be provided with text-base alternatives.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="55654">
+                  <material>
+                    <mattext texttype="text/plain">Forms should be easily read by screen-reading technology.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">9976</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i2d7d7a022a86d68e7fb2a58b066a34e0" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following requires that all electronic and information technology developed, procured, maintained or used specifically by federal agencies be comparably accessible to users with disabilities?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="85639">
+                  <material>
+                    <mattext texttype="text/plain">Section 508 of the Rehabilitation Act</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="44914">
+                  <material>
+                    <mattext texttype="text/plain">Americans with Disabilities Act (ADA)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="54039">
+                  <material>
+                    <mattext texttype="text/plain">Web Content Accessibility Guidelines (WCAG)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="25118">
+                  <material>
+                    <mattext texttype="text/plain">Web Accessibility Initiative (WAI)</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">85639</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i62693e4cd1408dc2d08182608cc7a2a3" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following accommodates Web users with vision impairment?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="88026">
+                  <material>
+                    <mattext texttype="text/plain">Ensuring that all pages and page elements can be rendered by audio screen readers</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="15805">
+                  <material>
+                    <mattext texttype="text/plain">Designing Web pages so that they do not require large, expensive screen resolutions</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="26762">
+                  <material>
+                    <mattext texttype="text/plain">Ensuring that a text-based equivalent of audio content is readily available</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="79148">
+                  <material>
+                    <mattext texttype="text/plain">Providing navigation aids</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">88026</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="icd128985cacd8f6db6ea3bef58f4e83f" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;A storyboard is a document that describes the:&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="970">
+                  <material>
+                    <mattext texttype="text/plain">purpose and intended audience for a Web site, and provides a rough outline of the pages needed.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="65252">
+                  <material>
+                    <mattext texttype="text/plain">design elements you will use in your Web site.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="76068">
+                  <material>
+                    <mattext texttype="text/plain">demographic and cultural issues your Web site will address.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="8308">
+                  <material>
+                    <mattext texttype="text/plain">organizational design standards to which your Web site must adhere.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">970</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i7bd4c523311f12e8834c209e37f3538a" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Generally, successful Web sites:&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="5793">
+                  <material>
+                    <mattext texttype="text/plain">have a strong, central theme aimed at a distinct audience.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="73344">
+                  <material>
+                    <mattext texttype="text/plain">use small fonts to include as much information as possible on each page to minimize the need to navigate to other pages.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="397">
+                  <material>
+                    <mattext texttype="text/plain">use imaginative color schemes to be as eye-catching as possible.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="24615">
+                  <material>
+                    <mattext texttype="text/plain">use as many images as possible to act as hot spots to other site areas and pages.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">5793</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="iae9c1fa1e94f758b8ae730f30f6bc66f" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is the most appropriate reason to create multiple Web sites in various languages?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="9031">
+                  <material>
+                    <mattext texttype="text/plain">To accommodate an international audience</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="96120">
+                  <material>
+                    <mattext texttype="text/plain">To ensure that your sites are ethnically diverse</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="19614">
+                  <material>
+                    <mattext texttype="text/plain">To ensure that your sites are culturally sensitive</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="82764">
+                  <material>
+                    <mattext texttype="text/plain">To teach site visitors words and phrases in different languages</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">9031</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i13dc7baaf8b212cd05603fa50685d489" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;
+&lt;span&gt; &lt;/span&gt;&lt;span class="_title"&gt;If your Web development team includes a marketing representative, which of the following would probably be of most concern to that person?&lt;/span&gt;
+&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="10777">
+                  <material>
+                    <mattext texttype="text/plain">How well the Web site adheres to branding standards</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="94553">
+                  <material>
+                    <mattext texttype="text/plain">How well the Web site addresses relevant customer needs</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="95430">
+                  <material>
+                    <mattext texttype="text/plain">The Web technology to use to best meet the organization's needs</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="47673">
+                  <material>
+                    <mattext texttype="text/plain">The ease with which network servers can be configured</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">10777</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="iafe8bb6c5f28f860911333690915a755" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;When conducting a Web development project meeting, why might it be useful to have a third party deliver a summary of progress?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="99940">
+                  <material>
+                    <mattext texttype="text/plain">A third party may help ensure clarity in meetings that include technical and non-technical participants.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="43990">
+                  <material>
+                    <mattext texttype="text/plain">A third party is usually the one that approves project milestones.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="54065">
+                  <material>
+                    <mattext texttype="text/plain">A third party is usually the most adept at leading discussions that include technical and non-technical participants.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="20231">
+                  <material>
+                    <mattext texttype="text/plain">A third party may be better able to dissipate animosity among meeting participants.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">99940</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ic493e42b15c1f4af4c86b2429793f5fe" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Why should you test Web pages using multiple Web browsers during site development?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="56573">
+                  <material>
+                    <mattext texttype="text/plain">To ensure that the pages render properly in all browsers</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="49727">
+                  <material>
+                    <mattext texttype="text/plain">To ensure that non-technical team members understand the purpose and intended audience for the site</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="86080">
+                  <material>
+                    <mattext texttype="text/plain">To increase the likelihood that all stakeholders will approve the site</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="11901">
+                  <material>
+                    <mattext texttype="text/plain">To minimize the number of meetings held during the development phase</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">56573</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i1ef66af8be9a0f228ee28907417d3296" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is a command-line text-only Web browser?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="84969">
+                  <material>
+                    <mattext texttype="text/plain">Lynx</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="21250">
+                  <material>
+                    <mattext texttype="text/plain">Chrome</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="34906">
+                  <material>
+                    <mattext texttype="text/plain">Opera</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="10239">
+                  <material>
+                    <mattext texttype="text/plain">Internet Explorer</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">84969</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ie0b431799fcb990212c53ad505b485db" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Why is Lynx often used by those who are visually impaired?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="72010">
+                  <material>
+                    <mattext texttype="text/plain">Because it is a command-line text-only Web browser that can be used with software that renders text into voice</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="1510">
+                  <material>
+                    <mattext texttype="text/plain">Because it is an open-source Web browser</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="41729">
+                  <material>
+                    <mattext texttype="text/plain">Because it is included with various versions of the Windows operating system</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="47594">
+                  <material>
+                    <mattext texttype="text/plain">Because it is included with most versions of UNIX/Linux</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">72010</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i08cab786fb2f06260c044f4e58b1496c" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following can be considered a site management task after a Web site becomes active?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="76786">
+                  <material>
+                    <mattext texttype="text/plain">Update dead links and remove unused pages.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="37471">
+                  <material>
+                    <mattext texttype="text/plain">Determine the audience and message.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="61424">
+                  <material>
+                    <mattext texttype="text/plain">Validate design issues.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="69290">
+                  <material>
+                    <mattext texttype="text/plain">Create a site plan.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">76786</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i1a09be3c7a9e25af14cd6eba0d620951" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for a Web user who publishes comments or submits feedback simply to annoy or anger?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="624">
+                  <material>
+                    <mattext texttype="text/plain">Troll</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="15059">
+                  <material>
+                    <mattext texttype="text/plain">Hacker</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="44204">
+                  <material>
+                    <mattext texttype="text/plain">Spammer</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="58590">
+                  <material>
+                    <mattext texttype="text/plain">Blogger</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">624</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i1f835b435781fa7ea4a19036246c94f2" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Before making any changes to an active Web site, you should:&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="47448">
+                  <material>
+                    <mattext texttype="text/plain">obtain a consensus of opinion about changes from customers, upper management, sales, and marketing, then obtain appropriate stakeholder approval.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="81227">
+                  <material>
+                    <mattext texttype="text/plain">determine if your Web development team can be reassembled.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="16761">
+                  <material>
+                    <mattext texttype="text/plain">redesign the storyboard based on feedback you have obtained since the site's inception.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="20038">
+                  <material>
+                    <mattext texttype="text/plain">obtain a consensus of opinion about changes from trolls, then obtain appropriate stakeholder approval.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">47448</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i7ebe2b21d038fbbf0e837c6f5b4f4c80" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What can be considered a drawback of obtaining feedback about your Web site by conducting customer surveys via e-mail?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="87786">
+                  <material>
+                    <mattext texttype="text/plain">Your organization runs the risk of receiving a bad reputation as a spammer.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="53342">
+                  <material>
+                    <mattext texttype="text/plain">Most customers who answer e-mail surveys have idiosyncratic perspectives.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="68632">
+                  <material>
+                    <mattext texttype="text/plain">You increase your chances of receiving prank information from trolls.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="95300">
+                  <material>
+                    <mattext texttype="text/plain">You are able to contact more customers than if you were to conduct the survey in person.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">87786</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ib4a0e4758588ed64d5261fecaf484257" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for the legal ownership of expression by an author?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="96619">
+                  <material>
+                    <mattext texttype="text/plain">Copyright</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="91187">
+                  <material>
+                    <mattext texttype="text/plain">License</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="77380">
+                  <material>
+                    <mattext texttype="text/plain">Trademark</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="24837">
+                  <material>
+                    <mattext texttype="text/plain">Trade secret</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">96619</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i3f4765b4c36a08ab9fc633363fa22fcd" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the term for a unique word, phrase or symbol that is claimed or officially registered by an organization with the government?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="82489">
+                  <material>
+                    <mattext texttype="text/plain">Trademark</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="79337">
+                  <material>
+                    <mattext texttype="text/plain">Copyright</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="27401">
+                  <material>
+                    <mattext texttype="text/plain">License</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="78692">
+                  <material>
+                    <mattext texttype="text/plain">Trade secret</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">82489</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i49957d58be3aa7a4c750746deb32ff54" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;
+&lt;span&gt;P&lt;/span&gt;&lt;span&gt;roviding a link from your Web site to another site without permission is considered:&lt;/span&gt;
+&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="26361">
+                  <material>
+                    <mattext texttype="text/plain">unethical.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="39993">
+                  <material>
+                    <mattext texttype="text/plain">copyright infringement.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="11616">
+                  <material>
+                    <mattext texttype="text/plain">trademark infringement.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="45255">
+                  <material>
+                    <mattext texttype="text/plain">plagiarism.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">26361</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ice7d5ba7a3ec864ccb565106c78a1cd3" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Why should you use a Non-Disclosure Agreement (NDA) when you outsource Web development work to workers in remote locations?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="44510">
+                  <material>
+                    <mattext texttype="text/plain">To protect your organization's trade secrets or intellectual property from being revealed without your consent</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="1745">
+                  <material>
+                    <mattext texttype="text/plain">To grant permission for the workers to use copyrighted material</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="50971">
+                  <material>
+                    <mattext texttype="text/plain">To grant permission for the workers to use trademarks</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="89281">
+                  <material>
+                    <mattext texttype="text/plain">To grant permission for the workers to use trade secrets</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">44510</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="ief9f7f18fd8bf7c56979cd12c55a4041" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which site planning tool describes an outline for a Web presence?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="50611">
+                  <material>
+                    <mattext texttype="text/plain">Wireframe</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="43007">
+                  <material>
+                    <mattext texttype="text/plain">Site diagram</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="49350">
+                  <material>
+                    <mattext texttype="text/plain">Storyboard</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="43563">
+                  <material>
+                    <mattext texttype="text/plain">Site map</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">50611</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i221adb09f42aeb5bee212934b29f4ef0" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What is the difference between an ISP and a cloud service provider?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="59354">
+                  <material>
+                    <mattext texttype="text/plain">An ISP provides bandwidth and possibly Web server space, whereas a cloud service provider provides more complex services such as software-as-a-service (SaaS), backup services and database connectivity.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="19608">
+                  <material>
+                    <mattext texttype="text/plain">An ISP requires you to manage your own server, including security services, whereas a cloud service provider generally provides limited CGI and small databases.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="11274">
+                  <material>
+                    <mattext texttype="text/plain">A cloud service provider provides bandwidth and possibly Web server space, whereas an ISP provides more complex services such as software-as-a-service (SaaS), backup services and database connectivity.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="67384">
+                  <material>
+                    <mattext texttype="text/plain">A cloud service provider typically does not provide enterprise resource planning (ERP), whereas an ISP almost always does.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">59354</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="id66057051a8a279e723ce32871ed8f21" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which service provides the ability to automate the planning and operations of an entire organization?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="56880">
+                  <material>
+                    <mattext texttype="text/plain">Enterprise resource planning (ERP)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="2192">
+                  <material>
+                    <mattext texttype="text/plain">Software-as-a-service (SaaS)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="39171">
+                  <material>
+                    <mattext texttype="text/plain">Common Gateway Interface (CGI)</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="38802">
+                  <material>
+                    <mattext texttype="text/plain">Web development project cycle</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">56880</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i7f65aa03cb6aa3f0f2410bfd915e5854" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which hosting solution is characterized by a service provider that allocates space for your equipment but does not provide the server hardware?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="34669">
+                  <material>
+                    <mattext texttype="text/plain">Co-location</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="84575">
+                  <material>
+                    <mattext texttype="text/plain">Co-hosting</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="22178">
+                  <material>
+                    <mattext texttype="text/plain">Virtual server</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="20900">
+                  <material>
+                    <mattext texttype="text/plain">Dedicated hosting</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">34669</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i5eb82e898b04adc81c8ebddd0eaedbe3" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which of the following is typically an advantage to configuring your own hosting server over using an ISP or a cloud service provider?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="28502">
+                  <material>
+                    <mattext texttype="text/plain">You have more choices in the configuration.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="94439">
+                  <material>
+                    <mattext texttype="text/plain">You do not need to purchase software or hardware.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="44776">
+                  <material>
+                    <mattext texttype="text/plain">Configuring your own servers will take less time.</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="61847">
+                  <material>
+                    <mattext texttype="text/plain">You do not need to purchase hardware.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">28502</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+        <item ident="i98365210029336483a6bbb3aac350e31" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;What specific information would you need to obtain from an ISP or cloud service provider whose hosting services you wanted to use?&lt;/span&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="3018">
+                  <material>
+                    <mattext texttype="text/plain">Account information, IP addresses, DNS server names, and file and directory location instructions</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="31441">
+                  <material>
+                    <mattext texttype="text/plain">IP addresses, business plan and organizational chart</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="58045">
+                  <material>
+                    <mattext texttype="text/plain">DNS server names, account information and business plan</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="91343">
+                  <material>
+                    <mattext texttype="text/plain">Business plan, IP addresses, and file and directory location instructions</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">3018</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+        </item>
+      </section>
+    </section>
+  </assessment>
+</questestinterop>

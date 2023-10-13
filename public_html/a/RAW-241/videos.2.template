@@ -1,0 +1,56 @@
+<div style="padding: 25px; background-color: #005588;">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="./icons/smaller_logo.png"
+                        alt="smaller_logo.png"
+                         /></td>
+                <td style="padding: 25px; color: white;"><span style="font-size: large;"><span
+                            class="ellipsible">VIDEOS</span></span></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <div style="padding: 0px 25px 25px; background-color: #bbd6ef;">
+            <h3><span class="ellipsible">Watch following videos</span></h3>
+            <div style="padding: 25px; border: thin solid black;">
+            <p><br />Successful demonstration of your competencies for this course may be done by
+                watching the following videos. You are required to watch at least once 
+                videos labeled "Mandatory". The remaining videos are optional but I highly 
+                recommend to watch:</p>
+            <ul>
+		
+		<li>========================</li>
+		<li><iframe src="//player.vimeo.com/video/74677642?title=0&amp;byline=0&amp;portrait=0&amp;
+                 color=8dc7dc" width="300" height="180" allowfullscreen="allowfullscreen"></iframe></li>
+		<li>_________________________________</li>
+		<li>=======================</li>
+		<li><iframe src="//www.youtube.com/embed/BU2rjqA_8Y4" width="300" height="180"
+                         allowfullscreen="allowfullscreen"</iframe></li>
+		<li>===============================</li>
+        <li>========================</li>
+		<li><iframe src="//player.vimeo.com/video/74677642?title=0&amp;byline=0&amp;portrait=0&amp;
+                 color=8dc7dc" width="300" height="180" allowfullscreen="allowfullscreen"></iframe></li>
+		<li>_________________________________</li>
+        <li>========================</li>
+		<li><iframe src="//player.vimeo.com/video/74677642?title=0&amp;byline=0&amp;portrait=0&amp;
+                 color=8dc7dc" width="300" height="180" allowfullscreen="allowfullscreen"></iframe></li>
+		<li>_________________________________</li>
+        <li>========================</li>
+		<li><iframe src="//player.vimeo.com/video/74677642?title=0&amp;byline=0&amp;portrait=0&amp;
+                 color=8dc7dc" width="300" height="180" allowfullscreen="allowfullscreen"></iframe></li>
+		<li>_________________________________</li>
+		<li>========================</li>
+		
+                <li></li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li></li>
+            </ul>
+            <p>Click Next to continue</p>
+        </div>
+    </div>
+</div>
+<ul>
+

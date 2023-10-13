@@ -1,0 +1,52 @@
+var tt;
+// INIT - called on doc load
+function initBanner() {
+  tl = new TimelineLite();
+  //console.log('building timeline');
+  //	tl.timeScale = 0.2;
+  tl.pause();
+  // timeineLite wants timings in seconds
+  transitionTime = transitionTime / 1000;
+  holdTime = holdTime / 1000;
+  tt = transitionTime;
+  initExtras();
+  buildTimeline();
+}
+
+var tl;
+
+function buildTimeline() {
+
+  //cap the timeline duration to banner requirements
+  //console.log('setting timeline max duration to ' + timelineMaxDuration);
+  tl.duration(timelineMaxDuration);
+
+  // weird hack to get round inline stlyes borking on first playthrough
+  tl.play(tl.duration());
+
+  //all done processing - kick off the animation
+  //console.log("removing bodyclass");
+  // if we have a preload class then remove it
+  document.body.className = document.body.className.replace("pre-load", "");
+  setTimeout(function() {
+    tl.play(0);
+  }, 1);
+}
+
+
+var testTimer;
+var timerInc = 0;
+function test() {
+  //start timer
+  timerInc = 0;
+  clearInterval(testTimer);
+  testTimer = setInterval(function() {
+    timerInc += 100;
+  }, 100);
+  // start timeline
+  tl.play(0);
+  // start countdown
+  setTimeout(function() {
+    console.log("FINISHED AT:" + timelineMaxDuration + "s");
+  }, timelineMaxDuration * 1000);
+}

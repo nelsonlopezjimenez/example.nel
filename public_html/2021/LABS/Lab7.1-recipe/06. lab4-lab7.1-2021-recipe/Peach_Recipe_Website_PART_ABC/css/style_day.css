@@ -1,0 +1,156 @@
+/*/*James Day, 343539, TRU, Peach Cobbler Recipe Website*/
+body{
+	/*margin:1%;*/
+	width:98%;
+	font-family:Verdana;
+	background-color:yellow;
+	font-size:10px;
+}
+*{
+	box-sizing: border-box;
+	border: 2px blue solid;
+}
+/*p{
+	font-size:16px;
+	font-size:1vw;
+	overflow:auto;
+	width:100%;
+}
+h1{
+	font-size:32px;
+	font-size:2.2vw;
+}
+h2{
+	font-size:24px;
+	font-size:1.66vw;
+}
+h3{
+	font-size:18px;
+	font-size:1.3vw;*/
+}
+#main_content{
+	margin:auto;
+	width:70%;
+	background-color:black;
+	/*overflow:auto;*/
+	/*border-radius:5px;*/
+}
+header{
+	background-color:rgba(226, 225, 225, 0.42);
+}
+#recipe{
+	/*margin:auto;
+	overflow:auto;*/
+	float:left;
+}
+#about{
+	float:left;
+	width:60%;
+}
+#save{
+	background-color:orange;
+	color:white;
+	border-radius:2vw; 
+	border-width:0;
+	font-size:16px;
+	font-size:1.1vw;
+}
+video{
+	width:38%;
+	float:left;
+}
+hr{
+	border-color:orange;
+}
+#ingredients{
+	float:left;
+}
+ul{
+	float:left;
+	list-style:none;
+	padding-left:0;
+}
+li{
+	float:left;
+	padding-bottom:10px;
+	padding-bottom:0.69vh;
+	font-size:16px;
+	font-size:1.1vw;
+}
+ul li{
+	width:45%;
+	padding-right:5%;	
+}
+ul li:before{
+	content:"";
+	background-image: url("../images/plus-icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height:16px;
+	height:2vh;
+	width:29px;
+	width:2vh;
+	display: inline-block;
+}
+ul li:hover, #save:hover{
+	background-color:rgba(255, 165, 0, 0.39);
+}
+ol{
+	padding-left:5vw;
+}
+#directions{
+	overflow:auto;
+	width:100%;
+}
+#reviews{
+	float:left;
+}
+#number-reviews{
+	color:grey;
+}
+#one, #two, #three{
+	float:left;
+	width:24%;
+	border:5px dotted orange;
+	border:0.625vw dotted orange;
+	margin:10px;
+	margin:1.25vw;
+	padding:10px;
+	padding:1.25vw;
+}
+.userInfo{
+	overflow:auto;
+	margin:auto;
+	width:max-content;
+}
+.userPic{
+	width:30px;
+	width:3.75vw;
+	border-radius:30px;
+	border-radius:3.75vw;
+	float:left;
+	margin-right:0.5vw;
+}
+.username{
+	font-size:24px;
+	font-size:1.66vw;
+	float:left;
+	clear:right;
+	width:auto;
+}
+.star-images{
+	width:100%;
+	float:left;
+	clear:right;
+}
+.star-reviews img{
+	width:11.25px;
+	width:2vw;
+}
+#share{
+	float:left;
+}
+#share img{
+	width:50px;
+	width:6.25vw;
+}*/

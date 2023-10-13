@@ -1,0 +1,70 @@
+body{
+    border: 2px solid red;
+}
+*{
+    box-sizing: border-box;
+}
+article{
+    width:30%;
+    background-color: #aaa;
+    /* float:left; */
+    text-align: center;
+    margin:1%;
+    padding:1%;
+    overflow: auto;
+}
+
+#main-content{
+    overflow: hidden;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin:auto;
+}
+footer span {
+	background-color:#005588;
+    font-size: 100px;
+    padding:10px;
+    margin: 10px;
+}
+
+.lispecial article{
+    float:left;
+    border: 2px solid green;
+}
+ul{
+    overflow:auto
+}
+ul span{
+    background-color: red;
+    color:white;
+}
+/**
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>007 - c15</title>
+    <link rel="stylesheet" href="./css/2021.css">
+</head>
+
+<body>
+......
+
+       
+            <footer>
+                <div>
+                    <a href="week001.html"><span class='backforward'>&#171;</span></a>
+                    <a href="week003.html"> <span class='backforward'>&#187;</span></a>
+                    <a href="/"><span>&#8962;</span></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
+*/

@@ -1,0 +1,142 @@
+body{
+    background-color: #e6e6e6;
+    width: 98%;
+    font-style: Verdana;
+    /*margin: 0 auto;*/
+    border-radius: 6%;
+    font-size: 15px;
+}
+
+#main_content{
+    width: 80%;
+    background-color: green;
+    /*overflow: auto;*/
+    margin: auto;
+ }
+ 
+ #save {
+     width: 30%;
+     color: white;
+     background-color: orange;
+     border-radius: 2%;
+     border-width: 0;
+     font-size: 16px;
+     font-size: 1.1vw;
+ }
+video{
+     float: left;
+     width: 40%;
+ }
+
+ #recipe{
+     float: left;
+ }
+
+#about{
+     float: left;
+     width: 60%; 
+}
+
+header{
+     background-color: rgba(226,225,225,0.42)
+}
+
+#ingredients{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ol{
+  list-style: none;
+}
+
+ol li::before{
+    font-size: 16px;
+    font-size: 1.1vw;
+}
+
+ul{
+    list-style: none;
+}
+ul li:before{
+    content: "";
+    background-image: url('../images/plus-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Calculate Fallback dimensions her*/
+    height: 2vh;
+    width: 2vh;
+    display: inline-block;
+} 
+
+ul li{
+   
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    font-size: 1.1vw;
+}
+
+#directions{
+    float: left;
+}
+
+hr{ 
+    border-color: orange;
+}
+
+#one,#two,#three{
+    border: 5px dotted orange;
+    float: left;
+    width: 26.5%; 
+    margin: 5px; 
+    font-size: 24px;
+    font-size: 1.66vw;
+    
+}
+
+#share {
+    float: left;
+}
+.media{
+    width: 5%;
+    float: left;
+}
+
+#reviews:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.image {
+    width: 35px;
+    padding: 5px;
+    border-radius: 50%
+}
+
+#number-reviews {
+    color: #808080;
+}
+
+ul>li:hover{
+    background-color: orange;
+}
+
+p{
+    font-size: 1vw;
+}
+
+h1{
+   font-size: 2.2vw;
+}
+
+h2{
+    font-size: 1.66vw;
+}
+
+h3{
+    font-size: 1.3vw;
+}

@@ -1,0 +1,134 @@
+/*Peach Cobbler Recipe solution part A styleGlobalOnly.css 
+   Oct 22, 2018 by Nelson Lopez
+   issues: if not main_content overflow auto then
+   body background bleeds into main_content*/
+body {
+	background: #cccccc;
+	width:100%;
+	font-family: verdana;
+}
+* {
+	box-sizing: border-box;
+}
+#main_content {
+	width: 70%;
+	background: #ffffff;
+	overflow:auto;
+	/*position: center; no effect*/
+	/*float:left; solve the issue with background color,
+	but no way to center it*/
+	margin:auto;
+}
+#recipe, #about {
+	float: left;
+}
+#about {
+	width: 60%;
+}
+video {
+	float:left;
+	width: 40%;
+}
+header {
+	background: rgba(226,225,225,0.42);
+}
+hr {
+	border-color: orange;
+}
+ul{
+	float:left;
+	padding:0;
+}
+ul li {
+	width: 50%;
+	float: left;
+	list-style: none;
+}
+li {
+	/*width: 50%;*/
+	float; left;
+}
+ul li:before {
+	content:"";
+	background-image: url("../images/plus-icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height:16px;
+	height:2vh;
+	width:29px;
+	width:2vh;
+	display: inline-block;
+}
+ul li:hover {
+	background-color: red;
+}
+#save{
+	background-color:orange;
+	color:white;
+	border-radius:2vw; 
+	border-width:0;
+	font-size:16px;
+	font-size:1.1vw;
+}
+#save:hover {
+	background: blue;
+}
+/*list items are left, the wrapping container needs clear*/
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_template1_float*/
+#ingredients {
+	content="";
+	display:table;
+	clear:both;
+	/*border: 2px blue dashed;	*/
+}
+/*one,two,and three are left. The wrapping container needs*/
+#reviews { 
+	content: "";
+	display: inline-block;
+	clear:both;
+}
+#one,#two,#three {
+	float:left;
+	width:29%;
+	border:5px dotted orange;
+	border:0.625vw dotted orange;
+	margin:10px;
+	margin:1.25vw;
+	padding:10px;
+	padding:1.25vw;
+}
+/*RED RED RED RED RED RED REED*/
+/*.star-reviews img:nth-child(2) {  
+	width:4.25px;
+	width:2vw;
+	border:1px green solid;
+}*/
+/*RED RED RED RED RED RED REED*/
+/*.star-reviews img {  
+	width:4.25px;
+	width:2vw;
+	border:1px red solid;
+}*/
+/* BLUE BLUE BLUE BLUE BLUE BLUE BLUE BLUE
+   parent: one,two,three  first child: user icon*/
+#one>img:first-child,#two>img:first-child,#three>img:first-child{
+/* arrow used to select only the first child, otherwise 
+   with no arrow all children and siblings are styled*/
+/*#one img:first-child,#two img:first-child,#three img:first-child{*/
+	width:30px;
+	width:3.75vw;
+	border-radius:30px;
+	border-radius:3.75vw;
+	float:left;
+	margin-right:0.5vw;
+	border: 2px blue solid;
+}
+/*facebook twitter and mail*/
+/*#share img{
+	float:left;
+	width:50px;
+	width:6.25vw;
+}*/
+img {
+	border:5px dashed green;
+}

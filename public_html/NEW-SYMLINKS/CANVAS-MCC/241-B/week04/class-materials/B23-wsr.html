@@ -1,0 +1,237 @@
+<div style="background-color: #005588; padding: 25px 25px 25px 25px;">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://canvas.ed/courses/253499000000060/files/253499000006686/preview" alt="smaller_logo.png"
+                        data-api-endpoint="https://canvas.ed/api/v1/courses/253499000000060/files/253499000006686" data-api-returntype="File"
+                    />
+                </td>
+                <td style="color: white; padding: 25px 25px 25px 25px;">
+                    <span style="font-size: large;">CSS</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;">
+            <h3>CSS</h3>
+            <p>Cascading Style Sheets is all about separating content from the rules about how the content is going to be displayed.</p>
+            <div style="border: thin black solid; padding: 25px 25px 25px 25px;">
+                <p>
+                    <em>Lesson Objective:</em>
+                </p>
+                <ul>
+                    <li>
+                        <em>Explain how to structure Web documents with CSS.</em>
+                    </li>
+                    <li>
+                        <em>Identify ways to apply styles with CSS. </em>
+                    </li>
+                    <li>
+                        <em>Use CSS and HTML5 elements to create document structure.</em>
+                    </li>
+                </ul>
+            </div>
+            <p>&nbsp;</p>
+            <p>Imagine a Web site with thousands of pages (yes, there are many, Amazon.com, Microsoft.com) and as the Web development
+                team, you've decided to change the base font used within all your pages...&nbsp; There was a time when you
+                had to go through and change each and every page.&nbsp; Now that can be done with the change of a single
+                line of code within an external style sheet.</p>
+            <ul>
+                <li>bucky-roberts/HTML5 Tutorial For Beginners - 6 of 6 - CSS Page Layout</li>
+            </ul>
+            &nbsp;CSS Tutorial - Page layout
+            <video width="300" height="150" controls="controls">
+                <source src="http://youtube.nel/RAW-VIDEOS/bucky-roberts/HTML5%20Tutorial%20For%20Beginners%20-%206%20of%206%20-%20CSS%20Page%20Layout-CPcS4HtrUEU.webm"
+                    type="video/webm" />
+            </video>
+        </div>
+        <div style="background-color: #bbd6ef; padding: 0px 25px 25px 25px;">
+            <ul>
+                <li>5:28 video by ProgrammersCreed</li>
+            </ul>
+            HTML5 and CSS3 Beginner Tutorial 11 - Introduction to CSS
+            <video width="300" height="150" controls="controls">
+                <source src="http://youtube.nel/RAW-VIDEOS/quentin-watt/HTML5%20and%20CSS3%20Beginner%20Tutorial%2011%20-%20Introduction%20to%20CSS-WENkAui--lc.mkv"
+                />
+            </video>
+            <h3>
+                <em>Understanding The Basic Syntax of CSS</em>
+            </h3>
+            <p>CSS is simply a set of rules being applied to your Web page content.&nbsp; Think of each grouping as a "rule".&nbsp;
+                Style has a very simple beginning syntax.</p>
+            <p>&nbsp;</p>
+            <div style="background-color: white; padding: 25px 25px 25px 25px; border: thin black solid; font-family: monospace;">body {
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; background-color: teal;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; color: white;
+                <br />}
+                <br />h1 {
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; color: yellow;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; font-style: italic;
+                <br />}</div>
+            <p>&nbsp;</p>
+            <p>In the examples above, each piece has a name and a definition.</p>
+            <table style="margin-left: 10px; margin-right: 10px;" border="1">
+                <tbody>
+                    <tr>
+                        <td>Example</td>
+                        <td>Name</td>
+                        <td>Definition</td>
+                    </tr>
+                    <tr>
+                        <td>body</td>
+                        <td>Selector</td>
+                        <td>the element, class of elements, or unique element identifier that is going to be changed by the rule
+                            being defined.&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 30px;">background-color</td>
+                        <td>Property</td>
+                        <td>the part of the body that is being changed by the rule</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 30px;">teal</td>
+                        <td>Value</td>
+                        <td>the value being applied to the property</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 30px;">color</td>
+                        <td>Property</td>
+                        <td>the part of the body that is being changed by the rule</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 30px;">white</td>
+                        <td>Value</td>
+                        <td>the value being applied to the property</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;</p>
+            <p>In the example above, can you identify the second selector?&nbsp; The first property being changed of the second
+                selector? The value being assigned to the second first property of the second selector?</p>
+            <p>&nbsp;</p>
+            <h3>
+                <em>Adding CSS to your HTML Pages</em>
+            </h3>
+            <p>There are three ways that you can add style to your pages.&nbsp; These three means of adding style are:</p>
+            <ul>
+                <li>inline - within an actual HTML element</li>
+                <li>embedded - within a &lt;style&gt; element</li>
+                <li>external - link to an external css file</li>
+            </ul>
+            <p>It is important to know the order of these as inline has the highest precedence within your Web page.&nbsp; If
+                you inline style rule is the same as something that you've created in your embedded style, the inline style
+                will rule will be rendered.&nbsp; Likewise, if you have a rule in your embedded style that is the something
+                you've defined in your external style sheet, the embedded style will be rendered.&nbsp;</p>
+            <h4>
+                <strong>Inline Style</strong>
+            </h4>
+            <p>Inline style is created within an actual HTML element.&nbsp; Example:</p>
+            <div style="background-color: white; padding: 25px 25px 25px 25px; border: thin black solid; font-family: monospace;">&lt;!DOCTYPE html&gt;
+                <br />&lt;html lang="en"&gt;
+                <br />&lt;head&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;Inline Style Example&lt;/title&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="author" content="Marti Baker" /&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="date" content="11/12/2013" /&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="fnt0">&lt;meta name="robots" content="</span>NOINDEX, NOFOLLOW
+                <span class="fnt0">" /&gt;</span>
+                <br />&lt;/script&gt;
+                <br />&lt;/head&gt;
+                <br />&lt;body&gt;
+                <br />
+                <br />&lt;!-- Your visible page content --&gt;
+                <br />&lt;p&gt;This a paragraph about nothing.&nbsp; There is no style applied to this paragraph&lt;/p&gt;
+                <br />
+                <br />&lt;p style="background-color: #66CCCC;"&gt;This is a paragraph about something.&nbsp; The background color
+                of this paragraph is light blue.&lt;/p&gt;
+                <br />
+                <br />&lt;/body&gt;
+                <br />&lt;/html&gt;</div>
+            <p>&nbsp;</p>
+            <h4>
+                <strong>Embedded Style</strong>
+            </h4>
+            <p>Embedded style is created within the head of your Web document.&nbsp; Example:</p>
+            <div style="background-color: white; padding: 25px 25px 25px 25px; border: thin black solid; font-family: monospace;">&lt;!DOCTYPE html&gt;
+                <br />&lt;html lang="en"&gt;
+                <br />&lt;head&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;Embedded Style Example&lt;/title&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="author" content="Marti Baker" /&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="date" content="11/13/2013" /&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="fnt0">&lt;meta name="robots" content="</span>NOINDEX, NOFOLLOW
+                <span class="fnt0">" /&gt;</span>
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;style type="text/css"&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; h1 {
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; color: yellow;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-style: italic;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;/style&gt;
+                <br />&lt;/script&gt;
+                <br />&lt;/head&gt;
+                <br />&lt;body&gt;
+                <br />&lt;!-- Your visible page content --&gt;
+                <br />&lt;h1&gt;Attention World!&lt;/h1&gt;
+                <br />
+                <br />&lt;p&gt;The heading above would be rendered in yellow and italic when displayed in a browser.&lt;/p&gt;
+                <br
+                />
+                <br />&lt;/body&gt;
+                <br />&lt;/html&gt;</div>
+            <p>&nbsp;</p>
+            <h4>
+                <strong>External Style Sheets</strong>
+            </h4>
+            <p>External style sheets are used to control the full look and feel of a complete Web site.&nbsp; They are efficient
+                and effective.&nbsp; In the first example, I show you how an external style sheet, including comments are
+                created.&nbsp; External style sheets are saved with a .css file extension.&nbsp; In the second example, I
+                show you how to reference external style sheet in your Web page.</p>
+            <div style="background-color: white; padding: 25px 25px 25px 25px; border: thin black solid; font-family: monospace;">/* These are style sheet comments */
+                <br />/* Be sure to include your name within your comments */
+                <br />
+                <br />body {
+                <br />&nbsp;&nbsp; &nbsp;background-color:teal;
+                <br />&nbsp;&nbsp; &nbsp;color:white;
+                <br />&nbsp;&nbsp; &nbsp;font-family:verdana;
+                <br />
+                <br />}
+                <br />h2 {
+                <br />&nbsp;&nbsp; &nbsp;text-align:center;
+                <br />}</div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <div style="background-color: white; padding: 25px 25px 25px 25px; border: thin black solid; font-family: monospace;">&lt;!DOCTYPE html&gt;
+                <br />&lt;html lang="en"&gt;
+                <br />&lt;head&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;Including External Style Sheets&lt;/title&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8"/&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="author" content="Marti Baker" /&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta name="date" content="11/12/2013" /&gt;
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="fnt0">&lt;meta name="robots" content="</span>NOINDEX, NOFOLLOW
+                <span class="fnt0">" /&gt;</span>
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; &lt;link rel="stylesheet" type="text/css" href="includes/mystyle.css"/&gt;
+                <br />&lt;/script&gt;
+                <br />&lt;/head&gt;
+                <br />&lt;body&gt;
+                <br />&lt;!-- Your visible page content --&gt;
+                <br />
+                <br />&lt;h2&gt;Hello World!&lt;/h2&gt;
+                <br />&lt;p&gt;Welcome to a page which will have a teal background, the Hello World! above will be centered, and
+                the text will all be in white, and the font will be Verdana.&lt;/p&gt;
+                <br />&lt;/body&gt;
+                <br />&lt;/html&gt;</div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>
+                <br />
+                <br />Click Next to continue</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>

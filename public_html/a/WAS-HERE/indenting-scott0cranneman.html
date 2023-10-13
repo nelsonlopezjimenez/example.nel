@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#examples -->
+<html lang="en" class=" cID-576 js no-touch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+<title>Formatting &amp; Indenting Your HTML :: Scott Granneman</title>
+<meta name="description" content="Some tips for making your HTML as clean, readable, &amp; pretty as possible.">
+<meta name="generator" content="concrete5 - 5.6.3.1">
+<script type="text/javascript" async="" src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/ga.js.download"></script><script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/index.php';
+var CCM_CID = 576;
+var CCM_EDIT_MODE = false;
+var CCM_ARRANGE_MODE = false;
+var CCM_IMAGE_PATH = "https://www.granneman.com/concrete/images";
+var CCM_TOOLS_PATH = "/index.php/tools/required";
+var CCM_BASE_URL = "https://www.granneman.com";
+var CCM_REL = "";
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/ccm.base.css">
+<script type="text/javascript" src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/jquery.js.download"></script>
+<script type="text/javascript" src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/ccm.base.js.download"></script>
+<script type="text/javascript" src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/view.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/view.css">
+<script src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/highlight.pack.js.download" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" media="screen" type="text/css" href="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/sunburst.css">
+<style>
+  .title {font-style: normal !important;}
+</style>  
+  <link href="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/bootstrap.css" rel="stylesheet">
+  <link href="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/main.css" rel="stylesheet">
+  <link href="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/conversion.css" rel="stylesheet">
+
+  <script src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/bootstrap.min.js.download"></script>
+  <script src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/modernizr.js.download"></script>
+
+  <link rel="author" href="https://www.granneman.com/humans.txt">
+  <meta name="p:domain_verify" content="6e9453695482510a59bb33801d0c7276">
+</head>
+
+<body id="toc-top" class="cID-576"> <div id="wrap">
+	<header class="site-header">
+		<div class="container">
+			<div class="col-sm-5">
+				<h1><a href="https://www.granneman.com/">Scott Granneman</a></h1>
+			</div>
+			<div class="col-sm-7">
+				
+<div class="ccm-random-image">
+	<a href="https://www.granneman.com/personal/photos/about-the-images-on-my-home-page/">	<img src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/afaf70b89e29807e2c26f763dba5e868.jpg" width="468" height="130" alt="panorama-137.jpg">
+	</a></div>			</div>
+		</div>
+	</header>
+  <nav class="navbar navbar-inverse ">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand visible-xs" href="https://www.granneman.com/">Home</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-core"><li class="dropdown"><a href="https://www.granneman.com/writing/" target="_self" class="dropdown-toggle">Writing</a><ul class="dropdown-menu"><li class=""><a href="https://www.granneman.com/writing/books/" target="_self" class="">Books</a></li><li class=""><a href="https://www.granneman.com/writing/securityfocus/" target="_self" class="">SecurityFocus</a></li><li class=""><a href="https://www.granneman.com/writing/linuxmagazine/" target="_self" class="">Linux Magazine</a></li><li class=""><a href="https://www.granneman.com/writing/historical/" target="_self" class="">Historical</a></li><li class=""><a href="https://www.granneman.com/writing/swingsmisses/" target="_self" class="">Swings &amp; Misses</a></li><li class=""><a href="https://www.granneman.com/writing/essays/" target="_self" class="">Essays</a></li></ul></li><li class="dropdown"><a href="https://www.granneman.com/presentations/" target="_self" class="dropdown-toggle">Presentations</a><ul class="dropdown-menu"><li class=""><a href="https://www.granneman.com/presentations/interviews/" target="_self" class="">Interviews</a></li><li class=""><a href="https://www.granneman.com/presentations/laduechapel/" target="_self" class="">Ladue Chapel</a></li><li class=""><a href="https://www.granneman.com/presentations/exploring-html5-css/" target="_self" class="">Exploring HTML5 &amp; CSS</a></li><li class=""><a href="https://www.granneman.com/presentations/advanced-css/" target="_self" class="">Advanced CSS</a></li><li class=""><a href="https://www.granneman.com/presentations/html-css-responsive-web-design/" target="_self" class="">HTML to CSS to Responsive Web Design</a></li><li class=""><a href="https://www.granneman.com/presentations/responsive-web-design-designers/" target="_self" class="">Responsive Web Design for Designers</a></li><li class=""><a href="https://www.granneman.com/presentations/web-design/" target="_self" class="">Web Design</a></li><li class=""><a href="https://www.granneman.com/presentations/operating-systems/" target="_self" class="">Operating Systems</a></li><li class=""><a href="https://www.granneman.com/presentations/various-sundry/" target="_self" class="">Various &amp; Sundry</a></li><li class=""><a href="https://www.granneman.com/presentations/archived-presentations/" target="_self" class="">Archived Presentations</a></li><li class=""><a href="https://www.granneman.com/presentations/creative-commons-license/" target="_self" class="">Creative Commons License</a></li></ul></li><li class="dropdown"><a href="https://www.granneman.com/teaching/" target="_self" class="dropdown-toggle">Teaching</a><ul class="dropdown-menu"><li class=""><a href="https://www.granneman.com/teaching/currentcourses/" target="_self" class="">Current Courses</a></li><li class=""><a href="https://www.granneman.com/teaching/washingtonuniversity/" target="_self" class="">Washington University</a></li><li class=""><a href="https://www.granneman.com/teaching/websteruniversity/" target="_self" class="">Webster University</a></li><li class=""><a href="https://www.granneman.com/teaching/teaching-leadership-center/" target="_self" class="">Technology &amp; Leadership Center</a></li><li class=""><a href="https://www.granneman.com/teaching/web-development-granneman-way/" target="_self" class="">Web Development The Granneman Way</a></li><li class=""><a href="https://www.granneman.com/teaching/stlouiscommunitycollege/" target="_self" class="">St. Louis Community College</a></li><li class=""><a href="https://www.granneman.com/teaching/studentevaluations/" target="_self" class="">Student Evaluations</a></li><li class=""><a href="https://www.granneman.com/teaching/web-dev-assignments/" target="_self" class="">Web Dev Assignments</a></li><li class=""><a href="https://www.granneman.com/teaching/archives/" target="_self" class="">Archives</a></li></ul></li><li class="nav-path-selected dropdown"><a href="https://www.granneman.com/webdev/" target="_self" class="dropdown-toggle">Web Dev</a><ul class="dropdown-menu"><li class=""><a href="https://www.granneman.com/webdev/becoming-a-web-developer/" target="_self" class="">Becoming a Web Developer</a></li><li class="nav-path-selected"><a href="https://www.granneman.com/webdev/coding/" target="_self" class="">Coding</a></li><li class=""><a href="https://www.granneman.com/webdev/programming/" target="_self" class="">Programming</a></li><li class=""><a href="https://www.granneman.com/webdev/editors/" target="_self" class="">Editors</a></li><li class=""><a href="https://www.granneman.com/webdev/browsers/" target="_self" class="">Web Browsers</a></li><li class=""><a href="https://www.granneman.com/webdev/domains/" target="_self" class="">Domains</a></li><li class=""><a href="https://www.granneman.com/webdev/hosting/" target="_self" class="">Hosting</a></li><li class=""><a href="https://www.granneman.com/webdev/graphicsmultimedia/" target="_self" class="">Graphics &amp; Multimedia</a></li><li class=""><a href="https://www.granneman.com/webdev/content/" target="_self" class="">Content</a></li></ul></li><li class="dropdown"><a href="https://www.granneman.com/tech/" target="_self" class="dropdown-toggle">Tech</a><ul class="dropdown-menu"><li class=""><a href="https://www.granneman.com/tech/background/" target="_self" class="">Background</a></li><li class=""><a href="https://www.granneman.com/tech/tools/" target="_self" class="">Tools</a></li><li class=""><a href="https://www.granneman.com/tech/intellectualproperty/" target="_self" class="">Intellectual Property</a></li><li class=""><a href="https://www.granneman.com/tech/security/" target="_self" class="">Security</a></li><li class=""><a href="https://www.granneman.com/tech/email/" target="_self" class="">Email</a></li><li class=""><a href="https://www.granneman.com/tech/networking/" target="_self" class="">Networking</a></li><li class=""><a href="https://www.granneman.com/tech/blogspodcastsrss/" target="_self" class="">Blogs, Podcasts, RSS</a></li><li class=""><a href="https://www.granneman.com/tech/search/" target="_self" class="">Search</a></li><li class=""><a href="https://www.granneman.com/tech/linux/" target="_self" class="">Linux</a></li><li class=""><a href="https://www.granneman.com/tech/windows/" target="_self" class="">Windows</a></li><li class=""><a href="https://www.granneman.com/tech/education/" target="_self" class="">Education</a></li></ul></li><li class="dropdown"><a href="https://www.granneman.com/personal/" target="_self" class="dropdown-toggle">Personal</a><ul class="dropdown-menu"><li class=""><a href="https://www.granneman.com/personal/bio/" target="_self" class="">Bio</a></li><li class=""><a href="https://www.granneman.com/personal/work/" target="_self" class="">Work</a></li><li class=""><a href="https://www.granneman.com/personal/movies/" target="_self" class="">Movies</a></li><li class=""><a href="https://www.granneman.com/personal/music/" target="_self" class="">Music</a></li><li class=""><a href="https://www.granneman.com/personal/reading/" target="_self" class="">Reading</a></li><li class=""><a href="https://www.granneman.com/personal/poetry/" target="_self" class="">Poetry</a></li><li class=""><a href="https://www.granneman.com/personal/prose/" target="_self" class="">Prose</a></li><li class=""><a href="https://www.granneman.com/personal/weddings-funerals/" target="_self" class="">Weddings &amp; Funerals</a></li><li class=""><a href="https://www.granneman.com/personal/photos/" target="_self" class="">Photos</a></li><li class=""><a href="https://www.granneman.com/personal/journals/" target="_self" class="">Journals</a></li><li class=""><a href="https://www.granneman.com/personal/commonplacebook/" target="_self" class="">Commonplace Book</a></li><li class=""><a href="https://www.granneman.com/personal/ourhome/" target="_self" class="">Our Home</a></li><li class=""><a href="https://www.granneman.com/personal/opinionseditorials/" target="_self" class="">Opinions &amp; Editorials</a></li></ul></li></ul>        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.granneman.com/site-map">Site Map</a></li>
+          <li><a href="https://www.granneman.com/search">Search</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<header class="ws-header">
+  <div class="container">
+    <h1 class="page_title">Formatting &amp; Indenting Your HTML</h1>  </div>
+</header>
+<nav class="ws-pathnav">
+  <div class="container">
+    <ol class="breadcrumb"><li><a href="https://www.granneman.com/" target="_self">Home</a></li><li><a href="https://www.granneman.com/webdev/" target="_self">Web Dev</a></li><li><a href="https://www.granneman.com/webdev/coding/" target="_self">Coding</a></li><li class="active"><a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#" class="active">Formatting &amp; Indenting Your HTML</a></li></ol>  </div>
+</nav>
+<main class="container body page-full-width">
+  
+<div id="HTMLBlock3274" class="HTMLBlock">
+<script src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/jquery.tableofcontents.min.js.download" charset="utf-8"></script>
+<!-- <script src="https://raw.github.com/dcneiner/TableOfContents/master/js/jquery.tableofcontents.min.js" type="text/javascript" charset="utf-8"></script> -->
+<script src="./Formatting &amp; Indenting Your HTML __ Scott Granneman_files/toc-h2-h3.js.download" charset="utf-8"></script>
+<div class="toc">
+<p>On this page…</p>
+<ol id="toc"><li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#why-indent-your-code">
+	Why indent your code? 
+</a>
+<ol>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#wrong-method-1-everything-on-one-line-">
+	Wrong method 1: Everything on one line 
+</a>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#wrong-method-2-3-lines-but-no-indentation-">
+	Wrong method 2: 3 lines, but no indentation 
+</a>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#best-method-indent-textcontent-">
+	Best method: indent text/content 
+</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#examples">
+	Examples of code indentation 
+</a>
+<ol>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#block-level-elements-">
+	Block-level elements 
+</a>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#exceptions-">
+	Exceptions 
+</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#inline-examples">
+	Inline elements 
+</a>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#what-about-the-basic-structure">
+  What about the basic structure of a webpage?
+</a>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#your-text-editor">Your text editor should make it easy to indent your code</a>
+<ol>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#auto-indent">Auto-indent</a>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#spaces-or-tabs-spaces">Spaces or tabs? (Spaces!)</a>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#how-many-spaces">How many spaces?</a>
+</li>
+<li>
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#indenting-several-lines-at-once">Indenting several lines at once</a>
+</li>
+</ol>
+</li>
+</ol>
+</div></div>
+<div id="HTMLBlock1200" class="HTMLBlock">
+<h2 id="why-indent-your-code">
+	Why indent your code? 
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h2>
+<p>
+	Let's look at some examples of coding techniques to make it clear why you should indent your HTML. 
+</p>
+<h3 id="wrong-method-1-everything-on-one-line-">
+	Wrong method 1: Everything on one line 
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre>
+<p>
+	Problems: 
+</p>
+<ul>
+  <li>Hard to figure out where code ends &amp; text/content begins</li>
+  <li>Hard to see where the <code>&lt;/p&gt;</code> is, even with wrapping turned on</li>
+</ul>
+<h3 id="wrong-method-2-3-lines-but-no-indentation-">
+	Wrong method 2: 3 lines, but no indentation 
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre>
+<p>
+	OR 
+</p>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span> 
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"http://en.wikipedia.org/wiki/H._P._Lovecraft"</span>&gt;</span>H. P. Lovecraft<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span> 
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre>
+<p>
+	Problem: Because everything is at left margin, hard to differentiate code &amp; text/content 
+</p>
+<h3 id="best-method-indent-textcontent-">
+	Best method: indent text/content 
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span> 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre>
+<p>
+	Advantages: 
+  <br>
+</p>
+<ul>
+  <li>Start (<code>&lt;p&gt;</code>) &amp; end (<code>&lt;/p&gt;</code>) are at same level, so it's easy to see that you've closed code &amp; also see where code starts &amp; ends</li>
+  <li>Easy to differentiate between code &amp; text/content</li>
+</ul>
+<h2 id="examples">
+	Examples of code indentation 
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h2>
+<p>
+	Here are some examples of how WebSanity likes to indent our code. 
+</p>
+<h3 id="block-level-elements-">
+	Block-level elements 
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span> 
+    Lorem ipsum. 
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span> 
+    Lorem ipsum 
+    <span class="hljs-tag">&lt;<span class="hljs-title">br</span>&gt;</span>Dolor sit amet 
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">blockquote</span>&gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span> 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. 
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span> 
+<span class="hljs-tag">&lt;/<span class="hljs-title">blockquote</span>&gt;</span></code></pre>
+<blockquote>
+  <p>
+		Note: Notice how text/content is indented inside <code>&lt;p&gt;</code>, and then <code>&lt;p&gt;</code> is indented inside <code>&lt;blockquote&gt;</code>. This is called <em>nesting</em>. See how easy it is to tell what's a child of what? 
+  </p>
+</blockquote>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">table</span>&gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-title">tr</span>&gt;</span> 
+        <span class="hljs-tag">&lt;<span class="hljs-title">td</span>&gt;</span> 
+            Lorem ipsum dolor sit amet 
+        <span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span> 
+        <span class="hljs-tag">&lt;<span class="hljs-title">td</span>&gt;</span> 
+            Consectetur adipisicing 
+        <span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span> 
+    <span class="hljs-tag">&lt;/<span class="hljs-title">tr</span>&gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-title">tr</span>&gt;</span> 
+        <span class="hljs-tag">&lt;<span class="hljs-title">td</span>&gt;</span> 
+            Lorem ipsum dolor sit amet 
+        <span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span> 
+        <span class="hljs-tag">&lt;<span class="hljs-title">td</span>&gt;</span> 
+            Consectetur adipisicing 
+        <span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span> 
+    <span class="hljs-tag">&lt;/<span class="hljs-title">tr</span>&gt;</span> 
+<span class="hljs-tag">&lt;/<span class="hljs-title">table</span>&gt;</span></code></pre>
+<blockquote>
+  <p>
+		Note: Again with the multiple levels of indenting—but it should be obvious how much it helps reading that code! 
+  </p>
+</blockquote>
+<h3 id="exceptions-">
+	Exceptions 
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Title of the page<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span></code></pre>
+<blockquote>
+  <p>
+		Note: We don't indent <code>&lt;h1&gt;</code> &amp; other headers because they're short, but if you want to indent <code>&lt;h#&gt;</code>, that would be fine. 
+  </p>
+</blockquote>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    …
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Document title<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span></code></pre>
+<blockquote>
+  <p>
+		Note: Again, we don't indent <code>&lt;title&gt;</code> &amp; most other items inside &lt;head&gt; because they're short. 
+  </p>
+</blockquote>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Lorem<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Ipsum<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Dolor<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span> 
+<span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span></code></pre>
+<blockquote>
+  <p>
+		Note: We don't indent <code>&lt;li&gt;</code> because most of the time the contents are short, because we're more concerned about the <code>&lt;ul&gt;</code> &amp; <code>&lt;/ul&gt;</code>, &amp; because it can really lengthen the overall code. That said, if you want to indent <code>&lt;li&gt;</code>, feel free. 
+  </p>
+</blockquote>
+<h2 id="inline-examples">
+	Inline elements 
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h2>
+<p>
+	You never indent inline elements. Treat them like text/content. Examples: 
+</p>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span> 
+    Lorem ipsum <span class="hljs-tag">&lt;<span class="hljs-title">strong</span>&gt;</span>dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span>, consectetur adipisicing elit, 
+    sed do <span class="hljs-tag">&lt;<span class="hljs-title">em</span>&gt;</span>eiusmod tempor<span class="hljs-tag">&lt;/<span class="hljs-title">em</span>&gt;</span> incididunt ut labore et <span class="hljs-tag">&lt;<span class="hljs-title">code</span>&gt;</span>dolore 
+    magna aliqua<span class="hljs-tag">&lt;/<span class="hljs-title">code</span>&gt;</span>. Ut enim ad minim veniam, <span class="hljs-tag">&lt;<span class="hljs-title">font</span> <span class="hljs-attribute">size</span>=<span class="hljs-value">"5"</span>&gt;</span>quis 
+    nostrud<span class="hljs-tag">&lt;/<span class="hljs-title">font</span>&gt;</span> exercitation ullamco <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"http://www.demonoid.me"</span>&gt;</span>laboris
+    nisi ut aliquip<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span> ex ea commodo consequat. 
+<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></code></pre>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">blockquote</span>&gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span> 
+        Lorem ipsum dolor sit amet, <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"http://www.avclub.com"</span>&gt;</span>consectetur 
+        adipisicing elit<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>, sed do <span class="hljs-tag">&lt;<span class="hljs-title">strong</span>&gt;</span>eiusmod tempor<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span> incididunt
+        ut labore et <span class="hljs-tag">&lt;<span class="hljs-title">em</span>&gt;</span>dolore<span class="hljs-tag">&lt;/<span class="hljs-title">em</span>&gt;</span> magna aliqua. 
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span> 
+<span class="hljs-tag">&lt;/<span class="hljs-title">blockquote</span>&gt;</span></code></pre>
+<h2 id="what-about-the-basic-structure">
+  What about the basic structure of a webpage?
+<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h2>
+<p>
+  Look at the following code. You'd think that <code>&lt;head&gt;</code> &amp; <code>&lt;body&gt;</code> would be indented inside <code>&lt;html&gt;</code>—after all, they're children of <code>&lt;head&gt;</code>, so shouldn't they be indented?
+</p>
+<pre><code class="html hljs "><span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Document title<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Page title<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span></code></pre>
+<p>
+  So why aren't <code>&lt;head&gt;</code> &amp; <code>&lt;body&gt;</code> indented? A couple of reasons:
+</p>
+<ul>
+  <li>You know that <code>&lt;head&gt;</code> &amp; <code>&lt;body&gt;</code> are the children of <code>&lt;html&gt;</code>; in fact, they're <em>always</em> the <em>only</em> children of <code>&lt;html&gt;</code>, so there's no need to remind yourself of this via nesting</li>
+  <li>You save yourself one level on indentation; when you start nesting HTML inside HTML inside HTML inside HTML, this can add up</li>
+</ul></div><h2 id="your-text-editor">Your text editor should make it easy to indent your code<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h2>
+<p>You could press tab or the space bar every single time you want to indent your code, but you shouldn't have to do that. Fortunately, good text editors help you out when it comes to indenting.</p>
+<h3 id="auto-indent">Auto-indent<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<p>BBEdit, for instance, has a setting in its Preferences for "Auto-indent", which it defines as follows: "When this option is selected, pressing the Return key in new windows automatically inserts spaces or tabs to indent the new line to the same level as the previous line."</p>
+<p>Any good text editor should have a setting like this somewhere. The trick is finding it in the editor's Preferences or Options.</p>
+<h3 id="spaces-or-tabs-spaces">Spaces or tabs? (Spaces!)<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<p>Should you use spaces or tabs for indenting? A debate has raged on this topic for decades, with different developers insisting that theirs is the right choice. WebSanity uses spaces, for various reasons, so that is the right choice, clearly.</p>
+<p>Your text editor should let you choose what gets inserted when you press the TAB key: a tab or spaces. Different text editors call that setting different things. Here are a few examples:</p>
+<ul>
+<li><strong>BBEdit</strong>: Preferences &gt; Editor Defaults &gt; Auto-expand tabs</li>
+<li><strong>Komodo Edit</strong>: Options/Preferences &gt; Editor &gt; Indentation &gt; Prefer Tab characters over spaces</li>
+<li><strong>Notepad++</strong>: Preferences &gt; Language Menu/Tab Settings &gt; Replace by space</li>
+</ul>
+<p class="note">Note: If anyone knows of any others that I should add, let me know.</p>
+<h3 id="how-many-spaces">How many spaces?<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<p>The next question is, how many spaces get inserted when you press TAB? Basically, people either choose 2, 4, or 8 spaces. In WebSanity's opinion, 8 is far too many, 4 is acceptable but a bit too large, &amp; 2 is just right. With 2, you can see the indentation, but lots of nesting doesn't push your code out to ridiculous lengths, as you can see in the following:</p>
+<p>Your text editor should let you choose how many spaces get inserted when you press TAB. Different text editors set that in different ways. Here are some examples:</p>
+<ul>
+<li><strong>BBEdit</strong>: Preferences &gt; Editor Defaults &gt; Tab width</li>
+<li><strong>Komodo Edit</strong>: Options/Preferences &gt; Editor &gt; Indentation &gt; Number of spaces per indent</li>
+<li><strong>Notepad++</strong>: Preferences &gt; Language Menu/Tab Settings &gt; Tab size</li>
+</ul>
+<p class="note">Note: Again, if anyone knows of any others that I should add, let me know.</p>
+<h3 id="indenting-several-lines-at-once">Indenting several lines at once<a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/#toc-top" class="toc-top-link"> ↩</a></h3>
+<p>What if you want to indent more than one line of code? Like 5? Or 25? You could manually move the cursor to the start of each line and press TAB the requisite number of times, but that would quickly grow tedious.</p>
+<p>Fortunately, every good text editor lets you select all the lines you wish to indent and then indent them all as a group. This is a fantastic time saver!</p>
+<p>Here's how various text editors enable you to indent lines at a group:</p>
+<ul>
+<li><strong>BBEdit</strong>: Highlight the lines &amp; press TAB. To backdent the lines, press Shift-TAB.</li>
+<li><strong>Komodo Edit</strong>: Highlight the lines &amp; press TAB. To backdent the lines, press Shift-TAB.</li>
+<li><strong>Notepad++</strong>: Highlight the lines &amp; press TAB. To backdent the lines, press Shift-TAB.</li>
+</ul></main>
+
+
+</div> <footer>
+  <div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				
+<div id="HTMLBlock3787" class="HTMLBlock">
+<div class="footer-col-1">
+  <h3>Contact</h3>
+  <div id="home" class="vcard">
+    <table>
+      <tbody><tr>
+        <td class="f">Email</td>
+        <td class="v"><a class="email" href="mailto:scott@granneman.com">scott@granneman.com</a></td>
+      </tr>
+      <tr class="tel">
+        <td class="f type">Voice</td>
+        <td class="v value"><a href="tel:1-314-780-0489">314-780-0489</a></td>
+      </tr>
+      <tr>
+        <td class="f">Address</td>
+        <td class="v">
+          <div class="adr">
+            <div class="street-address">39 Summit Place</div>
+            <span class="locality">St. Louis</span>,
+            <span class="region">MO</span>
+            <span class="postal-code">63119</span>
+            <div class="country-name">United States</div>
+          </div>
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+  <h3>Work</h3>
+  <p>
+    For work info, see <a href="http://www.websanity.com/">WebSanity</a>.
+  </p>
+</div></div>			</div>
+			<div class="col-sm-4">
+				
+<div id="HTMLBlock2299" class="HTMLBlock">
+<p>All content, unless <a href="https://www.granneman.com/presentations/creative-commons-license/">under a Creative Commons license,</a> is © 1997-<script type="text/javascript">document.write(new Date().getFullYear());</script>2017 Scott Granneman.</p>
+<p>(Take a look around—a lot of content is licensed <a href="https://www.granneman.com/presentations/creative-commons-license/">under a Creative Commons license,</a> which gives YOU a lot of freedom to reuse my work.)</p></div>			</div>
+			<div class="col-sm-4">
+				
+<div id="HTMLBlock3788" class="HTMLBlock">
+<ul class="list-unstyled social-media-icons">
+  <li><a href="https://www.facebook.com/scottgranneman/"><i class="fa fa-facebook-official"></i></a></li>
+  <li><a href="http://twitter.com/scottgranneman"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="http://www.linkedin.com/profile/view?id=3095912"><i class="fa fa-linkedin"></i></a></li>
+  <li><a href="http://www.flickr.com/photos/rsgranne/"><i class="fa fa-flickr"></i></a></li>
+  <li><a href="http://www.youtube.com/user/scottgranneman"><i class="fa fa-youtube-play"></i></a></li>
+  <li><a href="http://www.last.fm/user/rsgranne"><i class="fa fa-lastfm"></i></a></li>
+</ul></div>			</div>
+		</div>
+  </div>
+</footer>
+
+<a href="https://www.granneman.com/websanity-top-secret" style="display:none">WebSanity Top Secret</a>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27860240-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body></html>

@@ -1,0 +1,43 @@
+function politeLoad(){
+	// handle deferring of assets
+	var deferred_elems = document.getElementsByClassName("defer");
+	for(var i = 0; i < deferred_elems.length; i++){
+
+		deferred_elems.item(i).onload = function(){
+			// attach onload event to the element to broadcast when ready
+
+			var event;
+
+			if (document.createEvent) {
+				event = document.createEvent("HTMLEvents");
+				event.initEvent("assetload", true, true);
+			} else {
+				event = document.createEventObject();
+				event.eventType = "assetload";
+			}
+
+			event.eventName = "assetload";
+
+			if (document.createEvent) {
+				document.dispatchEvent(event);
+			} else {
+				document.fireEvent("assetload" + event.eventType, event);
+			}
+		};
+
+		if (href = deferred_elems.item(i).getAttribute('data-preloadhref')) deferred_elems.item(i).setAttribute('href', href);
+		if (src = deferred_elems.item(i).getAttribute('data-preloadsrc')) deferred_elems.item(i).setAttribute('src', src);
+
+	}
+	var loadCounter = 0;
+	document.addEventListener("assetload", function(e) {
+		loadCounter++;
+		//console.log(e);
+		//console.log('loaded: ' + loadCounter);
+		if (loadCounter == deferred_elems.length){
+			//console.log('loaded all assets');
+			initBanner();
+		}
+	});
+
+}

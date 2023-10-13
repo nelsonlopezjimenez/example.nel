@@ -1,0 +1,50 @@
+
+<!-- saved from url=(0078)http://www.bbc.com/future/story/20180904-five-memory-hacks-to-make-you-smarter -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body marginwidth="0" marginheight="0"><div class="display: none;">
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var slotName,
+closeAdContext = false,
+ad,
+event,
+el;
+
+function findAdSlot() {
+var node = window.frameElement, el;
+if (!node) {
+return false;
+}
+
+el = node.parentElement;
+while (el) {
+if (el.id.indexOf('bbccom_') >= 0) {
+break;
+}
+el = el.parentElement;
+}
+return el.id.replace('bbccom_', '');
+}
+if (typeof prg_params !== 'undefined' &&
+typeof prg_params.data !== 'undefined' &&
+typeof prg_params.data.pos !== 'undefined') {
+slotName = prg_params.data.pos;
+} else {
+slotName = findAdSlot();
+}
+if (window.self === window.top) {
+closeAdContext = window;
+} else {
+closeAdContext = window.parent; // Ad served inside iFrame
+}
+if (typeof closeAdContext.bbcdotcom !== 'undefined' &&
+typeof closeAdContext.bbcdotcom.objects !== 'undefined' &&
+closeAdContext.bbcdotcom.objects('bbcdotcom.ad', closeAdContext) ) {
+closeAdContext.bbcdotcom.adverts.adRegister.getAd(slotName).close();
+}
+
+})();
+/*]]>*/
+
+</script>
+</div></body></html>

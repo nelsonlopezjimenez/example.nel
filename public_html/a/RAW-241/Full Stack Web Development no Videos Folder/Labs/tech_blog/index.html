@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>W3 Framework Lab!</title>
+
+	<!-- Viewport sizing enabled -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Import w3 framework here-->
+	
+	<!-- This is where you would add your own custom stylesheet -->
+	
+</head>
+<body>
+
+	<!-- Sidebar -->
+	<div class="w3-sidebar w3-bar-block" style="display:none" id="mySidebar">
+		
+		<button onclick="sidebar_close()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+
+		<a href="#interests" class="w3-bar-item w3-button">Interests</a>
+		<a href="#technologies" class="w3-bar-item w3-button">Technologies</a>
+		<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+	</div>
+
+	<!-- Navigation Content -->
+	<div class="w3-green">
+
+		<!-- This is commonly refered to as a "hamburger button" -->
+		<button class="w3-button w3-green w3-xlarge" onclick="sidebar_open()">☰</button>
+		<div class="w3-container">
+			<h1>SB's Tech Blog</h1>
+		</div>
+	</div>
+	
+	<!-- Main Page Content -->
+	<main class="w3-center">
+
+		<blockquote class="w3-xlarge w3-leftbar w3-text-gray">The real problem is not whether machines think, but whether men do. - B.F. Skinner </blockquote>
+
+		<!-- Interests Section -->
+		<section id="interests" class="w3-container">
+			<hr class="w3-green">
+
+			<h2 class="w3-xxlarge w3-text-green"> My Interests </h2>
+
+			<!-- Images show as third of page in large screen -->
+			<div class="w3-container">
+
+				<div class="w3-third">
+					<img alt="robot" class="w3-opacity w3-hover-opacity-off" src="images/robot.png">
+				</div>
+
+				<div class="w3-third">
+					<img alt="robot" class="w3-opacity w3-hover-opacity-off" src="images/robot.png" >
+				</div>
+
+				<div class="w3-third" >
+					<img alt="robot" class="w3-opacity w3-hover-opacity-off" src="images/robot.png">
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Technologies Section -->
+		<section id="technologies" class="w3-container">
+			<hr class="w3-green">
+			<h2 class="w3-xxlarge w3-text-green"> Technologies </h2>
+
+			<!-- Styled as "cards" it gives them a cool 3-D effect -->
+			<ul class="w3-ul w3-card-4">
+				<li class="w3-bar">
+					<div class="w3-bar-item">
+						<span class="w3-large">HTML</span><br>
+						<span>Structure and Content</span>
+					</div>
+				</li>
+
+				<li class="w3-bar">
+					<div class="w3-bar-item">
+						<span class="w3-large">CSS</span><br>
+						<span>Style and Color</span>
+					</div>
+				</li>
+
+				<li class="w3-bar">
+					<div class="w3-bar-item">
+						<span class="w3-large">JavaScript</span><br>
+						<span>Action and Functionality</span>
+					</div>
+				</li>
+			</ul>
+
+		</section>
+
+		<!-- Contact Me Section -->
+		<section id="contact" class="w3-container">
+
+			<hr class="w3-green">
+			<h2 class="w3-center w3-text-green w3-xxlarge">Contact Me</h2>
+
+			<!-- Form -->
+			<form class="w3-container w3-text-green">
+
+				<div class="w3-row w3-section">
+					<div class="w3-rest">
+						<input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+					</div>
+				</div>
+
+				<div class="w3-row w3-section">
+					<div class="w3-rest">
+						<input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+					</div>
+				</div>
+
+				<div class="w3-row w3-section">
+					<div class="w3-rest">
+						<input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+					</div>
+				</div>
+
+				<div class="w3-row w3-section">
+					<div class="w3-rest">
+						<input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+					</div>
+				</div>
+
+				<button class="w3-button w3-block w3-section ">Send</button>
+			</form>
+			<!-- End form -->
+
+		</section>
+
+		<!-- Subscribe Section -->
+		<div id="subscribe" class="w3-container">
+			<div class="w3-display-container w3-light-gray w3-padding">
+
+				<!-- This button allows you to "close" this dialog box -->
+				<button class="w3-display-topright w3-button" onclick="this.parentElement.style.display='none'">
+					&times;
+				</button>	
+
+				<label class="w3-large"> Subscribe to my newsletter!
+					<input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+				</label>
+
+				<button class="w3-light-green w3-cell w3-button w3-round-large">Subscribe</button>
+			</div>
+		</div>
+
+	</main>
+	<!-- End main content -->
+
+	<!-- JavaScript functions are at the bottom of our file so that our content renders before they are run -->
+	<script>
+		function sidebar_open() {
+			document.getElementById("mySidebar").style.width = "50%";
+			document.getElementById("mySidebar").style.display = "block";
+		}
+		function sidebar_close() {
+			document.getElementById("mySidebar").style.display = "none";
+		}
+	</script>
+
+</body>
+</html>
