@@ -7,6 +7,38 @@ w
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>week 5b</title>
     <link rel="stylesheet" href="../css/2023.css">
+    <style>
+        nav  ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,7 +63,16 @@ w
         </li>
     </ul>
 
-    <nav></nav>
+    <nav>
+        <ul>
+            <li><a href="#week1">week 1</a> </li>
+            <li><a href="#week2">week 2</a> </li>
+            <li><a href="#week3"> week 3</a></li>
+            <li><a href="#week4"> week 4</a></li>
+            <li><a href="#week5"> week 5</a></li>
+            
+        </ul>
+    </nav>
     <details>
         <h3>Web Development I</h3>
         <ol>
@@ -46,7 +87,7 @@ w
     </details>
     <main>
         <header>
-            <h2 class="specialH2">Welcome Week 05</h2>
+            <h2 class="specialH2" id="week5">Welcome Week 05</h2>
             <h2 class="specialH2">HTML5 coding</h2>
         </header>
         <h2 class="specialH2">PLAN <em>At the end of this lesson, you
@@ -102,7 +143,8 @@ w
                 </li>
                 <li><a href="/www.w3schools.com/tags/tag_comment.html">HTML comments</a>
                 </li>
-                <li><a href="http://localhost:22022/www.w3schools.com/css/css_boxmodel.html#gsc.tab=0" target="_blank" rel="noopener noreferrer">Box Model</a> </li>
+                <li><a href="http://localhost:22022/www.w3schools.com/css/css_boxmodel.html#gsc.tab=0" target="_blank"
+                        rel="noopener noreferrer">Box Model</a> </li>
                 <li>Validate a Web document the <a href="http://localhost:8888">W3C validator</a> </li>
                 <li>Select and create a site structure for module file project</li>
             </ul>
@@ -111,19 +153,25 @@ w
             <section class="containerSection">
                 <article class="articlevideo">
                     <video controls="controls">
-                        <source src="/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/coltsteelevideosQ1/04-colt-steele-block-vs-inline-div-span.mov.mp4 " type="video/mp4" />
+                        <source
+                            src="/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/coltsteelevideosQ1/04-colt-steele-block-vs-inline-div-span.mov.mp4 "
+                            type="video/mp4" />
                     </video>
                     <h2>Block vs Inline</h2>
                 </article>
                 <article class="articlevideo">
                     <video controls="controls">
-                        <source src="/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/coltsteelevideosQ1/6f-cot-steele-flexbox-what-is.mov.mp4" type="video/mp4" />
+                        <source
+                            src="/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/coltsteelevideosQ1/6f-cot-steele-flexbox-what-is.mov.mp4"
+                            type="video/mp4" />
                     </video>
                     <h2>Flexbox: what is it?</h2>
                 </article>
                 <article class="articlevideo">
                     <video controls="controls">
-                        <source src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/Essential CSS Text Properties - Colt's Code Camp-v9Hqy5Nxthc.mp4" type="video/mp4" />
+                        <source
+                            src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/Essential CSS Text Properties - Colt's Code Camp-v9Hqy5Nxthc.mp4"
+                            type="video/mp4" />
                     </video>
                     <h2>Text properties</h2>
                 </article>
@@ -135,7 +183,9 @@ w
                 </article> -->
                 <article class="articlevideo">
                     <video controls="controls">
-                        <source src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/Master The All Important CSS Box Model - Colt's Code Camp-M1xEi_BBW1I.mp4" type="video/mp4" />
+                        <source
+                            src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/Master The All Important CSS Box Model - Colt's Code Camp-M1xEi_BBW1I.mp4"
+                            type="video/mp4" />
                     </video>
                     <h2>Box Model</h2>
                 </article>
@@ -147,16 +197,22 @@ w
                 </article> -->
                 <article class="articlevideo">
                     <video controls="controls">
-                        <source src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/The CSS Units You Should Use - em, rem, %, vh, vw, and more - Colt's Code Camp-fi81bovqxXI.mp4" type="video/mp4" />
+                        <source
+                            src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/The CSS Units You Should Use - em, rem, %, vh, vw, and more - Colt's Code Camp-fi81bovqxXI.mp4"
+                            type="video/mp4" />
                         <!-- file:///C:/Users/Public/Videos/RAW-VIDEOS/2022coltsteelebootcamp/ -->
-                        <source src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/The%20CSS%20Units%20You%20Should%20Use%20-%20em,%20rem,%20%25%20,%20vh,%20vw,%20and%20more%20-%20Colt's%20Code%20Camp-fi81bovqxXI.mp4" type="video/mp4">
+                        <source
+                            src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/The%20CSS%20Units%20You%20Should%20Use%20-%20em,%20rem,%20%25%20,%20vh,%20vw,%20and%20more%20-%20Colt's%20Code%20Camp-fi81bovqxXI.mp4"
+                            type="video/mp4">
                     </video>
                     <h2>CSS Units: em, rem</h2>
                     <h2>%, vh, vw</h2>
                 </article>
                 <article class="articlevideo">
                     <video controls="controls">
-                        <source src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/Responsive Design & Media Queries In 30ish Minutes - Colt's Code Camp-na-X_SM8vg0.mp4" type="video/mp4" />
+                        <source
+                            src="/youtube.nel/public_html/RAW-VIDEOS/2022coltsteelebootcamp/Responsive Design & Media Queries In 30ish Minutes - Colt's Code Camp-na-X_SM8vg0.mp4"
+                            type="video/mp4" />
                     </video>
                     <h2>Responsive design</h2>
                 </article>
@@ -171,7 +227,7 @@ w
 
 
             <header>
-                <h2 class="specialH2">Welcome Week 04</h2>
+                <h2 class="specialH2" id="week4">Welcome Week 04</h2>
                 <h2 class="specialH2">HTML - CSS - Javascript intro</h2>
             </header>
             <h2 class="specialH2">PLAN</h2>
@@ -310,8 +366,8 @@ w
                         images provided</h3>
                 </article> -->
 
- 
-                <!-- <article class="articlevideo">
+
+            <!-- <article class="articlevideo">
                 <video controls="controls">
                     <source src="XXXXXXXXXXX" type="video/mp4" />
                 </video>
@@ -321,7 +377,7 @@ w
 
             <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
             <header>
-                <h2 class="specialH2">Welcome Week 02</h2>
+                <h2 class="specialH2" id="week2">Welcome Week 02</h2>
                 <h2 class="specialH2">Please read the <span>syllabus</span> <a href="syllabus.html">here</a>
             </header>
             <h2 class="specialH2">PLAN</h2>
@@ -361,7 +417,7 @@ w
                 </article>
             </section> -->
 
-     
+
     </main>
 
     <footer>
