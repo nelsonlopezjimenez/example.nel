@@ -1,0 +1,528 @@
+w
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 4b</title>
+    <link rel="stylesheet" href="../css/2023.css">
+</head>
+
+<body>
+    <ul id="logo">
+        <li style="padding: 0px 25px 25px; background-color: #005588;">
+            <img src="../icons/smaller_logo.png" alt="smaller_logo.png" />
+        </li>
+        <!-- <li>
+            Development I. Week 1, 09/18/2023
+        </li> -->
+        <!-- <li>
+            Development I. Week 2, 09/25/2023
+        </li> -->
+        <!-- <li>
+            Development I. Week 3, 10/02/2023
+        </li> -->
+        <li>
+            Development I. Week 4, 10/09/2023
+        </li>
+    </ul>
+
+    <details>
+        <h3>Web Development I</h3>
+        <ol>
+            <li>Perform content design and technical analysis on web applications and websites.</li>
+            <li>Use HTML5 to develop, debug, maintain, and document web applications and websites.
+            </li>
+            <li>Compare and contrast different browsers&rsquo; effects on HTML5 documents.</li>
+            <li>Use the basic principles of web documents.</li>
+            <li>Use HTML5 forms, iframes, and tables.</li>
+            <li>Create HTML5 style through inline, embedded, and Cascading Style Sheets.</li>
+        </ol>
+    </details>
+    <main>
+        <header>
+            <h2 class="specialH2">Welcome Week 04</h2>
+            <h2 class="specialH2">HTML - CSS - Javascript intro</h2>
+        </header>
+        <h2 class="specialH2">PLAN</h2>
+        <ol>
+
+            <li>HTML/CSS/JAVASCRIPT Definitions</li>
+            <li>Identifying HTML elements and attributes</li>
+            <li>Configuring the W3 validator</li>
+
+        </ol>
+
+        <h2 class="specialH2" id='watch'>WATCH</h2>
+        <section class="containerSection">
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/1d-colt-steele-html-css-js-overview.mov.mp4"
+                        type="video/mp4" />
+                    <source
+                        src="http://localhost:22022/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/1d-colt-steele-html-css-js-overview.mov.mp4"
+                        type="video/mp4" />
+                </video>
+                <h2>HTML/CSS/JS overview</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="http://localhost:22022/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/1e-colt-steele-html-basics-5852.mov.mp4"
+                        type="video/mp4" />
+                    <source
+                        src="/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/1e-colt-steele-html-basics-5852.mov.mp4"
+                        type="video/mp4" />
+                </video>
+                <h2>HTML Basics</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="http://localhost:22022/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/1f-colt-steele-first-html-page-21915854.mov.mp4"
+                        type="video/mp4" />
+                    <source
+                        src="/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/1f-colt-steele-first-html-page-21915854.mov.mp4"
+                        type="video/mp4" />
+                </video>
+                <h2>First HTML page</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - part 1 of 6 - Getting Started-9gTw2EDkaDQ.mkv"
+                        type="video/mp4" />
+                    <source
+                        src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - part 1 of 6 - Getting Started-9gTw2EDkaDQ.mkv"
+                        type="video/mp4" />
+                </video>
+                <h2>Getting started</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - part 2 of 6 - Text-YcApt9RgiT0.webm"
+                        type="video/mp4" />
+                    <source
+                        src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - part 2 of 6 - Text-YcApt9RgiT0.webm"
+                        type="video/mp4" />
+                </video>
+                <h2>Text</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                    src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - part 3 of 6 - Images and Hyperlinks-CGSdK7FI9MY.mkv"
+                    type="video/mp4" />
+                    <source
+                    src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - part 3 of 6 - Images and Hyperlinks-CGSdK7FI9MY.mkv"
+                    type="video/mp4" />
+                </video>
+                <h2>images and hyperlinks</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                    src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - part 4 of 6 - Audio and Video-4I1WgJz_lmA.mkv"
+                    type="video/mp4" />
+                    <source
+                    src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - part 4 of 6 - Audio and Video-4I1WgJz_lmA.mkv"
+                    type="video/mp4" />
+                </video>
+                <h2>Audio and Video tags</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                    src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - 5 of 6 - New Semantic Elements-dDn9uw7N9Xg.mp4"
+                    type="video/mp4" />
+                    <source
+                    src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - 5 of 6 - New Semantic Elements-dDn9uw7N9Xg.mp4"
+                    type="video/mp4" />
+                </video>
+                <h2>Semantic elements</h2>
+                <!-- <h2>XXXXXXXXXXXXXXXXXXXXXXX</h2> -->
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                    src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - 6 of 6 - CSS Page Layout-CPcS4HtrUEU.webm"
+                    type="video/mp4" />
+                    <source
+                    src="/youtube.nel/public_html/RAW-VIDEOS/bucky-roberts/HTML5 Tutorial For Beginners - 6 of 6 - CSS Page Layout-CPcS4HtrUEU.webm"
+                    type="video/mp4" />
+                </video>
+                <h2>CSS Page Layout</h2>
+            </article>
+
+
+        </section>
+        <!-- Week 3 - Lesson 2 HTML5 Coding
+        Assignments:
+        Activity 2-1: Identifying HTML elements and attributes
+        Discussion -- Lesson 2 HTML5 Coding
+        HTML5 Coding Assignment
+        Review Quiz : Lesson 2 HTML5 Coding
+        Site Structure Assignment -->
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <header>
+            <h2 class="specialH2">Welcome Week 03</h2>
+        </header>
+        <h2 class="specialH2">PLAN</h2>
+        <ol>
+            <li>Have you watched Chp4 presentation on Networks?</li>
+            <li>Have you watched chp7 presentation on The Internet?</li>
+            <li>Have you watched chp3 presentation on the Internet?</li>
+            <li>
+                File Formats Demo using MS Word
+            </li>
+            <li>
+                Document Types: docx, htm, pdf, rtf, txt, xml
+            </li>
+            <li>
+                What is markup (as in HTTP)
+            </li>
+            <li>
+                What is markup language purpose?
+            </li>
+            <li>
+                Download MDN offline website
+            </li>
+            <li>
+                Configure symlinks in WebDev my-server server:
+                <ol>
+                    <li>Symlink /c/Users/Documents/my-express/public/Public</li>
+                    <li>Target: /c/Users/Public folder</li>
+                    <li>Update /c/Users/Documents/my-express/views/main.ejs</li>
+                </ol>
+            </li>
+        </ol>
+
+        <!-- <h2 class="specialH2" id='watch'>XXXXXXXXXXXXXXX</h2>
+            <section class="containerSection">
+                <article class="articlevideo">
+                    <video controls="controls">
+                        <source src="./youtube.nel/public_html/RAW-VIDEOS/XXXXXXXXXXXXXX" type="video/mp4" />
+                    </video>
+                    <h2>XXXXXXXXXXXXXXXXXXXXXXX</h2>
+                </article>
+                <article class="articlevideo">
+                    <video controls="controls">
+                        <source src="XXXXXXXXXXX" type="video/mp4" />
+                    </video>
+                    <h2>XXXXXXXXXXXXXXXX</h2>
+                </article>
+            </section> -->
+        <h2 class="specialH2" id='watch'>WATCH</h2>
+        <h2 class="specialH2">Mandatory Videos</h2>
+
+        <section class="containerSection">
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="./2023week03.40-file-formats_default.mp4" />
+                </video>
+                <h2>File Formats</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="./2023week3.40 vscode plus live server demo_default.mp4" />
+                </video>
+                <h2>Intro to markup</h2>
+            </article>
+        </section>
+
+        <h2 class="specialH2" id='watch'>Review</h2>
+        <section class="containerSection">
+            <article class="articlenovideo">
+                <h2 class="videoTitle">From MDN How does the Internet work</h2>
+                <h3>Review the hyperlink:
+                    <a
+                        href="http://localhost:22022/Public/Downloads/MDN/developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work.html">HowTo</a>
+                </h3>
+            </article>
+            <article class="articlenovideo">
+                <h2 class="videoTitle">From MDN HowTo</h2>
+                <h3>Review the hyperlink:
+                    <a
+                        href="http://localhost:22022/Public/Downloads/MDN/developer.mozilla.org/en-US/docs/Learn/HTML/Howto.html">HowTo</a>
+                </h3>
+            </article>
+            <article class="articlenovideo">
+                <h2 class="videoTitle">From MDN Common Questions</h2>
+                <h3>Review the hyperlink:
+                    <a
+                        href="http://localhost:22022/Public/Downloads/MDN/developer.mozilla.org/en-US/docs/Learn/Common_questions.html">Common
+                        Questions</a>
+                </h3>
+            </article>
+            <article class="articlenovideo">
+                <h2 class="videoTitle">From MDN Thinking before coding</h2>
+                <h3>Review the hyperlink:
+                    <a
+                        href="http://localhost:22022/Public/Downloads/MDN/developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding.html">HowTo</a>
+                </h3>
+            </article>
+        </section>
+
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <h2 class="specialH2" id='watch'>TODO</h2>
+        <section class="containerSection">
+            <article class="articlenovideo">
+                <h2 class="videoTitle">Getting Started</h2>
+                <h3>Review the hyperlink:
+                    <a
+                        href="http://localhost:22022/Public/Downloads/MDN/developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web.html">Getting
+                        Started. </a>Review installing basic software, how do you
+                    want your site to look like, and dealing with files.
+                </h3>
+            </article>
+            <article class="articlenovideo">
+                <h2 class="videoTitle">HTML Basics</h2>
+                <h3>Study the guide: HTML Basics
+                    <a
+                        href="http://localhost:22022/Public/Downloads/MDN/developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics.html">HTML
+                        Basics</a>
+                </h3>
+            </article>
+        </section>
+        <h2 class="specialH2" id='watch'>TODO in class</h2>
+        <section class="containerSection">
+            <article class="articlevideo">
+
+                <h2 class="special2">Watch two videos below.</h2>
+                <h3 class="special2"> You will create a web page similar to the one on the
+                    second video. Match the web page as close as possible in terms of color, layout, content. Use the
+                    images provided</h3>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="http://localhost:22022/youtube.nel/public_html/RAW-VIDEOS/Q1BigRawVideos/coltsteelevideosQ1/1a-colt-steele-web-developer-bootcamp-22553924.mov.mp4" />
+                </video>
+                <h2>By Colt Steel Udemy</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="http://localhost:22022//youtube.nel/public_html/RAW-VIDEOS/colt-steele/Web Development Tutorial _ HTML, CSS, JS Crash Course - Colt Steele-eEUavj8-w8U.mp4" />
+                </video>
+                <h2>Crash course on</h2>
+                <h2>HTML/CSS/JS</h2>
+            </article>
+            <!-- <article class="articlevideo">
+                <video controls="controls">
+                    <source src="XXXXXXXXXXX" type="video/mp4" />
+                </video>
+                <h2>XXXXXXXXXXXXXXXX</h2>
+            </article> -->
+        </section>
+
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <header>
+            <h2 class="specialH2">Welcome Week 02</h2>
+            <h2 class="specialH2">Please read the <span>syllabus</span> <a href="syllabus.html">here</a>
+        </header>
+        <h2 class="specialH2">PLAN</h2>
+        <ol>
+            <li>
+                Brief Summary of week 01
+            </li>
+            <li>
+                Finishing configuration of academic server in laptops
+            </li>
+            <li>
+                Preassessment in the desktops
+            </li>
+            <li>
+                Sync laptops to download assignments
+            </li>
+            <li>
+                Sync laptops to upload submissions
+            </li>
+            <li>
+                What is a Network? What is The Internet?
+            </li>
+        </ol>
+        <!-- <h2 class="specialH2" id='watch'>XXXXXXXXXXXXXXX</h2>
+            <section class="containerSection">
+                <article class="articlevideo">
+                    <video controls="controls">
+                        <source src="./youtube.nel/public_html/RAW-VIDEOS/XXXXXXXXXXXXXX" type="video/mp4" />
+                    </video>
+                    <h2>XXXXXXXXXXXXXXXXXXXXXXX</h2>
+                </article>
+                <article class="articlevideo">
+                    <video controls="controls">
+                        <source src="XXXXXXXXXXX" type="video/mp4" />
+                    </video>
+                    <h2>XXXXXXXXXXXXXXXX</h2>
+                </article>
+            </section> -->
+        <h2 class="specialH2" id='watch'>TODO</h2>
+        <h2 class="specialH2">Donwload</h2>
+        <section class="containerSection">
+            <article class="articlevideo">
+                <h2 class="videoTitle">What is a Network?</h2>
+                <h3><a href="AIO_4_PPT.zip">Download</a> and uncompress the zip file </h3>
+                <h3>After the extraction open the demo <a href="AIO_4_PPT/index.html">Here</a></h3>
+            </article>
+            <article class="articlevideo">
+                <h2 class="videoTitle">What is a Network?</h2>
+                <h3> <a href="AIO_7_PPT.zip">Download</a> and uncompress the zip file</h3>
+                <h3>After the extraction open the demo <a href="AIO_7_PPT/index.html">Here</a></h3>
+            </article>
+            <article class="articlevideo">
+                <h2 class="videoTitle">What is The Internet?</h2>
+                <h3>Download the pdf file <a href="tia18e_ch03_accessible_The_Internet.pdf">HERE</a></h3>
+            </article>
+
+        </section>
+        <h2 class="specialH2" id='watch'>WATCH</h2>
+        <h2 class="specialH2">Mandatory Videos</h2>
+
+        <section class="containerSection">
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="\\c\Users\Public\Videos\RAW-VIDEOS\canvas-git-vscode - Copy\200 - Canvas Overview for Students-74677642.mp4" />
+                    <source
+                        src="\\CISgen2\Users\Public\Videos\RAW-VIDEOS\Q1BigRawVideos\1a-2021-canvas-intro-x3j8V-uLkNw.mp4" />
+                    <source src="./canvas_file_cache/200 - Canvas Overview for Students-74677642.mp4" />
+                </video>
+                <h2>Canvas intro</h2>
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="916-1d-bin2dec-transform-text-added2video-bgvideo2none.mp4" />
+                </video>
+                <h2 class="videoTitle">Introduction</h2>
+            </article>
+
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="XXXXXXXXXXX" type="video/mp4" />
+                    <source src="COUNTING NUMBERS [Autosaved].mp4" />
+                </video>
+                <h2 class="videoTitle">Counting Numbers</h2>
+
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="./canvas_file_cache/2021-canvas-intro-x3j8V-uLkNw.mp4" />
+
+                    <source src="XXXXXXXXXXX" type="video/mp4" />
+                </video>
+                <h2 class="videoTitle">Canvas Overview II</h2>
+
+            </article>
+
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="Laptop Navigation-1a-with-music.mp4" />
+
+                    <source src="XXXXXXXXXXX" type="video/mp4" />
+                </video>
+                <h2 class="videoTitle">Laptop Navigation:</h2>
+                <h2 class="videoTitle">Power Button</h2>
+
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="Laptop Navigation-version-with-grouping-1c-hidef.mp4" />
+
+                    <source src="XXXXXXXXXXX" type="video/mp4" />
+                </video>
+                <h2 class="videoTitle">Laptop Navigation:</h2>
+                <h2 class="videoTitle">Folder Options</h2>
+
+            </article>
+        </section>
+
+        <h2 class="specialH2" id='watch'>READ</h2>
+
+        <section class="containerSection">
+            <!-- <article class="articlenovideo">
+                <h3>xxxxxxxxxxxxx</h3>
+                <a href="xxxxxxxxxxx">Chapter 3a</a>
+                <a href="xxxxxxxxxxx">Chapter 3b</a>
+            </article> -->
+            <article class="articlenovideo">
+
+                <h2>TODO</h2>
+                <p>Watch the video "File Management" and follow along the writing code. Download the files by clicking
+                    <a href="fm01_1A_Bell_Orchid_Hotels.zip">HERE</a>
+                </p>
+
+            </article>
+
+        </section>
+
+        <h2 class="specialH2" id='watch'>WATCH</h2>
+        <h2 class="specialH2">Mandatory Videos</h2>
+        <section class="containerSection">
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="Introduction_ File Management.mp4" />
+                </video>
+                <h2 class="videoTitle">File Management 1</h2>
+                <!-- <h2>XXXXXXXXXXXXXXXXXXXXXXX</h2> -->
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="Objective 1_ Explore the Features of Microsoft Office_fit-to-display.mp4" />
+                    <source src="XXXXXXXXXXX" type="video/mp4" />
+                </video>
+                <h2 class="videoTitle">Microsoft Office</h2>
+                <!-- <h2>XXXXXXXXXXXXXXXX</h2> -->
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="Laptop Navigation-version-with-grouping-1c-hidef.mp4" />
+                    <source src="XXXXXXXXXXX" type="video/mp4" />
+                </video>
+                <h2 class="videoTitle">Laptop Navigation:</h2>
+                <h2 class="videoTitle">Folder Options</h2>
+                <!-- <h2>XXXXXXXXXXXXXXXX</h2> -->
+            </article>
+        </section>
+
+        <h2 class="specialH2">WATCH:</h2>
+        <h2 class="specialH2">Optional Videos</h2>
+
+        <section class="containerSection">
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source
+                        src="Find 'computer programming' on TikTok _ TikTok Search and 11 more pages - Profile 1 - Microsoft​ Edge 2023-09-08 12-24-11.mp4" />
+                    <source src="./youtube.nel/public_html/RAW-VIDEOS/XXXXXXXXXXXXXX" type="video/mp4" />
+                </video>
+                <h2 class="videoTitle">Random computer coding tiktok</h2>
+                <!-- <h2>XXXXXXXXXXXXXXXXXXXXXXX</h2> -->
+            </article>
+            <article class="articlevideo">
+                <video controls="controls">
+                    <source src="2023-word-go-2021-creatingCoverLetterAndResume.mp4" />
+
+                    <source src="XXXXXXXXXXX" type="video/mp4" />
+                </video>
+                <h2 class="videoTitle">Create a CV/Resume</h2>
+                <!-- <h2>XXXXXXXXXXXXXXXX</h2> -->
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="week003b.html"><span>&#171;</span></a>
+            <a href="week005.html"> <span>&#187;</span></a>
+            <a
+                href="/"><span>&#8962;</span></a>
+        </div>
+    </footer>
+    </div>
+    </div>
+</body>
+
+</html>
