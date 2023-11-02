@@ -1,3 +1,18 @@
+
+11.2.2023
+git remote set-url origin /c/Users/Public/canvas_file_cache/example.nel/.git
+in change of /c/users/public/videos/example.nel/.git 
+which are the same because of symlinks but just to be consistent with the configuration
+in my class and other laptops. 
+In short, 
+the remote repo is in canvas_file_cache
+the local repo is in documents somewhere in a folder with a name including "git"
+
+A git remote add origin /c/somepath/to/someremote/repo/.git 
+is when creating the remote. They say github, bitbucket or others but never mention another local location
+Now I know.
+
+
 9.27.2023
 Begins clean up
 
