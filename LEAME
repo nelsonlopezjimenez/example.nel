@@ -27,4 +27,12 @@ git submodule add /z/CANVAS_FILE_CACHES/GITHUBMINE/ClassOfHacks/.git
 set in creepypandatrex z to cisgen2/users/public
 
 
+CURRENT LOCATION: git-seventh-user at creepy/documents
+run git submodule update --init --recursive
+ERROR: fatal transport 'file' not allowed
+searched stackoverflow number 74486167
+run git config --global protocol.file.allow always
+run again git submodule update --init --recursive
+and yes the projects were updated but with the head detached.
+
 
