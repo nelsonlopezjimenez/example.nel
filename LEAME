@@ -20,3 +20,11 @@ Begins clean up
 symlink created at example.nel/public_html/a/RAW-VIDEOS from youtube.nel/public_html/RAS-VIDEOS
 pending testing how it behaves in a windows host
 The link is in NTFS 30GB drive.
+
+11.5.2023
+git submodule add /Z/CANVAS_FILE_CACHES/GITHUBMINE/CFC-Directory/.git
+git submodule add /z/CANVAS_FILE_CACHES/GITHUBMINE/ClassOfHacks/.git
+set in creepypandatrex z to cisgen2/users/public
+
+
+
