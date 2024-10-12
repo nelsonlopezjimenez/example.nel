@@ -3,6 +3,10 @@
 1. Created the repo
 1. start cleaning extra/duplicate/stale/old files
 1. from 400Mb to 200Mb and counting
+1. found the last index.html for quarter1 at end 2023
+1. It is in %public%\CANVAS_FILE_CACHES\quarter1\index.html, it is in original image
+1. Index.html was copied into this repo as index-cfc.html and updated.
+1. It needs to be transferred to students laptops. 
 
 # 11.2.2023 mdy
 
